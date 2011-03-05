@@ -1,63 +1,34 @@
-20:25:20 Starting EasyTAG 2.1.6 (PId: 18001) ...
-20:25:20 Currently using libid3tag version 0.15.1 (beta) ...
-20:25:20 Currently using id3lib version 3.8.3 ...
-20:25:20 Currently using locale 'en_GB.UTF-8' (and eventually 'ISO-8859-1')...
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /05 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /02 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /11 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /03 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /01 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /06 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /09 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /04 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /10 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /08 - .flac'.
-20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /07 - .flac'.
-20:26:22 Selected files tagged with artist 'Кино'.
-20:26:23 Selected files tagged with album 'Ночь'.
-20:27:54 Written tag of '01 - .flac'
-20:27:54 Updated tag of '01 - .flac'
-20:27:55 Written tag of '02 - .flac'
-20:27:55 Updated tag of '02 - .flac'
-20:27:55 Written tag of '03 - .flac'
-20:27:56 Updated tag of '03 - .flac'
-20:27:56 Written tag of '04 - .flac'
-20:27:56 Updated tag of '04 - .flac'
-20:27:56 Written tag of '05 - .flac'
-20:27:58 Updated tag of '05 - .flac'
-20:27:58 Written tag of '06 - .flac'
-20:27:58 Updated tag of '06 - .flac'
-20:27:58 Written tag of '07 - .flac'
-20:27:59 Updated tag of '07 - .flac'
-20:28:00 Written tag of '08 - .flac'
-20:28:01 Updated tag of '08 - .flac'
-20:28:01 Written tag of '09 - .flac'
-20:28:02 Updated tag of '09 - .flac'
-20:28:02 Written tag of '10 - .flac'
-20:28:02 Updated tag of '10 - .flac'
-20:28:03 Written tag of '11 - .flac'
-20:28:03 Updated tag of '11 - .flac'
-20:28:11 Loading default 'Fill Tag' masks...
-20:28:15 New file name successfully scanned...(01 - Видели ночь.flac)
-20:28:15 New file name successfully scanned...(02 - Фильмы.flac)
-20:28:15 New file name successfully scanned...(03 - Твой номер.flac)
-20:28:15 New file name successfully scanned...(04 - Танец.flac)
-20:28:15 New file name successfully scanned...(05 - Ночь.flac)
-20:28:15 New file name successfully scanned...(06 - Последний герой.flac)
-20:28:15 New file name successfully scanned...(07 - Жизнь в стеклах.flac)
-20:28:15 New file name successfully scanned...(08 - Мама Анархия.flac)
-20:28:15 New file name successfully scanned...(09 - Звезды останутся здесь.flac)
-20:28:15 New file name successfully scanned...(10 - Игра.flac)
-20:28:15 New file name successfully scanned...(11 - Мы хотим танцевать.flac)
-20:28:19 Renamed file '01 - .flac' to '01 - Видели ночь.flac'
-20:28:19 Renamed file '02 - .flac' to '02 - Фильмы.flac'
-20:28:19 Renamed file '03 - .flac' to '03 - Твой номер.flac'
-20:28:19 Renamed file '04 - .flac' to '04 - Танец.flac'
-20:28:19 Renamed file '05 - .flac' to '05 - Ночь.flac'
-20:28:19 Renamed file '06 - .flac' to '06 - Последний герой.flac'
-20:28:20 Renamed file '07 - .flac' to '07 - Жизнь в стеклах.flac'
-20:28:20 Renamed file '08 - .flac' to '08 - Мама Анархия.flac'
-20:28:20 Renamed file '09 - .flac' to '09 - Звезды останутся здесь.flac'
-20:28:20 Renamed file '10 - .flac' to '10 - Игра.flac'
-20:28:20 Renamed file '11 - .flac' to '11 - Мы хотим танцевать.flac'
-20:28:23 EasyTAG: Normal exit.
+23:52:07 Starting EasyTAG 2.1.6 (PId: 21471) ...
+23:52:07 Currently using libid3tag version 0.15.1 (beta) ...
+23:52:07 Currently using id3lib version 3.8.3 ...
+23:52:07 Currently using locale 'en_GB.UTF-8' (and eventually 'ISO-8859-1')...
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/06 - Survivor - Love Has Got Me.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/07 - Survivor - Whole Town's Talkin'.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/01 - Survivor - Somewhere In America.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/08 - Survivor - 20-20.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/09 - Survivor - Freelance.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/04 - Survivor - As Soon As Love Finds Me.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/05 - Survivor - Youngblood.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/11 - Survivor - Whatever It Takes.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/10 - Survivor - Nothing Can Shake Me (From Your Love).MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/03 - Survivor - Let It Be Now.MP3'.
+23:52:16 Automatic corrections applied for file '/home/sio/music/Survivor/1979 - Survivor/02 - Survivor - Can't Getcha Offa My Mind.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/08 - Survivor - American Heartbeat.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/09 - Survivor - Silver Girl.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/01 - Survivor - Eye Of The Tiger.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/06 - Survivor - Children Of The Night.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/02 - Survivor - Feels Like Love.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/04 - Survivor - The One That Really Matters.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/07 - Survivor - Ever Since The World Began.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/05 - Survivor - I'm Not That Man Anymore.MP3'.
+23:52:26 Automatic corrections applied for file '/home/sio/music/Survivor/1982 - Eye Of The Tiger/03 - Survivor - Hesitation Dance.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/09 - Survivor - I See You In Everyone.mp3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/05 - Survivor - Broken Promises.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/06 - Survivor - Popular Girl.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/07 - Survivor - Everlasting.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/02 - Survivor - High On You.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/08 - Survivor - It's The Singer Not The Song.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/04 - Survivor - The Search Is Over.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/01 - Survivor - I Can't Hold Back.MP3'.
+23:52:34 Automatic corrections applied for file '/home/sio/music/Survivor/1984 - Vital Signs/03 - Survivor - First Night.MP3'.
+23:52:38 EasyTAG: Normal exit.
