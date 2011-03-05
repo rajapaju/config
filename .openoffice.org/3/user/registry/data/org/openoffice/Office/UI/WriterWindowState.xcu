@@ -86,6 +86,20 @@
      <value>false</value>
     </prop>
    </node>
+   <node oor:name="private:resource/toolbar/graphicobjectbar">
+    <prop oor:name="DockPos" oor:type="xs:string">
+     <value>2147483647,2147483647</value>
+    </prop>
+    <prop oor:name="DockingArea" oor:type="xs:int">
+     <value>0</value>
+    </prop>
+    <prop oor:name="Pos" oor:type="xs:string">
+     <value>30,82</value>
+    </prop>
+    <prop oor:name="Size" oor:type="xs:string">
+     <value>0,0</value>
+    </prop>
+   </node>
   </node>
  </node>
 </oor:component-data>

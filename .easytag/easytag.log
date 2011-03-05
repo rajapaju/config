@@ -1,17 +1,63 @@
-09:14:31 Starting EasyTAG 2.1.6 (PId: 405) ...
-09:14:31 Currently using libid3tag version 0.15.1 (beta) ...
-09:14:31 Currently using id3lib version 3.8.3 ...
-09:14:31 Currently using locale 'en_GB.UTF-8' (and eventually 'ISO-8859-1')...
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/08. Adagio molto.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/10. Allegro non molto.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/09. Allegro.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/11. Allegro.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/03. Allegro.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/06. Presto.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/12. Allegro.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/04. Allegro non molto.mp3'.
-09:14:36 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/07. Allegro.mp3'.
-09:14:37 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/02. Largo.mp3'.
-09:14:37 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/01. Allegro.mp3'.
-09:14:37 Automatic corrections applied for file '/home/sio/torrents/Великие композиторы. Жизнь и творчество/04 - Вивальди/05. Adagio.mp3'.
-09:15:03 EasyTAG: Normal exit.
+20:25:20 Starting EasyTAG 2.1.6 (PId: 18001) ...
+20:25:20 Currently using libid3tag version 0.15.1 (beta) ...
+20:25:20 Currently using id3lib version 3.8.3 ...
+20:25:20 Currently using locale 'en_GB.UTF-8' (and eventually 'ISO-8859-1')...
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /05 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /02 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /11 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /03 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /01 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /06 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /09 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /04 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /10 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /08 - .flac'.
+20:25:47 Automatic corrections applied for file '/home/sio/tmp/trash/Ночь/Кино/1986 - Ночь							  /07 - .flac'.
+20:26:22 Selected files tagged with artist 'Кино'.
+20:26:23 Selected files tagged with album 'Ночь'.
+20:27:54 Written tag of '01 - .flac'
+20:27:54 Updated tag of '01 - .flac'
+20:27:55 Written tag of '02 - .flac'
+20:27:55 Updated tag of '02 - .flac'
+20:27:55 Written tag of '03 - .flac'
+20:27:56 Updated tag of '03 - .flac'
+20:27:56 Written tag of '04 - .flac'
+20:27:56 Updated tag of '04 - .flac'
+20:27:56 Written tag of '05 - .flac'
+20:27:58 Updated tag of '05 - .flac'
+20:27:58 Written tag of '06 - .flac'
+20:27:58 Updated tag of '06 - .flac'
+20:27:58 Written tag of '07 - .flac'
+20:27:59 Updated tag of '07 - .flac'
+20:28:00 Written tag of '08 - .flac'
+20:28:01 Updated tag of '08 - .flac'
+20:28:01 Written tag of '09 - .flac'
+20:28:02 Updated tag of '09 - .flac'
+20:28:02 Written tag of '10 - .flac'
+20:28:02 Updated tag of '10 - .flac'
+20:28:03 Written tag of '11 - .flac'
+20:28:03 Updated tag of '11 - .flac'
+20:28:11 Loading default 'Fill Tag' masks...
+20:28:15 New file name successfully scanned...(01 - Видели ночь.flac)
+20:28:15 New file name successfully scanned...(02 - Фильмы.flac)
+20:28:15 New file name successfully scanned...(03 - Твой номер.flac)
+20:28:15 New file name successfully scanned...(04 - Танец.flac)
+20:28:15 New file name successfully scanned...(05 - Ночь.flac)
+20:28:15 New file name successfully scanned...(06 - Последний герой.flac)
+20:28:15 New file name successfully scanned...(07 - Жизнь в стеклах.flac)
+20:28:15 New file name successfully scanned...(08 - Мама Анархия.flac)
+20:28:15 New file name successfully scanned...(09 - Звезды останутся здесь.flac)
+20:28:15 New file name successfully scanned...(10 - Игра.flac)
+20:28:15 New file name successfully scanned...(11 - Мы хотим танцевать.flac)
+20:28:19 Renamed file '01 - .flac' to '01 - Видели ночь.flac'
+20:28:19 Renamed file '02 - .flac' to '02 - Фильмы.flac'
+20:28:19 Renamed file '03 - .flac' to '03 - Твой номер.flac'
+20:28:19 Renamed file '04 - .flac' to '04 - Танец.flac'
+20:28:19 Renamed file '05 - .flac' to '05 - Ночь.flac'
+20:28:19 Renamed file '06 - .flac' to '06 - Последний герой.flac'
+20:28:20 Renamed file '07 - .flac' to '07 - Жизнь в стеклах.flac'
+20:28:20 Renamed file '08 - .flac' to '08 - Мама Анархия.flac'
+20:28:20 Renamed file '09 - .flac' to '09 - Звезды останутся здесь.flac'
+20:28:20 Renamed file '10 - .flac' to '10 - Игра.flac'
+20:28:20 Renamed file '11 - .flac' to '11 - Мы хотим танцевать.flac'
+20:28:23 EasyTAG: Normal exit.

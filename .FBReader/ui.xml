@@ -10,7 +10,7 @@
     <option name="Type" value="2"/>
   </group>
   <group name="OpenFileDialog">
-    <option name="Directory" value="/home/sio/torrents/King, Stephen"/>
+    <option name="Directory" value="/home/sio"/>
   </group>
   <group name="Options">
     <option name="BottomMargin" value="0"/>

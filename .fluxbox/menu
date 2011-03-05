@@ -65,10 +65,10 @@
             [exec] (Original) {~/bin/starcraft-launcher.sh --sc}
             [exec] (BroodWar) {~/bin/starcraft-launcher.sh --bw}
         [end]
-        [submenu] (Warcraft III)
-            [exec] (Frozen Throne) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Frozen Throne.exe" -opengl}
-            [exec] (Reign of Chaos) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Warcraft III.exe" -opengl}
-        [end]
+#        [submenu] (Warcraft III)
+#            [exec] (Frozen Throne) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Frozen Throne.exe" -opengl}
+#            [exec] (Reign of Chaos) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Warcraft III.exe" -opengl}
+#        [end]
         [exec] (Warsow) {warsow}
         [exec] (Wesnoth) {wesnoth-1.8}
         [exec] (Widelands) {SDL_VIDEO_X11_DGAMOUSE=0 widelands}
@@ -109,7 +109,7 @@
     [exec] (Gtk Theme) {lxappearance && killall lxappearance}
     [exec] (htop) {urxvt -fn "xft:DejaVu Sans Mono-9:antialias=True"  -name htop -T "System Monitor" -e htop}
     [exec] (Monitor) {gnome-system-monitor}
-    [exec] (Printer) {hp-toolbox}
+    [exec] (Printer) {hp-toolbox; pkill -f hp-systray}
     [separator]
     [exec] (Aptitude) {urxvt  -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" -name aptitude -e sudo aptitude}
     [exec] (Synaptic) {gksudo synaptic}

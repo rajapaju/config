@@ -1,0 +1,16 @@
+[general]
+metadata = ~/.offlineimap
+accounts = Gmail
+
+[Account Gmail]
+localrepository = GmailLocal
+remoterepository = GmailRemote
+
+[Repository GmailLocal]
+type = Maildir
+localfolders = ~/.offlineimap-gmail
+sep = /
+
+[Repository GmailRemote]
+type = Gmail
+remoteuser = sio.wtf@gmail.com
