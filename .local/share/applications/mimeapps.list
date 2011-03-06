@@ -20,6 +20,7 @@ inode/directory=nautilus-folder-handler.desktop
 audio/x-ms-wma=deadbeef.desktop
 application/x-extension-cd=leafpad.desktop
 application/x-bittorrent=deluge.desktop
+application/xml=geany.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -42,3 +43,4 @@ inode/directory=easytag.desktop;totem.desktop;
 audio/x-ms-wma=deadbeef.desktop;
 application/x-extension-cd=leafpad.desktop;
 application/x-bittorrent=deluge.desktop;
+application/xml=geany.desktop;
