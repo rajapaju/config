@@ -21,6 +21,7 @@ audio/x-ms-wma=deadbeef.desktop
 application/x-extension-cd=leafpad.desktop
 application/x-bittorrent=deluge.desktop
 application/xml=geany.desktop
+image/tiff=eog.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -44,3 +45,4 @@ audio/x-ms-wma=deadbeef.desktop;
 application/x-extension-cd=leafpad.desktop;
 application/x-bittorrent=deluge.desktop;
 application/xml=geany.desktop;
+image/tiff=eog.desktop;
