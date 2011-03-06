@@ -37,5 +37,5 @@ cue2flac () {
 # SHOW PERMISSIONS + LS
 ls-rights () {
     [ -z "$*" ] && stat -c "%U:%G %a %n" "$PWD"/* && return 0
-    [ -d "$1" ] && stat -c "%U:%G %a %n" "$1"/* || stat -c "%U:%G %a %n" "$1"
+    [ -d "$1" ] && [ -z "$2" ] && stat -c "%U:%G %a %n" "$1"/* || stat -c "%U:%G %a %n" $*
 }
