@@ -18,19 +18,19 @@ lib_view = 1
 lib_genre = !NONE!
 lib_path = !NONE!
 lib_year = !NONE!
-lib_artist = Survivor
+lib_artist = Transplants
 lib_album = !NONE!
 
 [player]
-art_location_custom_filename = 
-lyrics = True
-columnwidths = 187,155,155
+art_location_custom_filename = front.jpg
+lyrics = False
+columnwidths = 166,166,166
 trayicon = False
 playback = True
-covers = False
+covers = True
 sticky = False
 xfade_enabled = False
-info_song_more = True
+info_song_more = False
 search_num = 5
 progressbar = True
 ontop = False
@@ -48,7 +48,7 @@ info_song_expanded = True
 tabs_expanded = False
 screen = 0
 show_header = True
-covers_type = 1
+covers_type = 0
 use_infofile = False
 existing_playlist = 0
 decorated = True
@@ -63,7 +63,7 @@ w = 504
 update_on_start = False
 y = 102
 x = 42
-art_location = 0
+art_location = 1
 browser = 
 
 [connection]
@@ -75,7 +75,7 @@ info_tab_pos = 0
 current_tab_pos = 1
 current_tab_visible = True
 playlists_tab_pos = 3
-playlists_tab_visible = False
+playlists_tab_visible = True
 info_tab_visible = True
 streams_tab_visible = False
 library_tab_visible = True
@@ -94,6 +94,6 @@ ports[0] = 6600
 musicdirs[0] = /home/sio/music
 
 [plugins]
-autostart_plugins = gajim_tune,lyricwiki,rhapsodycovers,playlists
-known_plugins = test,localmpd,gajim_tune,lyricwiki,rhapsodycovers,streams,playlists
+autostart_plugins = gajim_tune,rhapsodycovers,playlists
+known_plugins = test,gajim_tune,localmpd,lyricwiki,rhapsodycovers,streams,playlists
 

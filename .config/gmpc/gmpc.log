@@ -447,3 +447,10 @@
 14/12/2010-18:07:14:Info:Connected to mpd
 14/12/2010-18:07:14:Info:MPD Database has been updated at: Wed 08 Dec 2010 09:50:35 PM MSK
 17/12/2010-16:51:23:Info:Connected to mpd
+08/03/2011-17:21:25:Info:Connected to mpd
+08/03/2011-17:21:25:Info:MPD Database has been updated at: Tue 08 Mar 2011 16:43:50 MSK
+08/03/2011-17:21:29:Info:Disconnected from mpd
+08/03/2011-19:02:32:Info:Connected to mpd
+08/03/2011-19:02:32:Info:MPD Database has been updated at: Tue 08 Mar 2011 17:23:37 MSK
+08/03/2011-20:54:48:Warning:MPD Reported the following error: 'problems decoding &quot;Sum 41/2002 - Does This Look Infected/09 - Thanks for Nothing.mp3&quot;'
+08/03/2011-20:54:49:Info:Connected to mpd

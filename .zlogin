@@ -18,14 +18,15 @@ then
         "/dev/tty2" )
             # Для второй tty
             clear
-            echo -ne "Press Ctrl+C to abort dvtm launch"
-            for i in `seq 0 3`
+            echo -ne "Press Ctrl+C to abort dvtm launch." #сообщение-предупреждение
+            for i in `seq 1 3` #время на подумать
             do
                 sleep 0.5
                 echo -n "."
                 i=$(($i + 1))
             done
-            dvtm -m \<; exit
+            dvtm #кого мы хотели запустить
+            exit
         ;;
         
         * )

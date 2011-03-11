@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
   <group name="Colors">
-    <option name="Background" value="15329252"/>
+    <option name="Background" value="15592951"/>
+    <option name="SelectionBackground" value="15592951"/>
   </group>
   <group name="Indicator">
     <option name="Height" value="1"/>
@@ -14,17 +15,16 @@
   </group>
   <group name="Options">
     <option name="BottomMargin" value="0"/>
-    <option name="Height" value="668"/>
-    <option name="IsSelectionEnabled" value="false"/>
+    <option name="Height" value="433"/>
     <option name="LeftMargin" value="275"/>
     <option name="RightMargin" value="275"/>
-    <option name="Width" value="1157"/>
-    <option name="XPosition" value="22"/>
-    <option name="YPosition" value="57"/>
+    <option name="Width" value="1278"/>
+    <option name="XPosition" value="0"/>
+    <option name="YPosition" value="345"/>
   </group>
   <group name="OptionsDialog">
     <option name="Height" value="331"/>
-    <option name="SelectedTab" value="Format"/>
+    <option name="SelectedTab" value="Selection"/>
     <option name="Width" value="509"/>
   </group>
   <group name="Style">

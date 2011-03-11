@@ -142,6 +142,7 @@ window.tab.label.unfocus.textColor:  rgb:90/90/90
 
 window.tab.borderWidth:              1
 window.tab.borderColor:              black
+window.tab.height:                   50
 
 ! ---------------
 
@@ -150,4 +151,5 @@ frameWidth:                          0
 bevelWidth:                          1
 borderWidth:                         1
 borderColor:                         #000000
+*unfocused.textColor:     #777777
 

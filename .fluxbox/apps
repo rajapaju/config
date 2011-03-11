@@ -71,7 +71,7 @@
   [Sticky]	{yes}
 [end]
 [app] (name=gnome-system-monitor) (class=Gnome-system-monitor)
-  [Dimensions]	{638 791}
+  [Dimensions]	{584 679}
 [end]
 [app] (name=synaptic) (class=Synaptic)
   [Workspace]	{2}
@@ -212,4 +212,8 @@
 [app] (name=Mail) (class=Icedove) (role=3pane)
   [Workspace]	{2}
   [Deco]	{BORDER}
+[end]
+[app] (name=albumart-qt) (class=Albumart-qt) (role=AlbumArtDialog)
+  [Dimensions]	{1418 562}
+  [Close]	{yes}
 [end]

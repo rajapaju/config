@@ -208,7 +208,7 @@
    </prop>
    <node oor:name="UserData">
     <prop oor:name="UserItem" oor:op="replace" oor:type="xs:string">
-     <value>1 file:///home/sio/tmp/current/Карчик%20-%2013.12/0206</value>
+     <value>1 file:///media/data/documents/Документы/учеба</value>
     </prop>
     <prop oor:name="SwExportLastFilter" oor:op="replace" oor:type="xs:string">
      <value>PDF - Portable Document Format (.pdf)</value>

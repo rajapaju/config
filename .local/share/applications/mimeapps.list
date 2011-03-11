@@ -22,6 +22,8 @@ application/x-extension-cd=leafpad.desktop
 application/x-bittorrent=deluge.desktop
 application/xml=geany.desktop
 image/tiff=eog.desktop
+audio/flac=deadbeef.desktop
+application/vnd.ms-excel=openoffice.org-calc.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -31,7 +33,7 @@ audio/mpeg=totem.desktop;smplayer_enqueue.desktop;smplayer.desktop;deadbeef.desk
 application/x-shockwave-flash=userapp-flashplayer-TJPQRV.desktop;
 video/3gpp=smplayer.desktop;
 application/zip=file-roller.desktop;FBReader.desktop;
-text/plain=leafpad.desktop;
+text/plain=leafpad.desktop;userapp-firefox-NM6IRV.desktop;
 application/vnd.oasis.opendocument.spreadsheet=openoffice.org-calc.desktop;
 application/pdf=evince.desktop;FBReader.desktop;
 text/html=userapp-firefox-NM6IRV.desktop;geany.desktop;FBReader.desktop;
@@ -46,3 +48,6 @@ application/x-extension-cd=leafpad.desktop;
 application/x-bittorrent=deluge.desktop;
 application/xml=geany.desktop;
 image/tiff=eog.desktop;
+application/vnd.ms-cab-compressed=file-roller.desktop;
+audio/flac=deadbeef.desktop;
+application/vnd.ms-excel=openoffice.org-calc.desktop;
