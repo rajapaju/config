@@ -110,6 +110,7 @@
     [exec] (htop) {urxvt -fn "xft:DejaVu Sans Mono-9:antialias=True"  -name htop -T "System Monitor" -e htop}
     [exec] (Monitor) {gnome-system-monitor}
     [exec] (Printer) {hp-toolbox; pkill -f hp-systray}
+    [exec] (Wicd) {wicd-gtk -n}
     [separator]
     [exec] (Aptitude) {urxvt  -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" -name aptitude -e sudo aptitude}
     [exec] (Synaptic) {gksudo synaptic}

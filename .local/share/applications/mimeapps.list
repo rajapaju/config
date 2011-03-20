@@ -24,6 +24,7 @@ application/xml=geany.desktop
 image/tiff=eog.desktop
 audio/flac=deadbeef.desktop
 application/vnd.ms-excel=openoffice.org-calc.desktop
+application/x-wine-extension-ini=leafpad.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -51,3 +52,4 @@ image/tiff=eog.desktop;
 application/vnd.ms-cab-compressed=file-roller.desktop;
 audio/flac=deadbeef.desktop;
 application/vnd.ms-excel=openoffice.org-calc.desktop;
+application/x-wine-extension-ini=leafpad.desktop;

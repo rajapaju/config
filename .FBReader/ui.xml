@@ -5,8 +5,10 @@
     <option name="SelectionBackground" value="15592951"/>
   </group>
   <group name="Indicator">
-    <option name="Height" value="1"/>
+    <option name="Height" value="13"/>
     <option name="Offset" value="0"/>
+    <option name="PositionText" value="true"/>
+    <option name="Time" value="true"/>
     <option name="TouchSensitive" value="false"/>
     <option name="Type" value="2"/>
   </group>
@@ -24,7 +26,7 @@
   </group>
   <group name="OptionsDialog">
     <option name="Height" value="331"/>
-    <option name="SelectedTab" value="Selection"/>
+    <option name="SelectedTab" value="Web"/>
     <option name="Width" value="509"/>
   </group>
   <group name="Style">

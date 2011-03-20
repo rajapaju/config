@@ -10,6 +10,16 @@ ctime=1288878356
 done=DevicesMovedToPlatformPlugin,DevicesUIDsChanged
 mtime=1224241215
 
+[kaccel.upd]
+ctime=1299865339
+done=kde3.3/r1
+mtime=1199490915
+
+[kcmdisplayrc.upd]
+ctime=1299865339
+done=kde3
+mtime=1199490913
+
 [kcookiescfg.upd]
 ctime=1295821460
 done=kde2.2/b1,kde3.1/cvs
@@ -34,6 +44,16 @@ mtime=1211368033
 ctime=1295821460
 done=kde2.2/r2,kde2.2/r3
 mtime=1211368095
+
+[krdb.upd]
+ctime=1299865339
+done=LibraryPathNeedsANewStart
+mtime=1226507836
+
+[ksmserver.upd]
+ctime=1299865339
+done=kde3
+mtime=1199490912
 
 [ksslcertificatemanager.upd]
 ctime=1295821460
@@ -100,7 +120,31 @@ ctime=1295739637
 done=kde33b1
 mtime=1199490941
 
+[mailtransports.upd]
+ctime=1299865303
+done=initial-kmail-migration,initial-knode-migration
+mtime=1199490802
+
+[mouse_cursor_theme.upd]
+ctime=1299865339
+done=kde3.4.99
+mtime=1199490914
+
+[plasma-add-shortcut-to-menu.upd]
+ctime=1299865339
+mtime=1253101252
+
+[plasma-to-plasmadesktop-shortcuts.upd]
+ctime=1299865339
+done=4.3plasma-desktop-shortcuts
+mtime=1253101252
+
 [plasma_popupapplet_fix_groups.upd]
 ctime=1295821460
 done=PlasmaPopupAppletFixGroups1,PlasmaPopupAppletFixGroups2,PlasmaPopupAppletFixGroups3
 mtime=1252063916
+
+[plasmarc-to-plasmadesktoprc.upd]
+ctime=1299865339
+done=4.3plasma-desktop
+mtime=1253101252

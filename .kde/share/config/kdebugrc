@@ -1,13 +1,16 @@
-[amarok]
-InfoOutput=4
-
 [kbuildsycoca4]
 InfoOutput=4
+
+[kcminit]
+InfoOutput=4
+
+[kcmshell]
+InfoOutput=2
 
 [kdecore (KConfigSkeleton)]
 InfoOutput=2
 
-[kdecore (KPluginInfo)]
+[kdecore (KLibrary)]
 InfoOutput=2
 
 [kdecore (services)]
@@ -16,7 +19,7 @@ InfoOutput=2
 [kded]
 InfoOutput=4
 
-[kdenlive]
+[kdostartupconfig4]
 InfoOutput=4
 
 [kio (delegateanimationhandler)]
@@ -28,10 +31,10 @@ InfoOutput=4
 [kio_trash]
 InfoOutput=4
 
-[kubrick]
+[nepomukremovablestorageservice]
 InfoOutput=4
 
-[okular]
+[nepomukstrigiservice]
 InfoOutput=4
 
 [systemsettings]

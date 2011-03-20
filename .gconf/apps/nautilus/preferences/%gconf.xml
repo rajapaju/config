@@ -82,9 +82,9 @@
 	</entry>
 	<entry name="sidebar_width" mtime="1279352134" type="int" value="116"/>
 	<entry name="start_with_sidebar" mtime="1299420585" type="bool" value="false"/>
-	<entry name="start_with_toolbar" mtime="1299626646" type="bool" value="false"/>
-	<entry name="navigation_window_saved_maximized" mtime="1299800954" type="bool" value="false"/>
-	<entry name="navigation_window_saved_geometry" mtime="1299800954" type="string">
-		<stringvalue>805x487+149+177</stringvalue>
+	<entry name="start_with_toolbar" mtime="1300388543" type="bool" value="false"/>
+	<entry name="navigation_window_saved_maximized" mtime="1300565078" type="bool" value="false"/>
+	<entry name="navigation_window_saved_geometry" mtime="1300485117" type="string">
+		<stringvalue>805x487+0+21</stringvalue>
 	</entry>
 </gconf>

@@ -44,6 +44,20 @@
      <value>0,0</value>
     </prop>
    </node>
+   <node oor:name="private:resource/toolbar/previewbar">
+    <prop oor:name="Locked" oor:type="xs:boolean">
+     <value>false</value>
+    </prop>
+    <prop oor:name="Pos" oor:type="xs:string">
+     <value>2147483647,2147483647</value>
+    </prop>
+    <prop oor:name="Size" oor:type="xs:string">
+     <value>0,0</value>
+    </prop>
+    <prop oor:name="DockPos" oor:type="xs:string">
+     <value>342,0</value>
+    </prop>
+   </node>
   </node>
  </node>
 </oor:component-data>

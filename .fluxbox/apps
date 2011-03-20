@@ -189,6 +189,7 @@
 [end]
 [app] (name=skype) (class=Skype)
   [Workspace]	{2}
+  [Deco]	{BORDER}
 [end]
 [app] (name=transmission) (class=Transmission) (role=tr-main)
   [Workspace]	{2}
@@ -215,5 +216,14 @@
 [end]
 [app] (name=albumart-qt) (class=Albumart-qt) (role=AlbumArtDialog)
   [Dimensions]	{1418 562}
+  [Close]	{yes}
+[end]
+[app] (name=chromium) (class=Chromium)
+  [Deco]	{BORDER}
+  [Maximized]	{yes}
+[end]
+[app] (name=wicd-client.py) (class=Wicd-client.py)
+  [Dimensions]	{450 420}
+  [Position]	(UPPERLEFT)	{715 0}
   [Close]	{yes}
 [end]

@@ -1,5 +1,5 @@
 [$Version]
-update_info=kded.upd:kde3.0,kwin.upd:kde3.2Xinerama,kdeui.upd:kde4/migrate_from_kde3_icon_theme
+update_info=kdeui.upd:kde4/migrate_from_kde3_icon_theme,kaccel.upd:kde3.3/r1,kded.upd:kde3.0,kwin.upd:kde3.2Xinerama,mouse_cursor_theme.upd:kde3.4.99
 
 [ColorEffects:Inactive]
 ColorEffect=-2
@@ -8,63 +8,37 @@ IntensityEffect=0
 
 [Colors:Button]
 BackgroundNormal=208,216,222
+DecorationFocus=239,239,247
+DecorationHover=238,238,247
+ForegroundInactive=137,116,167
 
 [Colors:Selection]
 BackgroundNormal=103,116,133
-ForegroundInactive=166,194,228
+DecorationFocus=239,239,247
+DecorationHover=238,238,247
+ForegroundInactive=0,0,0
 
 [Colors:Tooltip]
 BackgroundNormal=208,216,222
+DecorationFocus=239,239,247
+DecorationHover=238,238,247
+ForegroundInactive=137,116,167
 
 [Colors:View]
-BackgroundNormal=237,237,247
+BackgroundNormal=238,238,247
+DecorationFocus=239,239,247
+DecorationHover=238,238,247
+ForegroundInactive=137,116,167
 
 [Colors:Window]
-BackgroundNormal=208,216,222
-ForegroundNormal=20,19,18
-
-[DesktopIcons]
-ActiveColor=169,156,255
-ActiveColor2=0,0,0
-ActiveEffect=togamma
-ActiveSemiTransparent=false
-ActiveValue=0.7
-Animated=true
-DefaultColor=144,128,248
-DefaultColor2=0,0,0
-DefaultEffect=none
-DefaultSemiTransparent=false
-DefaultValue=1
-DisabledColor=34,202,0
-DisabledColor2=0,0,0
-DisabledEffect=togray
-DisabledSemiTransparent=true
-DisabledValue=1
-Size=48
-
-[DialogIcons]
-ActiveColor=169,156,255
-ActiveColor2=0,0,0
-ActiveEffect=none
-ActiveSemiTransparent=false
-ActiveValue=1
-Animated=false
-DefaultColor=144,128,248
-DefaultColor2=0,0,0
-DefaultEffect=none
-DefaultSemiTransparent=false
-DefaultValue=1
-DisabledColor=34,202,0
-DisabledColor2=0,0,0
-DisabledEffect=togray
-DisabledSemiTransparent=true
-DisabledValue=1
-Size=32
+BackgroundNormal=207,216,222
+DecorationFocus=239,239,247
+DecorationHover=238,238,247
+ForegroundInactive=137,116,167
 
 [General]
-BrowserApplication[$e]=!firefox
 XftAntialias=true
-XftHintStyle=hintfull
+XftHintStyle=hintmedium
 XftSubPixel=none
 desktopFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
 fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
@@ -76,116 +50,17 @@ taskbarFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
 toolBarFont=Liberation Sans,8,-1,5,50,0,0,0,0,0
 widgetStyle=gtk+
 
-[Icons]
-Theme=Tango
-
 [KDE]
 ShowIconsOnPushButtons=true
 contrast=5
 
 [KDE-Global GUI Settings]
-GraphicEffectsLevel=0
-
-[KFileDialog Settings]
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=0
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Previews=false
-Recent URLs[$e]=$HOME/data/
-Show Bookmarks=false
-Show Full Path=false
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort reversed=false
-Speedbar Width=91
-View Style=Simple
-
-[KShortcutsDialog Settings]
-Dialog Size=600,480
-
-[MainToolbarIcons]
-ActiveColor=169,156,255
-ActiveColor2=0,0,0
-ActiveEffect=none
-ActiveSemiTransparent=false
-ActiveValue=1
-Animated=false
-DefaultColor=144,128,248
-DefaultColor2=0,0,0
-DefaultEffect=none
-DefaultSemiTransparent=false
-DefaultValue=1
-DisabledColor=34,202,0
-DisabledColor2=0,0,0
-DisabledEffect=togray
-DisabledSemiTransparent=true
-DisabledValue=1
-Size=22
-
-[PanelIcons]
-ActiveColor=169,156,255
-ActiveColor2=0,0,0
-ActiveEffect=togamma
-ActiveSemiTransparent=false
-ActiveValue=0.7
-Animated=false
-DefaultColor=144,128,248
-DefaultColor2=0,0,0
-DefaultEffect=none
-DefaultSemiTransparent=false
-DefaultValue=1
-DisabledColor=34,202,0
-DisabledColor2=0,0,0
-DisabledEffect=togray
-DisabledSemiTransparent=true
-DisabledValue=1
-Size=32
-
-[SmallIcons]
-ActiveColor=169,156,255
-ActiveColor2=0,0,0
-ActiveEffect=none
-ActiveSemiTransparent=false
-ActiveValue=1
-Animated=false
-DefaultColor=144,128,248
-DefaultColor2=0,0,0
-DefaultEffect=none
-DefaultSemiTransparent=false
-DefaultValue=1
-DisabledColor=34,202,0
-DisabledColor2=0,0,0
-DisabledEffect=togray
-DisabledSemiTransparent=true
-DisabledValue=1
-Size=16
+GraphicEffectsLevel=6
 
 [Toolbar style]
-ToolButtonStyle=NoText
-ToolButtonStyleOtherToolbars=NoText
-
-[ToolbarIcons]
-ActiveColor=169,156,255
-ActiveColor2=0,0,0
-ActiveEffect=none
-ActiveSemiTransparent=false
-ActiveValue=1
-Animated=false
-DefaultColor=144,128,248
-DefaultColor2=0,0,0
-DefaultEffect=none
-DefaultSemiTransparent=false
-DefaultValue=1
-DisabledColor=34,202,0
-DisabledColor2=0,0,0
-DisabledEffect=togray
-DisabledSemiTransparent=true
-DisabledValue=1
-Size=22
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
+activeBackground=103,116,133
 activeFont=Liberation Sans,9,-1,5,75,0,0,0,0,0

@@ -30,6 +30,7 @@ application/x-wine-extension-dic:*.dic
 application/x-wine-extension-mdt:*.mdt
 application/vnd.ms-mediapackage:*.mpf
 application/x-wine-extension-mdw:*.mdw
+application/mpi:*.mpi
 application/x-wine-extension-oss:*.oss
 application/x-wine-extension-mdz:*.mdz
 application/x-wine-extension-adn:*.adn

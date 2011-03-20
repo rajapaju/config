@@ -6,7 +6,7 @@ alias ls='ls --color=auto --time-style +%Y-%m-%d\ %H:%M'
 alias ll="ls -lh"
 alias la="ls -a"
 alias ":q"="clear && exit"
-alias bones='grep -vE "^ *#|^ *$"'
+alias bones='grep -vE "^ *#|^ *$|^ *;"'
 alias convlit="clit"
 
 # DEFAULT BEHAVIOUR
