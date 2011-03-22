@@ -286,3 +286,10 @@ Enabling: Russian dictionaries and hyphenation
 ###### Progress log entry 2011-03-15 10:28:49 ######
 ###### Progress log entry 2011-03-15 10:29:09 ######
 ###### Progress log entry 2011-03-18 21:12:51 ######
+###### Progress log entry 2011-03-20 22:02:08 ######
+###### Progress log entry 2011-03-20 22:11:34 ######
+###### Progress log entry 2011-03-20 22:12:30 ######
+###### Progress log entry 2011-03-21 18:44:49 ######
+###### Progress log entry 2011-03-21 18:56:09 ######
+###### Progress log entry 2011-03-21 19:21:05 ######
+###### Progress log entry 2011-03-21 23:34:44 ######

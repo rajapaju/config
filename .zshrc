@@ -132,14 +132,15 @@ bindkey "^P" predict-off # C-z
 IDLELIMIT=300
 #~  IDLELIMIT - максимальная величина idle к моменту проверки (замените на
 #~  удобное вам значение в секундах)
-#[ $USER = root ] || TMOUT=60
+[ $USER = root ] || TMOUT=60
 #~  Каждые 60 секунд после ввода последней команды будет срабатывать SIGALRM
 #~  (trap 14) и будет проверяться условие
 TRAPALRM() {
     if [ $TTYIDLE -ge $IDLELIMIT ]
     then
 #~      ↓↓↓ Замените этот блок на собственный ↓↓↓
-        watch -n 1 tail -n 3 /var/log/wimax.log
+        #watch -n 1 tail -n 3 /var/log/wimax.log
+        watch -n 1 "dmesg|tail -n 23" 
         kill -SIGINT $$ &
 #~      ↑↑↑ Замените этот блок на собственный ↑↑↑
     fi

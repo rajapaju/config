@@ -28,7 +28,7 @@
  [app] (role=gc)
  [app] (name=Download) (role=Manager)
   [Workspace]	{0}
-  [Dimensions]	{635 400}
+  [Dimensions]	{635 399}
   [Position]	(UPPERLEFT)	{643 0}
 [end]
 [app] (name=gajim.py) (class=Gajim.py) (role=pm)
@@ -64,7 +64,6 @@
 [end]
 [group]  (workspace=[current])
  [app] (name=Terminal) (class=URxvt)
-  [Dimensions]	{641 400}
   [Position]	(UPPERLEFT)	{0 0}
   [Shaded]	{yes}
   [IconHidden]	{yes}
@@ -112,12 +111,12 @@
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=pm)
   [Workspace]	{0}
-  [Dimensions]	{407 380}
+  [Dimensions]	{407 379}
   [Position]	(UPPERLEFT)	{234 20}
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=chat)
   [Workspace]	{0}
-  [Dimensions]	{407 380}
+  [Dimensions]	{407 379}
   [Position]	(UPPERLEFT)	{0 20}
 [end]
 [app] (name=gajim.py) (class=Gajim.py) (role=messages)
@@ -225,5 +224,6 @@
 [app] (name=wicd-client.py) (class=Wicd-client.py)
   [Dimensions]	{450 420}
   [Position]	(UPPERLEFT)	{715 0}
+  [Maximized]	{vert}
   [Close]	{yes}
 [end]
