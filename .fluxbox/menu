@@ -58,9 +58,10 @@
         [exec] (Duke Nukem) {cd ~/bin/DukeNukem && SDL_VIDEO_X11_DGAMOUSE=0 dosbox DUKE3D.EXE}
         [exec] (GLTron) {gltron}
         [exec] (gtkPool) {gtkpool}
+        [exec] (Heroes MM4) {cd "/home/sio/.wineprefixes/homm4/drive_c/Program Files/Heroes of Might and Magic IV/"; WINEPREFIX=~/.wineprefixes/homm4 wine "C:\Program Files\Heroes of Might and Magic IV\heroes4.exe"}
         [exec] (Kolf) {kolf}
         [exec] (OpenArena) {SDL_VIDEO_X11_DGAMOUSE=0 openarena}
-        [exec] (Quake 3) {export WINEPREFIX=~/.wineprefixes/q3 && cd $WINEPREFIX/drive_c/Program\ Files/Quake\ III\ Arena && wine quake3.exe}
+        #[exec] (Quake 3) {export WINEPREFIX=~/.wineprefixes/q3 && cd $WINEPREFIX/drive_c/Program\ Files/Quake\ III\ Arena && wine quake3.exe}
         [submenu] (StarCraft)
             [exec] (Original) {~/bin/starcraft-launcher.sh --sc}
             [exec] (BroodWar) {~/bin/starcraft-launcher.sh --bw}

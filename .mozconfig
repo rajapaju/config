@@ -12,9 +12,9 @@ mk_add_options MOZ_MAKE_FLAGS="-j4" #Parallel compilation is a nice speedup
 ac_add_options --enable-application=browser #We are building firefox
 ac_add_options --enable-optimize #Enables the default compiler optimization options
 ac_add_options --disable-debug
-ac_add_options --enable-tests #By default, many auxiliary test applications are built, which can help debug and patch the mozilla source.
+ac_add_options --disable-tests #By default, many auxiliary test applications are built, which can help debug and patch the mozilla source.
 ac_add_options --enable-official-branding
-ac_add_options --enable-debug-symbols=-gdwarf-2 #Срисовал с buildconfig мозилло.орг-сборки
+#ac_add_options --enable-debug-symbols=-gdwarf-2 #Срисовал с buildconfig мозилло.орг-сборки
 
 # Мои опции
 ac_add_options --enable-system-cairo #Ради чего все и затевалось

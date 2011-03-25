@@ -140,7 +140,7 @@ TRAPALRM() {
     then
 #~      ↓↓↓ Замените этот блок на собственный ↓↓↓
         #watch -n 1 tail -n 3 /var/log/wimax.log
-        watch -n 1 "dmesg|tail -n 23" 
+        watch -n 1 "dmesg|tail -n 20" 
         kill -SIGINT $$ &
 #~      ↑↑↑ Замените этот блок на собственный ↑↑↑
     fi
