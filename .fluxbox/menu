@@ -36,9 +36,9 @@
         [exec] (PowerPoint) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\POWERPNT.EXE"}
     [end]
     [submenu] (OO Office/)
-        [exec] (Writer) {env OOO_FORCE_DESKTOP="gnome" oowriter}
-        [exec] (Calc) {env OOO_FORCE_DESKTOP="gnome" oocalc}
-        [exec] (Impress) {env OOO_FORCE_DESKTOP="gnome" ooimpress}
+        [exec] (Writer) {env OOO_FORCE_DESKTOP="gnome" libreoffice -writer}
+        [exec] (Calc) {env OOO_FORCE_DESKTOP="gnome" libreoffice -calc}
+        [exec] (Impress) {env OOO_FORCE_DESKTOP="gnome" libreoffice -impress}
     [end]
     [submenu] (GN Office/)
         [exec] (Abiword) {abiword}
@@ -62,6 +62,7 @@
         [exec] (Kolf) {kolf}
         [exec] (OpenArena) {SDL_VIDEO_X11_DGAMOUSE=0 openarena}
         #[exec] (Quake 3) {export WINEPREFIX=~/.wineprefixes/q3 && cd $WINEPREFIX/drive_c/Program\ Files/Quake\ III\ Arena && wine quake3.exe}
+        [exec] (Quake 3) {~/bin/q3/quake3-sdl-sound}
         [submenu] (StarCraft)
             [exec] (Original) {~/bin/starcraft-launcher.sh --sc}
             [exec] (BroodWar) {~/bin/starcraft-launcher.sh --bw}

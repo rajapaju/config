@@ -38,7 +38,7 @@
   "seed_time_limit": 180, 
   "cache_size": 512, 
   "share_ratio_limit": 2.0, 
-  "max_download_speed": 100.0, 
+  "max_download_speed": -1.0, 
   "geoip_db_location": "/usr/share/GeoIP/GeoIP.dat", 
   "torrentfiles_location": "/media/torrents/.torrents", 
   "stop_seed_at_ratio": true, 
@@ -48,13 +48,13 @@
   "max_download_speed_per_torrent": -1, 
   "max_upload_slots_global": 4, 
   "enabled_plugins": [], 
-  "random_port": true, 
+  "random_port": false, 
   "autoadd_enable": true, 
   "max_connections_global": 240, 
   "enc_prefer_rc4": true, 
   "listen_ports": [
-    6881, 
-    6891
+    23000, 
+    24000
   ], 
   "dht": true, 
   "stop_seed_ratio": 1.0, 

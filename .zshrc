@@ -71,7 +71,7 @@ PROMPT="%f%b
 
 %F{$NAMECOLOR}%B[%n@%M] %F{green}%//%f%b
 %F{$NAMECOLOR}%B# %f%b"
-RPROMPT="%F{$NAMECOLOR}%B[%T]%b"
+#~RPROMPT="%F{$NAMECOLOR}%B[%T]%b"
 ### END PROMPT
 
 ### COMPLETION COLORS

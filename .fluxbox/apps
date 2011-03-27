@@ -222,8 +222,8 @@
   [Maximized]	{yes}
 [end]
 [app] (name=wicd-client.py) (class=Wicd-client.py)
-  [Dimensions]	{450 420}
-  [Position]	(UPPERLEFT)	{715 0}
+  [Dimensions]	{450 464}
+  [Position]	(UPPERLEFT)	{711 0}
   [Maximized]	{vert}
   [Close]	{yes}
 [end]

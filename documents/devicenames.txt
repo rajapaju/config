@@ -1,0 +1,4 @@
+GREYLAP     Roverbook Voyager V500      Laptop
+BLACKNET    Asus Eee PC 1015ped         Netbook
+SILVEROUT   D-Link DIR-320              Router
+METALCELL   Sony Ericsson T700          Cellphone
