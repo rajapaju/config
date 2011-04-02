@@ -4,7 +4,7 @@
 }{
   "close_to_tray": true, 
   "ntf_sound_path": null, 
-  "window_width": 1124, 
+  "window_width": 1106, 
   "default_load_path": null, 
   "window_y_pos": 81, 
   "ntf_email": false, 
@@ -41,7 +41,7 @@
   "autoadd_queued": true, 
   "autoconnect_host_id": "d6cce0bede873688e279223e1c42ebab2c61ce26", 
   "classic_mode": false, 
-  "window_pane_position": 379, 
+  "window_pane_position": 352, 
   "enabled_plugins": [], 
   "show_rate_in_title": true, 
   "autoadd_enable": false, 
@@ -49,7 +49,7 @@
   "interactive_add": false, 
   "sidebar_show_zero": false, 
   "window_x_pos": 108, 
-  "window_height": 672, 
+  "window_height": 675, 
   "ntf_security": null, 
   "connection_limit_list": [
     50, 
@@ -64,7 +64,7 @@
   "choose_directory_dialog_path": "/home/sio/videos/Movies", 
   "sidebar_show_trackers": false, 
   "autostart_localhost": true, 
-  "show_toolbar": false, 
+  "show_toolbar": true, 
   "autoadd_location": "", 
   "ntf_email_add": "", 
   "signal_port": 40000

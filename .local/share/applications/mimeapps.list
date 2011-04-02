@@ -31,6 +31,7 @@ application/vnd.ms-powerpoint=libreoffice-impress.desktop
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop
 application/x-gzip=file-roller.desktop
+application/x-chm=gnochm.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -49,7 +50,7 @@ audio/x-wav=totem.desktop;deadbeef.desktop;
 image/vnd.djvu=evince.desktop;
 image/png=gpicview.desktop;
 image/gif=gpicview.desktop;
-inode/directory=easytag.desktop;totem.desktop;
+inode/directory=easytag.desktop;totem.desktop;deadbeef.desktop;
 audio/x-ms-wma=deadbeef.desktop;
 application/x-extension-cd=leafpad.desktop;
 application/x-bittorrent=deluge.desktop;
@@ -65,3 +66,4 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoff
 application/vnd.ms-powerpoint=libreoffice-impress.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/x-gzip=file-roller.desktop;
+application/x-chm=gnochm.desktop;
