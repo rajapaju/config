@@ -6,13 +6,14 @@
 [submenu] (Internet/)
     [exec] (Firefox) {firefox -P default}
     [exec] (Gajim) {~/misc/src/gajim/launch.sh}
-    [exec] (Skype) {amixer sset Master 63%; skype; amixer sset Master 100%}
     [exec] (Icedove) {icedove}
+    [exec] (Skype) {amixer sset Master 63%; skype; amixer sset Master 100%}
 #    [exec] (gFtp) {gftp}
-    [exec] (Deluge) {deluge}
+#    [exec] (Deluge) {deluge}
+    [exec] (Torrent) {transmission}
 [end]
 [submenu] (Multimedia/)
-    [exec] (GMPC) {gmpc}
+#    [exec] (GMPC) {gmpc}
     [exec] (Sonata) {~/misc/src/sonata/sonata.py}
     [exec] (SMplayer) {smplayer}
     [exec] (Easytag) {easytag}

@@ -1,4 +1,6 @@
 #!/bin/sh
+# Блокировка экрана с показом заставки
+# Отключаются до ввода пароля: клавиатура, мышь, звук
 
 amixer sset Master mute
 (sleep 3; pgrep xlock && xset dpms force off)&

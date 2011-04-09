@@ -125,6 +125,7 @@ Mod1 Print :ExecCommand cd ~/pictures/screens && scrot -bu
 Mod4 h :Shade
 
 Mod4 Tab :ExecCommand ~/bin/cml.sh
+Mod4 Shift Tab :ExecCommand ~/bin/cml-nodisplay.sh
 
 
 

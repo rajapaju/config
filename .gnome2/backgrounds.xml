@@ -10,6 +10,14 @@
     <scolor>#6666baba0000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
+    <name>Default Background</name>
+    <filename>/usr/share/themes/Adwaita/backgrounds/stripes.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#34346565a4a4</pcolor>
+    <scolor>#6666baba0000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
     <name>No Desktop Background</name>
     <filename>(none)</filename>
     <options>zoom</options>
