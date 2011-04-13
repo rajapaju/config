@@ -229,7 +229,7 @@
   [Close]	{yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{317 194}
+  [Position]	(UPPERLEFT)	{471 311}
   [Close]	{yes}
 [end]
 [app] (name=deadbeef) (class=Deadbeef)

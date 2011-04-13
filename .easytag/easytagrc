@@ -60,6 +60,7 @@ message_box_position_none=0
 message_box_position_center=0
 message_box_position_mouse=0
 message_box_position_center_on_parent=1
+audio_file_player=xmms -p
 scanner_type=1
 scan_mask_editor_button=0
 scan_legend_button=1

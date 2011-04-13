@@ -11,6 +11,7 @@ then
     case "`tty`" in
         "/dev/tty1" )
             # Для первой tty
+            export XDG_SESSION_COOKIE=''
             setsid startx
             exit
         ;;
@@ -23,7 +24,6 @@ then
             do
                 sleep 0.5
                 echo -n "."
-                i=$(($i + 1))
             done
             dvtm #кого мы хотели запустить
             exit
