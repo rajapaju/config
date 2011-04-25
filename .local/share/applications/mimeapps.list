@@ -32,6 +32,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-ca
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop
 application/x-gzip=file-roller.desktop
 application/x-chm=gnochm.desktop
+application/x-extension-IMA=file-roller.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -41,7 +42,7 @@ audio/mpeg=totem.desktop;smplayer_enqueue.desktop;smplayer.desktop;deadbeef.desk
 application/x-shockwave-flash=userapp-flashplayer-TJPQRV.desktop;
 video/3gpp=smplayer.desktop;
 application/zip=file-roller.desktop;FBReader.desktop;
-text/plain=leafpad.desktop;userapp-firefox-NM6IRV.desktop;
+text/plain=leafpad.desktop;userapp-firefox-NM6IRV.desktop;FBReader.desktop;
 application/vnd.oasis.opendocument.spreadsheet=openoffice.org-calc.desktop;libreoffice-calc.desktop;
 application/pdf=evince.desktop;FBReader.desktop;
 text/html=userapp-firefox-NM6IRV.desktop;geany.desktop;FBReader.desktop;
@@ -67,3 +68,4 @@ application/vnd.ms-powerpoint=libreoffice-impress.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/x-gzip=file-roller.desktop;
 application/x-chm=gnochm.desktop;
+application/x-extension-IMA=file-roller.desktop;

@@ -10,19 +10,20 @@
     <option name="PositionText" value="true"/>
     <option name="Time" value="true"/>
     <option name="TouchSensitive" value="false"/>
-    <option name="Type" value="2"/>
+    <option name="Type" value="1"/>
   </group>
   <group name="OpenFileDialog">
     <option name="Directory" value="/home/sio"/>
   </group>
   <group name="Options">
     <option name="BottomMargin" value="0"/>
-    <option name="Height" value="433"/>
+    <option name="Height" value="494"/>
     <option name="LeftMargin" value="275"/>
     <option name="RightMargin" value="275"/>
     <option name="Width" value="1278"/>
+    <option name="WindowState" value="2"/>
     <option name="XPosition" value="0"/>
-    <option name="YPosition" value="345"/>
+    <option name="YPosition" value="284"/>
   </group>
   <group name="OptionsDialog">
     <option name="Height" value="331"/>

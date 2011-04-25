@@ -7,7 +7,7 @@
     [exec] (Firefox) {firefox -P default}
     [exec] (Gajim) {~/misc/src/gajim/launch.sh}
     [exec] (Icedove) {icedove}
-    [exec] (Skype) {amixer sset Master 63%; skype; amixer sset Master 100%}
+    [exec] (Skype) {amixer sset Master 50%; skype; amixer sset Master 100%}
 #    [exec] (gFtp) {gftp}
 #    [exec] (Deluge) {deluge}
     [exec] (Torrent) {transmission}

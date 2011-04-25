@@ -169,7 +169,7 @@
   [Close]	{yes}
 [end]
 [app] (name=gimp-2.6) (class=Gimp-2.6) (role=gimp-image-scale)
-  [Position]	(UPPERLEFT)	{665 75}
+  [Position]	(UPPERLEFT)	{487 389}
   [Close]	{yes}
 [end]
 [app] (name=sonata) (class=Sonata) (role=mainWindow)
@@ -223,13 +223,13 @@
   [Maximized]	{yes}
 [end]
 [app] (name=wicd-client.py) (class=Wicd-client.py)
-  [Dimensions]	{450 464}
+  [Dimensions]	{450 143}
   [Position]	(UPPERLEFT)	{711 0}
   [Maximized]	{vert}
   [Close]	{yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{471 311}
+  [Position]	(UPPERLEFT)	{109 505}
   [Close]	{yes}
 [end]
 [app] (name=deadbeef) (class=Deadbeef)

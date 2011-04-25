@@ -21,6 +21,7 @@
 50:application/x-wine-extension-vstemplate:*.vstemplate
 50:application/x-wine-extension-pab:*.pab
 50:application/x-wine-extension-mam:*.mam
+50:application/x-extension-IMA:*.IMA
 50:application/x-wine-extension-crtx:*.crtx
 50:application/x-wine-extension-ldb:*.ldb
 50:application/x-wine-extension-mar:*.mar

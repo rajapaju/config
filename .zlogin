@@ -11,7 +11,7 @@ then
     case "`tty`" in
         "/dev/tty1" )
             # Для первой tty
-            export XDG_SESSION_COOKIE='' # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=598150 - consolekit: ck-launch-session doesn't set an active/local session anymore (when run as unprivileged user)
+            #export XDG_SESSION_COOKIE='' # http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=598150 - consolekit: ck-launch-session doesn't set an active/local session anymore (when run as unprivileged user)
             setsid startx # чтобы не оставлять возможности переключиться в консоль и убить иксы
             exit
         ;;

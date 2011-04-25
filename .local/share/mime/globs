@@ -21,6 +21,7 @@ application/x-wine-extension-maf:*.maf
 application/x-wine-extension-vstemplate:*.vstemplate
 application/x-wine-extension-pab:*.pab
 application/x-wine-extension-mam:*.mam
+application/x-extension-IMA:*.IMA
 application/x-wine-extension-crtx:*.crtx
 application/x-wine-extension-ldb:*.ldb
 application/x-wine-extension-mar:*.mar

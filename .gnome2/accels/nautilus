@@ -76,7 +76,7 @@
 ; (gtk_accel_path "<Actions>/DirViewActions/LocationCut" "")
 ; (gtk_accel_path "<Actions>/ShellActions/Zoom In" "<Control>plus")
 ; (gtk_accel_path "<Actions>/DirViewActions/Self Eject Volume" "")
-; (gtk_accel_path "<Actions>/NavigationActions/SplitViewNextPane" "F6")
+(gtk_accel_path "<Actions>/NavigationActions/SplitViewNextPane" "")
 ; (gtk_accel_path "<Actions>/ClipboardActions/Select All" "<Control>a")
 ; (gtk_accel_path "<Actions>/IconViewActions/Tighter Layout" "")
 ; (gtk_accel_path "<Actions>/NavigationActions/Edit Bookmarks" "<Control>b")
