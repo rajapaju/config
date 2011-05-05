@@ -33,6 +33,10 @@ application/vnd.openxmlformats-officedocument.presentationml.presentation=libreo
 application/x-gzip=file-roller.desktop
 application/x-chm=gnochm.desktop
 application/x-extension-IMA=file-roller.desktop
+application/rtf=libreoffice-writer.desktop
+video/ogg=smplayer.desktop
+application/x-cd-image=file-roller.desktop
+application/x-7z-compressed=file-roller.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -69,3 +73,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-ca
 application/x-gzip=file-roller.desktop;
 application/x-chm=gnochm.desktop;
 application/x-extension-IMA=file-roller.desktop;
+application/rtf=libreoffice-writer.desktop;
+video/ogg=smplayer.desktop;
+application/x-cd-image=file-roller.desktop;
+application/x-7z-compressed=file-roller.desktop;

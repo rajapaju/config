@@ -116,7 +116,7 @@
 ; (gtk_accel_path "<Actions>/ShellActions/Go to Templates" "")
 ; (gtk_accel_path "<Actions>/DirViewActions/LocationOpenInNewTab" "")
 ; (gtk_accel_path "<Actions>/DirViewActions/Self Start Volume" "")
-(gtk_accel_path "<Actions>/DirViewActions/Move to next pane" "F6")
+; (gtk_accel_path "<Actions>/DirViewActions/Move to next pane" "")
 ; (gtk_accel_path "<Actions>/DirViewActions/OpenFolderWindow" "")
 ; (gtk_accel_path "<Actions>/ShellActions/Show Hidden Files" "<Control>h")
 ; (gtk_accel_path "<Actions>/DirViewActions/Stop Volume" "")

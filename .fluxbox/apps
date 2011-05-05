@@ -102,8 +102,8 @@
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=roster)
   [Workspace]	{0}
-  [Dimensions]	{149 526}
-  [Position]	(UPPERLEFT)	{0 272}
+  [Dimensions]	{149 557}
+  [Position]	(UPPERLEFT)	{0 241}
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=gc)
   [Workspace]	{0}
