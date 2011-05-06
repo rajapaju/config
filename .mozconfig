@@ -1,4 +1,4 @@
-# My first mozilla config
+# My mozilla config
 #
 # Options prefixed with mk_add_options are passed to client.mk.  The most important of these is MOZ_OBJDIR, which controls where your application gets built (also known as the object directory). 
 # Options prefixed with ac_add_options are passed to configure, and effect the build process.
