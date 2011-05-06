@@ -1,6 +1,6 @@
 [begin] (Main Menu)
 #[include] (/etc/X11/fluxbox/fluxbox-menu)
-[exec] (Terminal) {sakura --name=Terminal}
+[exec] (Terminal) {gnome-terminal --role=Terminal}
 [exec] (File Manager) {nautilus}
 [separator]
 [submenu] (Internet/)
@@ -8,12 +8,12 @@
     [exec] (Gajim) {~/misc/src/gajim/launch.sh}
     [exec] (Icedove) {icedove}
     [exec] (Skype) {amixer sset Master 50%; skype; amixer sset Master 100%}
-#    [exec] (gFtp) {gftp}
-#    [exec] (Deluge) {deluge}
+# [exec] (gFtp) {gftp}
+# [exec] (Deluge) {deluge}
     [exec] (Torrent) {transmission}
 [end]
 [submenu] (Multimedia/)
-#    [exec] (GMPC) {gmpc}
+# [exec] (GMPC) {gmpc}
     [exec] (Sonata) {~/misc/src/sonata/sonata.py}
     [exec] (SMplayer) {smplayer}
     [exec] (Easytag) {easytag}
@@ -68,10 +68,10 @@
             [exec] (Original) {~/bin/starcraft-launcher.sh --sc}
             [exec] (BroodWar) {~/bin/starcraft-launcher.sh --bw}
         [end]
-#        [submenu] (Warcraft III)
-#            [exec] (Frozen Throne) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Frozen Throne.exe" -opengl}
-#            [exec] (Reign of Chaos) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Warcraft III.exe" -opengl}
-#        [end]
+# [submenu] (Warcraft III)
+# [exec] (Frozen Throne) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Frozen Throne.exe" -opengl}
+# [exec] (Reign of Chaos) {LANG=ru_RU.CP1251 WINEPREFIX=~/.wineprefixes/wc3 wine "C:\Program Files\Warcraft III\Warcraft III.exe" -opengl}
+# [end]
         [exec] (Warsow) {warsow}
         [exec] (Wesnoth) {wesnoth-1.8}
         [exec] (Widelands) {SDL_VIDEO_X11_DGAMOUSE=0 widelands}
@@ -105,17 +105,17 @@
     [exec] (VirtualBox) {sudo /etc/init.d/vboxdrv start && VirtualBox; sudo /etc/init.d/vboxdrv stop}
 [end]
 [submenu] (System/)
-    [exec] (Alsamixer) {sakura --name=alsamixer -T "ALSA Mixer" -e alsamixer}
+    [exec] (Alsamixer) {gnome-terminal --role=alsamixer -t "ALSA Mixer" -e alsamixer}
     [exec] (Bluetooth) {blueman-manager; killall blueman-applet}
     [exec] (ControlCenter) {gnome-control-center}
     [exec] (GParted) {gksudo gparted}
     [exec] (Gtk Theme) {lxappearance && killall lxappearance}
-    [exec] (htop) {sakura -fn "xft:DejaVu Sans Mono-9:antialias=True"  --name=htop -T "System Monitor" -e htop}
+    [exec] (htop) {gnome-terminal --role=htop -t "System Monitor" -e htop}
     [exec] (Monitor) {gnome-system-monitor}
     [exec] (Printer) {hp-toolbox; pkill -f hp-systray}
     [exec] (Wicd) {wicd-gtk -n}
     [separator]
-    [exec] (Aptitude) {sakura  -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" --name=aptitude -e sudo aptitude}
+    [exec] (Aptitude) {gnome-terminal -t "Aptitude Package Manager" --role=aptitude -e sudo aptitude}
     [exec] (Synaptic) {gksudo synaptic}
 [end]
 [separator]

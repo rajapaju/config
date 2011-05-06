@@ -63,7 +63,7 @@
   [Layer]	{6}
 [end]
 [group]  (workspace=[current])
- [app] (name=Terminal)
+ [app] (role=Terminal)
   [Dimensions]	{641 399}
   [Position]	(UPPERLEFT)	{0 0}
   [Shaded]	{yes}
@@ -84,17 +84,17 @@
 [app] (name=Pinta) (class=Pinta)
   [Maximized]	{yes}
 [end]
-[app] (name=htop)
+[app] (role=htop)
   [Dimensions]	{872 474}
 [end]
-[app] (name=aptitude)
+[app] (role=aptitude)
   [Dimensions]	{641 639}
   [Position]	(UPPERLEFT)	{637 0}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
 [end]
-[app] (name=alsamixer)
+[app] (role=alsamixer)
 [end]
 [app] (name=kolf) (class=Kolf) (role=Kolf)
   [Dimensions]	{580 741}
@@ -245,5 +245,8 @@
   [Position]	(UPPERLEFT)	{214 31}
 [end]
 [app] (name=sakura) (class=Sakura)
+  [Dimensions]	{641 399}
+[end]
+[app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-14644--551116785-1304642084)
   [Dimensions]	{641 399}
 [end]
