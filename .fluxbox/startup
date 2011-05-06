@@ -13,7 +13,7 @@
 #(sleep 3; gmpc&)&
 (sleep 3; exec ~/misc/src/sonata/sonata.py&)&
 ~/misc/src/gajim/launch.sh&
-urxvt -name Terminal&
+(sleep 3; exec urxvtc -name Terminal&)&
 
 
 # And last but not least we start fluxbox.

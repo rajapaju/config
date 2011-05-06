@@ -64,6 +64,7 @@
 [end]
 [group]  (workspace=[current])
  [app] (role=Terminal)
+ [app] (name=Terminal)
   [Dimensions]	{641 399}
   [Position]	(UPPERLEFT)	{0 0}
   [Shaded]	{yes}
@@ -84,17 +85,15 @@
 [app] (name=Pinta) (class=Pinta)
   [Maximized]	{yes}
 [end]
-[app] (role=htop)
+[app] (name=htop)
   [Dimensions]	{872 474}
 [end]
-[app] (role=aptitude)
+[app] (name=aptitude)
   [Dimensions]	{641 639}
   [Position]	(UPPERLEFT)	{637 0}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
-[end]
-[app] (role=alsamixer)
 [end]
 [app] (name=kolf) (class=Kolf) (role=Kolf)
   [Dimensions]	{580 741}

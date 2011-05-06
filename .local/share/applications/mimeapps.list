@@ -37,6 +37,7 @@ application/rtf=libreoffice-writer.desktop
 video/ogg=smplayer.desktop
 application/x-cd-image=file-roller.desktop
 application/x-7z-compressed=file-roller.desktop
+application/x-shellscript=leafpad.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -77,3 +78,4 @@ application/rtf=libreoffice-writer.desktop;
 video/ogg=smplayer.desktop;
 application/x-cd-image=file-roller.desktop;
 application/x-7z-compressed=file-roller.desktop;
+application/x-shellscript=leafpad.desktop;

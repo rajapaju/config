@@ -7,3 +7,5 @@
 (while true; do xxkb; sleep 5; done)&
 (while true; do conky; sleep 5; done)&
 (while true; do conky -c ~/.conkyrc-diclock; sleep 5; done)&
+(while true; do urxvtd -q -o; sleep 5; done)&
+
