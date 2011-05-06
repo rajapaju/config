@@ -6,13 +6,13 @@ Xft.hintstyle: hintfull
 Xft.rgba: rgb 
 Xft.dpi: 96.0
 
-URxvt*transparent: true
+!URxvt*transparent: true
 URxvt*backgroundPixmap: /home/sio/.fluxbox/styles/BlueNight-tile.png-urxvt;0x0
-URxvt*shading: 170
-URxvt*tintColor: black
+!URxvt*shading: 170
+!URxvt*tintColor: black
 URxvt.underlineColor: #d1d1d1
 URxvt*scrollBar: False
-URxvt*saveLines: 5000
+URxvt*saveLines: 10000
 URxvt.perl-ext-common: default,matcher
 ! ,digital-clock,readline,searchable-scrollback,selection,tabbed
 URxvt.urlLauncher: firefox
@@ -21,7 +21,7 @@ URxvt*background: #333333
 URxvt*cursorColor: #e5e5e5
 URxvt*foreground: #e5e5e5
 URxvt*font: xft:DejaVu Sans Mono-9:antialias=True
-URxvt*geometry:91x25
+URxvt*geometry:  91x25
 URxvt*faceLines: 5000
 URxvt*color0:  #000000
 URxvt*color1:  #aa0000

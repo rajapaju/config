@@ -1,6 +1,6 @@
 [begin] (Main Menu)
 #[include] (/etc/X11/fluxbox/fluxbox-menu)
-[exec] (Terminal) {urxvt -name Terminal}
+[exec] (Terminal) {sakura --name=Terminal}
 [exec] (File Manager) {nautilus}
 [separator]
 [submenu] (Internet/)
@@ -105,17 +105,17 @@
     [exec] (VirtualBox) {sudo /etc/init.d/vboxdrv start && VirtualBox; sudo /etc/init.d/vboxdrv stop}
 [end]
 [submenu] (System/)
-    [exec] (Alsamixer) {urxvt -name alsamixer -T "ALSA Mixer" -e alsamixer}
+    [exec] (Alsamixer) {sakura --name=alsamixer -T "ALSA Mixer" -e alsamixer}
     [exec] (Bluetooth) {blueman-manager; killall blueman-applet}
     [exec] (ControlCenter) {gnome-control-center}
     [exec] (GParted) {gksudo gparted}
     [exec] (Gtk Theme) {lxappearance && killall lxappearance}
-    [exec] (htop) {urxvt -fn "xft:DejaVu Sans Mono-9:antialias=True"  -name htop -T "System Monitor" -e htop}
+    [exec] (htop) {sakura -fn "xft:DejaVu Sans Mono-9:antialias=True"  --name=htop -T "System Monitor" -e htop}
     [exec] (Monitor) {gnome-system-monitor}
     [exec] (Printer) {hp-toolbox; pkill -f hp-systray}
     [exec] (Wicd) {wicd-gtk -n}
     [separator]
-    [exec] (Aptitude) {urxvt  -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" -name aptitude -e sudo aptitude}
+    [exec] (Aptitude) {sakura  -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" --name=aptitude -e sudo aptitude}
     [exec] (Synaptic) {gksudo synaptic}
 [end]
 [separator]
