@@ -1,0 +1,32 @@
+------------------------------------------
+Log File: /home/sio/.fluxbox/log
+Fluxbox version: git
+GIT Revision: e2d52a39485d0ab9d5cb5ae027372b612eb32e60
+Compiled: Oct 15 2010 00:39:03
+Compiler: GCC
+Compiler version: 4.4.5
+
+Defaults: 
+    menu: /usr/local/share/fluxbox/menu
+   style: /usr/local/share/fluxbox/styles/bloe
+    keys: /usr/local/share/fluxbox/keys
+    init: /usr/local/share/fluxbox/init
+
+Compiled options (- => disabled): 
+BIDI
+-DEBUG
+EWMH
+GNOME
+IMLIB2
+-NLS
+REMEMBER
+RENDER
+SHAPE
+SLIT
+TOOLBAR
+XFT
+XINERAMA
+XMB
+XPM
+
+------------------------------------------

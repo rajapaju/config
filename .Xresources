@@ -8,7 +8,7 @@ Xft.dpi: 96.0
 
 !URxvt*transparent: true
 URxvt*backgroundPixmap: /home/sio/.fluxbox/styles/BlueNight-tile.png-urxvt;0x0
-URxvt*borderColor: pink
+URxvt*borderColor: #0A131C
 URxvt*internalBorder: 0
 URxvt*externalBorder: 0
 !URxvt*shading: 170
