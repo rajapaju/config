@@ -10,7 +10,7 @@
     [exec] (Skype) {amixer sset Master 50%; skype; amixer sset Master 100%}
 # [exec] (gFtp) {gftp}
 # [exec] (Deluge) {deluge}
-    [exec] (Torrent) {transmission}
+    [exec] (Torrent) {transmission-gtk}
 [end]
 [submenu] (Multimedia/)
 # [exec] (GMPC) {gmpc}

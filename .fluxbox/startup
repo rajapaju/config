@@ -15,6 +15,9 @@
 ~/misc/src/gajim/launch.sh&
 (sleep 3; exec urxvtc -name Terminal&)&
 
+#ASK IF USER WANTS FIREFOX TO START (LAUNCH COMMAND FROM MENU)
+(zenity --question --width=272 --title "Fluxbox Autostart" --text "Run Firefox?" && exec `grep -vE "^ *#|^ *$|^ *;" .fluxbox/menu|grep firefox|cut -d\{ -f 2|cut -d\} -f 1`)&
+
 
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.

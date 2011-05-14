@@ -89,8 +89,8 @@
   [Dimensions]	{872 474}
 [end]
 [app] (name=aptitude)
-  [Dimensions]	{641 639}
-  [Position]	(UPPERLEFT)	{637 0}
+  [Dimensions]	{637 635}
+  [Position]	(UPPERLEFT)	{643 0}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -191,7 +191,9 @@
   [Workspace]	{2}
   [Deco]	{BORDER}
 [end]
-[app] (name=transmission) (class=Transmission) (role=tr-main)
+[group]  (workspace=[current])
+ [app] (name=transmission) (class=Transmission) (role=tr-main)
+ [app] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-main)
   [Workspace]	{2}
   [Dimensions]	{514 676}
   [Position]	(UPPERLEFT)	{723 102}
@@ -248,4 +250,23 @@
 [end]
 [app] (name=gnome-terminal) (class=Gnome-terminal) (role=gnome-terminal-window-14644--551116785-1304642084)
   [Dimensions]	{641 399}
+[end]
+[transient] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-info)
+  [Dimensions]	{623 491}
+  [Position]	(UPPERLEFT)	{657 172}
+  [Close]	{yes}
+[end]
+[app] (name=leafpad) (class=Leafpad)
+  [Layer]	{6}
+  [Close]	{yes}
+[end]
+[app] (name=gimp-2.6) (class=Gimp-2.6) (role=gimp-hue-saturation-tool)
+  [Position]	(UPPERLEFT)	{594 64}
+  [Close]	{yes}
+[end]
+[transient] (name=file-png) (class=Gimp-2.6) (role=file-png)
+  [Position]	(UPPERLEFT)	{293 276}
+  [Close]	{yes}
+[end]
+[app] (name=smplayer) (class=Smplayer)
 [end]

@@ -65,7 +65,7 @@ image/tiff=eog.desktop;
 application/vnd.ms-cab-compressed=file-roller.desktop;
 audio/flac=deadbeef.desktop;
 application/vnd.ms-excel=openoffice.org-calc.desktop;libreoffice-calc.desktop;
-application/x-wine-extension-ini=leafpad.desktop;
+application/x-wine-extension-ini=leafpad.desktop;geany.desktop;
 application/x-wine-extension-cfg=leafpad.desktop;geany.desktop;
 application/msword=libreoffice-writer.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
@@ -79,3 +79,8 @@ video/ogg=smplayer.desktop;
 application/x-cd-image=file-roller.desktop;
 application/x-7z-compressed=file-roller.desktop;
 application/x-shellscript=leafpad.desktop;
+text/x-apt-sources-list=leafpad.desktop;
+application/x-tar=file-roller.desktop;
+
+[Removed Associations]
+application/x-wine-extension-ini=wine-extension-ini.desktop;
