@@ -83,7 +83,6 @@
   [Minimized]	{yes}
 [end]
 [app] (name=Pinta) (class=Pinta)
-  [Maximized]	{yes}
 [end]
 [app] (name=htop)
   [Dimensions]	{872 474}
@@ -174,7 +173,7 @@
 [end]
 [app] (name=sonata) (class=Sonata) (role=mainWindow)
   [Workspace]	{2}
-  [Dimensions]	{504 679}
+  [Dimensions]	{513 679}
   [Position]	(UPPERLEFT)	{42 102}
   [Deco]	{BORDER}
 [end]
@@ -195,7 +194,7 @@
  [app] (name=transmission) (class=Transmission) (role=tr-main)
  [app] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-main)
   [Workspace]	{2}
-  [Dimensions]	{514 676}
+  [Dimensions]	{514 679}
   [Position]	(UPPERLEFT)	{723 102}
   [Deco]	{BORDER}
 [end]
@@ -253,11 +252,10 @@
 [end]
 [transient] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-info)
   [Dimensions]	{623 491}
-  [Position]	(UPPERLEFT)	{657 172}
-  [Close]	{yes}
+  [Position]	(UPPERLEFT)	{655 198}
 [end]
 [app] (name=leafpad) (class=Leafpad)
-  [Layer]	{6}
+  [Layer]	{8}
   [Close]	{yes}
 [end]
 [app] (name=gimp-2.6) (class=Gimp-2.6) (role=gimp-hue-saturation-tool)

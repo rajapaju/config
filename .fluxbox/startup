@@ -8,12 +8,12 @@
 #~ xxkb&                        - MOVED TO ~/.xsession
 #~ conky&                       - MOVED TO ~/.xsession
 #~ conky -c ~/.conkyrc-diclock& - MOVED TO ~/.xsession
-~/bin/userapps.d.sh&
+(exec ~/bin/userapps.d.sh)&
 
 #(sleep 3; gmpc&)&
 (sleep 3; exec ~/misc/src/sonata/sonata.py&)&
-~/misc/src/gajim/launch.sh&
-(sleep 3; exec urxvtc -name Terminal&)&
+(exec ~/misc/src/gajim/launch.sh)&
+(sleep 6; exec urxvtc -name Terminal&)&
 
 #ASK IF USER WANTS FIREFOX TO START (LAUNCH COMMAND FROM MENU)
 (zenity --question --width=272 --title "Fluxbox Autostart" --text "Run Firefox?" && exec `grep -vE "^ *#|^ *$|^ *;" .fluxbox/menu|grep firefox|cut -d\{ -f 2|cut -d\} -f 1`)&

@@ -82,3 +82,5 @@ XTerm*color12: #5555ff
 XTerm*color13: #ff55ff
 XTerm*color14: #55ffff
 XTerm*color15: #ffffff
+
+Xcursor*theme: DMZ-White

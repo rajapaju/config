@@ -1,8 +1,8 @@
 ﻿<layouts>
   <layout name="Default" width="1280" height="688" size="1280" prefSize="1280" defaultHorSize="-1" defaultVerSize="-1" type="Horizontal">
     <group size="64" prefSize="64" defaultHorSize="65" defaultVerSize="130" type="Vertical">
-      <item size="341" prefSize="341" defaultHorSize="65" defaultVerSize="126.685552407932" id="Toolbox" visible="True" status="Dockable" />
-      <item size="344" prefSize="344" defaultHorSize="65" defaultVerSize="126.685552407932" id="Palette" visible="True" status="Dockable" />
+      <item size="342" prefSize="342" defaultHorSize="65" defaultVerSize="130" id="Toolbox" visible="True" status="Dockable" />
+      <item size="343" prefSize="343" defaultHorSize="65" defaultVerSize="130" id="Palette" visible="True" status="Dockable" />
     </group>
     <item size="1007" prefSize="1007" defaultHorSize="151.272727272727" defaultVerSize="130" id="Canvas" visible="True" status="Dockable" />
     <group size="203" prefSize="203" defaultHorSize="151.272727272727" defaultVerSize="130" type="Vertical">
