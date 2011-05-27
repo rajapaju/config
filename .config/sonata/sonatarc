@@ -16,9 +16,9 @@ title = %A - %T
 [library]
 lib_view = 1
 lib_genre = !NONE!
-lib_path = /
+lib_path = !NONE!
 lib_year = !NONE!
-lib_artist = !NONE!
+lib_artist = Iron Maiden
 lib_album = !NONE!
 
 [player]
@@ -31,7 +31,7 @@ covers = True
 sticky = False
 xfade_enabled = False
 info_song_more = False
-search_num = 1
+search_num = 5
 progressbar = True
 ontop = False
 lyrics_location = 0

@@ -150,6 +150,8 @@ handleWidth:                        0
 frameWidth:                          0
 bevelWidth:                          1
 borderWidth:                         1
-borderColor:                         #000000
+borderColor:                         black
+!#6A6E72
+!#000000
 *unfocused.textColor:     #777777
 

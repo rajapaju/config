@@ -14,7 +14,7 @@
         (follow-active-image "true"))
     (dock
         (book
-            (current-page 0)
+            (current-page 4)
             (dockable "gimp-layer-list"
                 (tab-style icon)
                 (preview-size 32))
@@ -61,7 +61,7 @@
 (session-info "toplevel" "gimp-color-balance-tool-dialog"
     (position 700 0))
 (session-info "toplevel" "gimp-rotate-tool-dialog"
-    (position 0 22))
+    (position 0 1))
 (session-info "toplevel" "gimp-hue-saturation-tool-dialog"
     (position 594 64))
 (session-info "toplevel" "gimp-colorize-tool-dialog"
@@ -78,6 +78,6 @@
     (position 0 0)
     (size 1072 799))
 
-(last-tip-shown 100)
+(last-tip-shown 102)
 
 # end of sessionrc

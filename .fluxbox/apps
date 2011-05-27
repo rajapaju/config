@@ -8,12 +8,10 @@
   [Dimensions]	{149 526}
   [Position]	(UPPERLEFT)	{0 272}
 [end]
-[group]  (workspace=[current])
- [app] (class=Firefox) (role=browser)
- [app] (class=Minefield) (role=browser)
- [app] (class=Iceweasel) (role=browser)
+[app] (class=Firefox) (role=browser)
   [Workspace]	{0}
   [Position]	(UPPERLEFT)	{151 99}
+  [Deco]	{NONE}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
 [end]
@@ -223,12 +221,6 @@
   [Deco]	{BORDER}
   [Maximized]	{yes}
 [end]
-[app] (name=wicd-client.py) (class=Wicd-client.py)
-  [Dimensions]	{450 143}
-  [Position]	(UPPERLEFT)	{711 0}
-  [Maximized]	{vert}
-  [Close]	{yes}
-[end]
 [app] (name=galculator) (class=Galculator)
   [Position]	(UPPERLEFT)	{109 505}
   [Close]	{yes}
@@ -267,4 +259,13 @@
   [Close]	{yes}
 [end]
 [app] (name=smplayer) (class=Smplayer)
+[end]
+[app] (name=gimp-2.6) (class=Gimp-2.6) (role=gimp-stroke-options)
+  [Position]	(UPPERLEFT)	{666 51}
+  [Close]	{yes}
+[end]
+[app] (name=gimp-2.6) (class=Gimp-2.6) (role=gimp-rotate-tool)
+  [Position]	(UPPERLEFT)	{0 22}
+  [Layer]	{6}
+  [Close]	{yes}
 [end]
