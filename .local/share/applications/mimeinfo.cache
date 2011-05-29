@@ -7,6 +7,7 @@ application/x-wine-extension-emptybinaryregistry=wine-extension-emptybinaryregis
 text/html=wine-extension-htm.desktop
 application/x-chm=wine-extension-chm.desktop
 image/png=wine-extension-png.desktop
+application/vnd.ms-excel=wine-extension-dif.desktop
 application/rtf=wine-extension-rtf.desktop
 text/x-uri=wine-extension-url.desktop
 application/mpi=wine-extension-mpi.desktop

@@ -2,8 +2,8 @@
 
 
 # USER-WIDE SETTINGS
-xrandr --output LVDS1 --set "scaling mode" Full&
-fbsetbg -l&
+xrandr --output LVDS1 --set "scaling mode" Full
+fbsetbg -l
 setxkbmap -option "compose:menu"&
 # END SETTINGS
 

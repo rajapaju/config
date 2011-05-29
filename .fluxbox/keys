@@ -108,6 +108,7 @@ Mod4 Mod1 d :Move +1 0
 
 94 :ExecCommand mpc toggle
 Mod1 94 :ExecCommand mpc next
+Mod4 c :ExecCommand mpc stop
 Mod4 Mouse4 :ExecCommand amixer sset Master 2+
 Mod4 Mouse5 :ExecCommand amixer sset Master 2-
 Mod1 Mouse4 :ExecCommand mpc volume +2

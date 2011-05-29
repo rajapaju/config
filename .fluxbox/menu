@@ -98,7 +98,7 @@
     [end]
     [separator]
     [exec] (Calculator) {galculator}
-    [exec] (Coolreader) {cr3}
+#    [exec] (Coolreader) {cr3}
     [exec] (Comix) {comix}
     [exec] (FBReader) {FBReader}
     [exec] (Playonlinux) {playonlinux}
@@ -115,7 +115,7 @@
     [exec] (Printer) {hp-toolbox; pkill -f hp-systray}
     [exec] (Wicd) {wicd-gtk -n}
     [separator]
-    [exec] (Aptitude) {urxvtc -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" -name aptitude -e sudo aptitude}
+    [exec] (Aptitude) {urxvtc -fn "xft:DejaVu Sans Mono-9:antialias=True" -T "Aptitude Package Manager" -name aptitude -e sudo aptitude 2>/dev/null}
     [exec] (Synaptic) {gksudo synaptic}
 [end]
 [separator]

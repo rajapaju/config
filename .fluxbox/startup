@@ -12,6 +12,7 @@
 
 #(sleep 3; gmpc&)&
 (sleep 3; exec ~/misc/src/sonata/sonata.py&)&
+(sleep 3; exec transmission-gtk&)&
 (exec ~/misc/src/gajim/launch.sh)&
 (sleep 6; exec urxvtc -name Terminal&)&
 

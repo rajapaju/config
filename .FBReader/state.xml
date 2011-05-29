@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+  <group name="LastOpenedBooks">
+    <option name="Book0" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
+  </group>
+  <group name="State">
+    <option name="Book" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
+  </group>
 </config>

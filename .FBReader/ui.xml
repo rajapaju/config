@@ -12,6 +12,9 @@
     <option name="TouchSensitive" value="false"/>
     <option name="Type" value="1"/>
   </group>
+  <group name="InfoDialog">
+    <option name="SelectedTab" value="Tags"/>
+  </group>
   <group name="OpenFileDialog">
     <option name="Directory" value="/home/sio"/>
   </group>
@@ -21,14 +24,13 @@
     <option name="LeftMargin" value="275"/>
     <option name="RightMargin" value="275"/>
     <option name="Width" value="1278"/>
-    <option name="WindowState" value="2"/>
-    <option name="XPosition" value="0"/>
-    <option name="YPosition" value="284"/>
+    <option name="XPosition" value="1"/>
+    <option name="YPosition" value="305"/>
   </group>
   <group name="OptionsDialog">
     <option name="Height" value="331"/>
-    <option name="SelectedTab" value="Web"/>
-    <option name="Width" value="509"/>
+    <option name="SelectedTab" value="Library"/>
+    <option name="Width" value="516"/>
   </group>
   <group name="Style">
     <option name="Base:fontFamily" value="Liberation Serif"/>

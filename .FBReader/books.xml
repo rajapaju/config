@@ -1,8 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+  <group name="/home/sio">
+    <option name="EntriesNumber" value="71"/>
+    <option name="Entry0" value="/home/sio:.setup16841"/>
+    <option name="Entry1" value="/home/sio:.zcompdump"/>
+    <option name="Entry10" value="/home/sio:.gtk-bookmarks"/>
+    <option name="Entry11" value="/home/sio:Документ Microsoft Word.doc"/>
+    <option name="Entry12" value="/home/sio:.xsession"/>
+    <option name="Entry13" value="/home/sio:.zshrc"/>
+    <option name="Entry14" value="/home/sio:README"/>
+    <option name="Entry15" value="/home/sio:.pshellrc"/>
+    <option name="Entry16" value="/home/sio:.aspell.en.pws"/>
+    <option name="Entry17" value="/home/sio:.fonts.conf.qtgood"/>
+    <option name="Entry18" value="/home/sio:.aspell.en.prepl"/>
+    <option name="Entry19" value="/home/sio:.XCompose"/>
+    <option name="Entry2" value="/home/sio:.Xresources"/>
+    <option name="Entry20" value="/home/sio:.rvmrc"/>
+    <option name="Entry21" value="/home/sio:.lesshst"/>
+    <option name="Entry22" value="/home/sio:.civserver_history"/>
+    <option name="Entry23" value="/home/sio:.fonts.conf.bak"/>
+    <option name="Entry24" value="/home/sio:.esd_auth"/>
+    <option name="Entry25" value="/home/sio:.kinorc"/>
+    <option name="Entry26" value="/home/sio:.gnuplot-wxt"/>
+    <option name="Entry27" value="/home/sio:.Xauthority"/>
+    <option name="Entry28" value="/home/sio:DSC00187.JPG"/>
+    <option name="Entry29" value="/home/sio:.fehrc"/>
+    <option name="Entry3" value="/home/sio:.quotes.txt"/>
+    <option name="Entry30" value="/home/sio:.reportbugrc~"/>
+    <option name="Entry31" value="/home/sio:.gtkrc-2.0-gnome-color-chooser"/>
+    <option name="Entry32" value="/home/sio:.gtkrc-2.0.mine"/>
+    <option name="Entry33" value="/home/sio:.histfile"/>
+    <option name="Entry34" value="/home/sio:.libquicktime_codecs"/>
+    <option name="Entry35" value="/home/sio:.fehbg"/>
+    <option name="Entry36" value="/home/sio:.mpdconf"/>
+    <option name="Entry37" value="/home/sio:.gtkrc-2.0"/>
+    <option name="Entry38" value="/home/sio:.zlogin"/>
+    <option name="Entry39" value="/home/sio:.galculator"/>
+    <option name="Entry4" value="/home/sio:.kderc"/>
+    <option name="Entry40" value="/home/sio:.dmrc"/>
+    <option name="Entry41" value="/home/sio:.conkyrc-mpdtop"/>
+    <option name="Entry42" value="/home/sio:.gsokorc"/>
+    <option name="Entry43" value="/home/sio:.install4j"/>
+    <option name="Entry44" value="/home/sio:.hushlogin"/>
+    <option name="Entry45" value="/home/sio:.bash_history"/>
+    <option name="Entry46" value="/home/sio:.pulse-cookie"/>
+    <option name="Entry47" value="/home/sio:.profile"/>
+    <option name="Entry48" value="/home/sio:.xsession-errors"/>
+    <option name="Entry49" value="/home/sio:.hidden"/>
+    <option name="Entry5" value="/home/sio:.bzr.log"/>
+    <option name="Entry50" value="/home/sio:.pass"/>
+    <option name="Entry51" value="/home/sio:.kaboom.log"/>
+    <option name="Entry52" value="/home/sio:.fonts.conf"/>
+    <option name="Entry53" value="/home/sio:.gmrun_history"/>
+    <option name="Entry54" value="/home/sio:.zsh_aliases"/>
+    <option name="Entry55" value="/home/sio:.gksu.lock"/>
+    <option name="Entry56" value="/home/sio:.vimrc"/>
+    <option name="Entry57" value="/home/sio:.htoprc"/>
+    <option name="Entry58" value="/home/sio:.gtkrc-2.0.gdm"/>
+    <option name="Entry59" value="/home/sio:.gnashrc"/>
+    <option name="Entry6" value="/home/sio:.conkyrc-mpdbtm"/>
+    <option name="Entry60" value="/home/sio:.mozconfig"/>
+    <option name="Entry61" value="/home/sio:.gemrc"/>
+    <option name="Entry62" value="/home/sio:.gitconfig"/>
+    <option name="Entry63" value="/home/sio:.freeciv-client-rc-2.2"/>
+    <option name="Entry64" value="/home/sio:ubuntu-11.04-desktop-i386.iso"/>
+    <option name="Entry65" value="/home/sio:.xxkbrc"/>
+    <option name="Entry66" value="/home/sio:.windows-serial"/>
+    <option name="Entry67" value="/home/sio:.conkyrc"/>
+    <option name="Entry68" value="/home/sio:.reportbugrc"/>
+    <option name="Entry69" value="/home/sio:.viminfo"/>
+    <option name="Entry7" value="/home/sio:.conkyrc-diclock"/>
+    <option name="Entry70" value="/home/sio:.odbc.ini"/>
+    <option name="Entry8" value="/home/sio:.fonts.conf.old"/>
+    <option name="Entry9" value="/home/sio:.toprc"/>
+    <option name="Size" value="12288"/>
+  </group>
   <group name="/home/sio/Stephen King - Cujo.html">
     <option name="BreakType" value="6"/>
     <option name="Initialized" value="true"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Banks - The Player of Games.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Banks - The Player of Games.fb2.zip:Benks_culture_2_The_Player_of_Games.177409.fb2"/>
+    <option name="Size" value="304566"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Banks - The Player of Games.fb2.zip:Benks_culture_2_The_Player_of_Games.177409.fb2">
+    <option name="AuthorDisplayName" value="Iain M Banks"/>
+    <option name="AuthorSortKey" value="banks"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Culture"/>
+    <option name="TagList" value="SF, Fantasy/Space SF"/>
+    <option name="Title" value="The Player of Games"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Burgess - A Clockwork Orange.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Burgess - A Clockwork Orange.fb2.zip:Berdzhess_A_Clockwork_Orange.195430.fb2"/>
+    <option name="Size" value="140327"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Burgess - A Clockwork Orange.fb2.zip:Berdzhess_A_Clockwork_Orange.195430.fb2">
+    <option name="AuthorDisplayName" value="Antony Burgess"/>
+    <option name="AuthorSortKey" value="burgess"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="A Clockwork Orange"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Carrol - Alice&apos;s adventures in wonderland.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Carrol - Alice&apos;s adventures in wonderland.fb2.zip:Kerroll_Alices_Adventures_in_Wonderland_illustrated.93955.fb2"/>
+    <option name="Size" value="1801037"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Carrol - Alice&apos;s adventures in wonderland.fb2.zip:Kerroll_Alices_Adventures_in_Wonderland_illustrated.93955.fb2">
+    <option name="AuthorDisplayName" value="Lewis Carroll"/>
+    <option name="AuthorSortKey" value="carroll"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="TagList" value="Detectives, Thrillers/Detectives &amp; Thrillers,Children&apos;s/Detectives &amp; Thrillers"/>
+    <option name="Title" value="Alice&apos;s Adventures in Wonderland illustrated"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Dick Philip K. - Now wait for last year (В ожидании прошлого).fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Dick Philip K. - Now wait for last year (В ожидании прошлого).fb2.zip:Dik_V_ozhidanii_proshlogo_.72875.fb2"/>
+    <option name="Size" value="229151"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Dick Philip K. - Now wait for last year (В ожидании прошлого).fb2.zip:Dik_V_ozhidanii_proshlogo_.72875.fb2">
+    <option name="AuthorDisplayName" value="Филип Кайндред Дик"/>
+    <option name="AuthorSortKey" value="дик"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="В ожидании прошлого"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Dick Philip K. - Now wait for last year.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Dick Philip K. - Now wait for last year.fb2.zip:Dik_Now_Wait_for_Last_Year.105562.fb2"/>
+    <option name="Size" value="170463"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Dick Philip K. - Now wait for last year.fb2.zip:Dik_Now_Wait_for_Last_Year.105562.fb2">
+    <option name="AuthorDisplayName" value="Philip Dick"/>
+    <option name="AuthorSortKey" value="dick"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Now Wait for Last Year"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Gaiman - The Graveyard Book.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Gaiman - The Graveyard Book.fb2.zip:Geyman_The_Graveyard_Book.123139.fb2"/>
+    <option name="Size" value="517613"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Gaiman - The Graveyard Book.fb2.zip:Geyman_The_Graveyard_Book.123139.fb2">
+    <option name="AuthorDisplayName" value="Neil Gaiman"/>
+    <option name="AuthorSortKey" value="gaiman"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="The Graveyard Book"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip">
+    <option name="EntriesNumber" value="7"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/"/>
+    <option name="Entry1" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein - The Door into Summer-other.pdf"/>
+    <option name="Entry2" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein - The Door into Summer-tnr.pdf"/>
+    <option name="Entry3" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein - The Door into Summer.odt"/>
+    <option name="Entry4" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein - The Door into Summer.pdf"/>
+    <option name="Entry5" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein, Robert A. - The Door into Summer.txt"/>
+    <option name="Entry6" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein, Robert A. - The Door into Summer.zip"/>
+    <option name="Size" value="1939568"/>
   </group>
   <group name="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/Heinlein, Robert A. - The Door into Summer.txt">
     <option name="BreakType" value="6"/>
@@ -11,10 +177,997 @@
     <option name="IgnoredIndent" value="2"/>
     <option name="Initialized" value="true"/>
   </group>
+  <group name="/home/sio/documents/books/Fiction/Heinlein - The Moon is a Harsh Mistress.zip">
+    <option name="EntriesNumber" value="3"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Heinlein - The Moon is a Harsh Mistress.zip:Heinlein - The Moon is a Harsh Mistress.odt"/>
+    <option name="Entry1" value="/home/sio/documents/books/Fiction/Heinlein - The Moon is a Harsh Mistress.zip:Heinlein - The Moon is a Harsh Mistress.pdf"/>
+    <option name="Entry2" value="/home/sio/documents/books/Fiction/Heinlein - The Moon is a Harsh Mistress.zip:Heinlein, Robert A. - The Moon is a Harsh Mistress.txt"/>
+    <option name="Size" value="1424182"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Heinlein - The Rolling Stones (Космическое семейство Стоун).fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Heinlein - The Rolling Stones (Космическое семейство Стоун).fb2.zip:Haynlayn_Kosmicheskoe_semeystvo_Stoun.179337.fb2"/>
+    <option name="Size" value="156119"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Heinlein - The Rolling Stones (Космическое семейство Стоун).fb2.zip:Haynlayn_Kosmicheskoe_semeystvo_Stoun.179337.fb2">
+    <option name="AuthorDisplayName" value="Роберт Хайнлайн"/>
+    <option name="AuthorSortKey" value="хайнлайн"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Космическое семейство Стоун"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Heinlein - The Rolling Stones.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Heinlein - The Rolling Stones.fb2.zip:Haynlayn_The_Rolling_Stones.106275.fb2"/>
+    <option name="Size" value="608561"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Heinlein - The Rolling Stones.fb2.zip:Haynlayn_The_Rolling_Stones.106275.fb2">
+    <option name="AuthorDisplayName" value="Robert A. Heinlein"/>
+    <option name="AuthorSortKey" value="heinlein"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="The Rolling Stones"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/King - IT [proper].htm">
     <option name="BreakType" value="6"/>
     <option name="IgnoredIndent" value="4"/>
     <option name="Initialized" value="true"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip">
+    <option name="EntriesNumber" value="39"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - An Evening At Gods.html"/>
+    <option name="Entry1" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Carrie.html"/>
+    <option name="Entry10" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - L.T.&apos;s Theory Of Pets.html"/>
+    <option name="Entry11" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Mist.html"/>
+    <option name="Entry12" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Battleground.html"/>
+    <option name="Entry13" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Children of the Corn.html"/>
+    <option name="Entry14" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Foreward.html"/>
+    <option name="Entry15" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Graveyard Shift.html"/>
+    <option name="Entry16" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Grey Matter.html"/>
+    <option name="Entry17" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - I Am The Doorway.html"/>
+    <option name="Entry18" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - I Know What You Need.html"/>
+    <option name="Entry19" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Introduction.html"/>
+    <option name="Entry2" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Cujo.html"/>
+    <option name="Entry20" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Jerusalems Lot.html"/>
+    <option name="Entry21" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Night Surf.html"/>
+    <option name="Entry22" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - One For The Road.html"/>
+    <option name="Entry23" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Quitters.html"/>
+    <option name="Entry24" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Sometimes They Come Back.html"/>
+    <option name="Entry25" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Strawberry Spring.html"/>
+    <option name="Entry26" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Boogeyman.html"/>
+    <option name="Entry27" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Last Rung On The Ladder.html"/>
+    <option name="Entry28" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Lawnmower Man.html"/>
+    <option name="Entry29" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Ledge.html"/>
+    <option name="Entry3" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Cycle Of The Werewolf.html"/>
+    <option name="Entry30" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Man Who Loved Flowers.html"/>
+    <option name="Entry31" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Mangler.html"/>
+    <option name="Entry32" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - The Woman In The Room.html"/>
+    <option name="Entry33" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Night Shift - Trucks.html"/>
+    <option name="Entry34" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Rare - The Road Virus Heads North.html"/>
+    <option name="Entry35" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Riding The Bullet.gif"/>
+    <option name="Entry36" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Riding The Bullet.txt"/>
+    <option name="Entry37" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Survivor Type.html"/>
+    <option name="Entry38" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - The Darktower - 1 - The Gunslinger.txt"/>
+    <option name="Entry4" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Dolores Claiborne.html"/>
+    <option name="Entry5" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Four Past Midnight - 1 - Introduction.html"/>
+    <option name="Entry6" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Four Past Midnight - 2 - The Langoliers.html"/>
+    <option name="Entry7" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Four Past Midnight - 3 - Secret Window, Secret Garden.html"/>
+    <option name="Entry8" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Four Past Midnight - 4 - The Sun Dog.html"/>
+    <option name="Entry9" value="/home/sio/documents/books/Fiction/King, Stephen/(ebook) Stephen King - 47 books.zip:Stephen King - Four Past Midnight - 5 - The Library Policeman.html"/>
+    <option name="Size" value="1921602"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/King - IT.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/King, Stephen/King - IT.fb2.zip:King_It.197144.fb2"/>
+    <option name="Size" value="1232193"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/King - IT.fb2.zip:King_It.197144.fb2">
+    <option name="AuthorDisplayName" value="Stephen King"/>
+    <option name="AuthorSortKey" value="king"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="TagList" value="SF, Fantasy/Horror &amp; Mystic"/>
+    <option name="Title" value="It"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/Кинг - Оно (все части).fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/King, Stephen/Кинг - Оно (все части).fb2.zip:King_ONO.143941.fb2"/>
+    <option name="Size" value="1012556"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/Кинг - Оно (все части).fb2.zip:King_ONO.143941.fb2">
+    <option name="AuthorDisplayName" value="Стивен Кинг"/>
+    <option name="AuthorSortKey" value="кинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Horror &amp; Mystic"/>
+    <option name="Title" value="ОНО"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/Кинг - Оно (части 1-2).fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/King, Stephen/Кинг - Оно (части 1-2).fb2.zip:King_ONO.176734.fb2"/>
+    <option name="Size" value="449953"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/King, Stephen/Кинг - Оно (части 1-2).fb2.zip:King_ONO.176734.fb2">
+    <option name="AuthorDisplayName" value="Стивен Кинг"/>
+    <option name="AuthorSortKey" value="кинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Horror &amp; Mystic"/>
+    <option name="Title" value="ОНО"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Алехин - Падшие ангелы Мультиверсума.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Алехин - Падшие ангелы Мультиверсума.zip:Alehin_Padshie_angelyi_Multiversuma.876.fb2"/>
+    <option name="Size" value="706526"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Алехин - Падшие ангелы Мультиверсума.zip:Alehin_Padshie_angelyi_Multiversuma.876.fb2">
+    <option name="AuthorDisplayName" value="Леонид Алехин"/>
+    <option name="AuthorSortKey" value="алехин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Cyberpunk,SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Падшие ангелы Мультиверсума"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Бредбери - Бетономешалка.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Бредбери - Бетономешалка.fb2.zip:Bredberi_Chelovek_v_kartinkah_15_Betonomeshalka.8719.fb2"/>
+    <option name="Size" value="19646"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Бредбери - Бетономешалка.fb2.zip:Bredberi_Chelovek_v_kartinkah_15_Betonomeshalka.8719.fb2">
+    <option name="AuthorDisplayName" value="Рэй Брэдбери"/>
+    <option name="AuthorSortKey" value="брэдбери"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="15"/>
+    <option name="Sequence" value="Человек в картинках"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Бетономешалка"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Валентинов - Ноосфера 4 - Омега.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Валентинов - Ноосфера 4 - Омега.fb2.zip:Valentinov_Noosfera_4_Omega.100424.fb2"/>
+    <option name="Size" value="312349"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Валентинов - Ноосфера 4 - Омега.fb2.zip:Valentinov_Noosfera_4_Omega.100424.fb2">
+    <option name="AuthorDisplayName" value="Андрей Валентинов"/>
+    <option name="AuthorSortKey" value="валентинов"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Ноосфера"/>
+    <option name="TagList" value="SF, Fantasy/Social SF"/>
+    <option name="Title" value="Омега"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Вестерфельд - Инферно 1 - Армия ночи.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Вестерфельд - Инферно 1 - Армия ночи.fb2.zip:Vesterfeld_Inferno_1_Inferno._Armiya_Nochi.172030.fb2"/>
+    <option name="Size" value="249902"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Вестерфельд - Инферно 1 - Армия ночи.fb2.zip:Vesterfeld_Inferno_1_Inferno._Armiya_Nochi.172030.fb2">
+    <option name="AuthorDisplayName" value="Скотт Вестерфельд"/>
+    <option name="AuthorSortKey" value="вестерфельд"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Инферно"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Инферно. Армия Ночи"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Вестерфельд - Инферно 2 - Последние дни.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Вестерфельд - Инферно 2 - Последние дни.fb2.zip:Vesterfeld_Inferno_2_Inferno._Poslednie_dni.178191.fb2"/>
+    <option name="Size" value="243639"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Вестерфельд - Инферно 2 - Последние дни.fb2.zip:Vesterfeld_Inferno_2_Inferno._Poslednie_dni.178191.fb2">
+    <option name="AuthorDisplayName" value="Скотт Вестерфельд"/>
+    <option name="AuthorSortKey" value="вестерфельд"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Инферно"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Инферно. Последние дни"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Гаррисон - Стальная крыса.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Гаррисон - Стальная крыса.fb2.zip:Garrison_Stalnaya_Kryisa_3_Stalnaya_Kryisa.143816.fb2"/>
+    <option name="Size" value="151205"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Гаррисон - Стальная крыса.fb2.zip:Garrison_Stalnaya_Kryisa_3_Stalnaya_Kryisa.143816.fb2">
+    <option name="AuthorDisplayName" value="Гарри Гаррисон"/>
+    <option name="AuthorSortKey" value="гаррисон"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="4"/>
+    <option name="Sequence" value="Стальная крыса"/>
+    <option name="TagList" value="SF, Fantasy/Space SF"/>
+    <option name="Title" value="Стальная Крыса"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Даймонд - Ружья, микробы и сталь.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Даймонд - Ружья, микробы и сталь.fb2.zip:Daymond_Ruzhya_mikrobyi_i_stal.178077.fb2"/>
+    <option name="Size" value="694340"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Даймонд - Ружья, микробы и сталь.fb2.zip:Daymond_Ruzhya_mikrobyi_i_stal.178077.fb2">
+    <option name="AuthorDisplayName" value="Джаред Даймонд"/>
+    <option name="AuthorSortKey" value="даймонд"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Science, Education/Cultural Science,Science, Education/Other,Science, Education/History"/>
+    <option name="Title" value="Ружья, микробы и сталь"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Дяченко - Ритуал.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Дяченко - Ритуал.fb2.zip:Dyachenko_Ritual.161248.fb2"/>
+    <option name="Size" value="230599"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Дяченко - Ритуал.fb2.zip:Dyachenko_Ritual.161248.fb2">
+    <option name="AuthorDisplayName" value="Марина и Сергей Дяченко"/>
+    <option name="AuthorSortKey" value="дяченко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Ритуал"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Ночь в тоскливом октябре.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Ночь в тоскливом октябре.fb2.zip:Zhelyaznyi_Noch_v_tosklivom_oktyabre.60883.fb2"/>
+    <option name="Size" value="178657"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Ночь в тоскливом октябре.fb2.zip:Zhelyaznyi_Noch_v_tosklivom_oktyabre.60883.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Ночь в тоскливом октябре"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 1 - Девять принцев Амбера.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 1 - Девять принцев Амбера.zip:Zhelyaznyi_Hroniki_Ambera_1_Devyat_printsev_Ambera.137274.fb2"/>
+    <option name="Size" value="193660"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 1 - Девять принцев Амбера.zip:Zhelyaznyi_Hroniki_Ambera_1_Devyat_printsev_Ambera.137274.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Девять принцев Амбера"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 10 - Принц Хаоса.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 10 - Принц Хаоса.zip:Zhelyaznyi_Hroniki_Ambera_10_Prints_Haosa.144107.fb2"/>
+    <option name="Size" value="225281"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 10 - Принц Хаоса.zip:Zhelyaznyi_Hroniki_Ambera_10_Prints_Haosa.144107.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="10"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Принц Хаоса"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 2 - Ружья Авалона.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 2 - Ружья Авалона.zip:Zhelyaznyi_Hroniki_Ambera_2_Ruzhya_Avalona.137939.fb2"/>
+    <option name="Size" value="184990"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 2 - Ружья Авалона.zip:Zhelyaznyi_Hroniki_Ambera_2_Ruzhya_Avalona.137939.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Ружья Авалона"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 3 - Знак единорога.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 3 - Знак единорога.zip:Zhelyaznyi_Hroniki_Ambera_3_Znak_Edinoroga.139509.fb2"/>
+    <option name="Size" value="165323"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 3 - Знак единорога.zip:Zhelyaznyi_Hroniki_Ambera_3_Znak_Edinoroga.139509.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Знак Единорога"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 4 - Рука Оберона.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 4 - Рука Оберона.zip:Zhelyaznyi_Hroniki_Ambera_4_Ruka_Oberona.140135.fb2"/>
+    <option name="Size" value="190453"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 4 - Рука Оберона.zip:Zhelyaznyi_Hroniki_Ambera_4_Ruka_Oberona.140135.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="4"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Рука Оберона"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 5 - Двор Хаоса.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 5 - Двор Хаоса.zip:Zhelyaznyi_Hroniki_Ambera_5_Dvor_Haosa.141481.fb2"/>
+    <option name="Size" value="166217"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 5 - Двор Хаоса.zip:Zhelyaznyi_Hroniki_Ambera_5_Dvor_Haosa.141481.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="5"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Двор Хаоса"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 6 - Карты судьбы.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 6 - Карты судьбы.zip:Zhelyaznyi_Hroniki_Ambera_6_Kartyi_sudbyi.142287.fb2"/>
+    <option name="Size" value="201946"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 6 - Карты судьбы.zip:Zhelyaznyi_Hroniki_Ambera_6_Kartyi_sudbyi.142287.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="6"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Карты судьбы"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 7 - Кровь Амбера.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 7 - Кровь Амбера.zip:Zhelyaznyi_Hroniki_Ambera_7_Krov_Ambera.143602.fb2"/>
+    <option name="Size" value="229198"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 7 - Кровь Амбера.zip:Zhelyaznyi_Hroniki_Ambera_7_Krov_Ambera.143602.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="7"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Кровь Амбера"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 8 - Знак Хаоса.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 8 - Знак Хаоса.zip:Zhelyaznyi_Hroniki_Ambera_8_Znak_Haosa.143758.fb2"/>
+    <option name="Size" value="206523"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 8 - Знак Хаоса.zip:Zhelyaznyi_Hroniki_Ambera_8_Znak_Haosa.143758.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="8"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Знак Хаоса"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 9 - Рыцарь отражений.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 9 - Рыцарь отражений.zip:Zhelyaznyi_Hroniki_Ambera_9_Ryitsar_otrazheniy.143928.fb2"/>
+    <option name="Size" value="221399"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Желязны - Хроники Амбера/Желязны - Хроники Амбера 9 - Рыцарь отражений.zip:Zhelyaznyi_Hroniki_Ambera_9_Ryitsar_otrazheniy.143928.fb2">
+    <option name="AuthorDisplayName" value="Роджер Желязны"/>
+    <option name="AuthorSortKey" value="желязны"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="9"/>
+    <option name="Sequence" value="Хроники Амбера"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Рыцарь отражений"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Ивлин Во - Возвращение в Брайсхед.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
+    <option name="Size" value="329852"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2">
+    <option name="AuthorDisplayName" value="Ивлин Во"/>
+    <option name="AuthorSortKey" value="во"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Возвращение в Брайдсхед"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Size" value="331576"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2">
+    <option name="AuthorDisplayName" value="Виталий Каплан"/>
+    <option name="AuthorSortKey" value="каплан"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Alternative history"/>
+    <option name="Title" value="Последнее звено"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Кафка - Замок (изначальная версия).fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
+    <option name="Size" value="242046"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2">
+    <option name="AuthorDisplayName" value="Франц Кафка"/>
+    <option name="AuthorSortKey" value="кафка"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Classics Prose,Romance/Contemporary Romance"/>
+    <option name="Title" value="Замок"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Кларк, Саймон - Царь Кровь.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Кларк, Саймон - Царь Кровь.fb2.zip:Klark_Tsar_Krov.27265.fb2"/>
+    <option name="Size" value="507013"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Кларк, Саймон - Царь Кровь.fb2.zip:Klark_Tsar_Krov.27265.fb2">
+    <option name="AuthorDisplayName" value="Саймон Кларк"/>
+    <option name="AuthorSortKey" value="кларк"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Action SF"/>
+    <option name="Title" value="Царь Кровь"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Крапивин - Полосатый жираф Алик.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Крапивин - Полосатый жираф Алик.fb2.zip:Krapivin_Skazki_i_byili_Bezlyudnyih_Prostranstv_4_Polosatyiy_zhiraf_Alik.102598.fb2"/>
+    <option name="Size" value="121278"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Крапивин - Полосатый жираф Алик.fb2.zip:Krapivin_Skazki_i_byili_Bezlyudnyih_Prostranstv_4_Polosatyiy_zhiraf_Alik.102598.fb2">
+    <option name="AuthorDisplayName" value="Владислав Петрович Крапивин"/>
+    <option name="AuthorSortKey" value="крапивин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="4"/>
+    <option name="Sequence" value="Сказки и были Безлюдных Пространств"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction for Kids,Children&apos;s/Science Fiction for Kids"/>
+    <option name="Title" value="Полосатый жираф Алик"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Кристоф - Толстая тетрадь.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Кристоф - Толстая тетрадь.fb2.zip:Kristof_Tolstaya_tetrad.144373.fb2"/>
+    <option name="Size" value="248988"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Кристоф - Толстая тетрадь.fb2.zip:Kristof_Tolstaya_tetrad.144373.fb2">
+    <option name="AuthorDisplayName" value="Агота Кристоф"/>
+    <option name="AuthorSortKey" value="кристоф"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Home, Family/Hobbies &amp; Crafts"/>
+    <option name="Title" value="Толстая тетрадь"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - На пороге тьмы.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Круз - На пороге тьмы.fb2.zip:Kruz_Fantasticheskiy_boevik_649_Na_poroge_Tmyi.191434.fb2"/>
+    <option name="Size" value="490619"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - На пороге тьмы.fb2.zip:Kruz_Fantasticheskiy_boevik_649_Na_poroge_Tmyi.191434.fb2">
+    <option name="AuthorDisplayName" value="Андрей Круз, Мария Круз"/>
+    <option name="AuthorSortKey" value="круз"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="На пороге Тьмы"/>
+    <option name="TagList" value="SF, Fantasy/Action SF"/>
+    <option name="Title" value="На пороге Тьмы"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 1 - Начало.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 1 - Начало.fb2.zip:Kruz_Epoha_mertvyih_1_Epoha_myortvyih._Nachalo.186060.fb2"/>
+    <option name="Size" value="876076"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 1 - Начало.fb2.zip:Kruz_Epoha_mertvyih_1_Epoha_myortvyih._Nachalo.186060.fb2">
+    <option name="AuthorDisplayName" value="Андрей Круз"/>
+    <option name="AuthorSortKey" value="круз"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Эпоха мёртвых"/>
+    <option name="TagList" value="SF, Fantasy/Action SF"/>
+    <option name="Title" value="Эпоха мёртвых. Начало"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 2 - Москва.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 2 - Москва.fb2.zip:Kruz_Epoha_mertvyih_2_Epoha_myortvyih._Moskva.186055.fb2"/>
+    <option name="Size" value="938608"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 2 - Москва.fb2.zip:Kruz_Epoha_mertvyih_2_Epoha_myortvyih._Moskva.186055.fb2">
+    <option name="AuthorDisplayName" value="Андрей Круз"/>
+    <option name="AuthorSortKey" value="круз"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Эпоха мёртвых"/>
+    <option name="TagList" value="SF, Fantasy/Action SF"/>
+    <option name="Title" value="Эпоха мёртвых. Москва"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 3 - Прорыв.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 3 - Прорыв.fb2.zip:Kruz_Epoha_mertvyih_3_Epoha_myortvyih._Proryiv.186056.fb2"/>
+    <option name="Size" value="946407"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Круз - Эпоха мертвых 3 - Прорыв.fb2.zip:Kruz_Epoha_mertvyih_3_Epoha_myortvyih._Proryiv.186056.fb2">
+    <option name="AuthorDisplayName" value="Андрей Круз"/>
+    <option name="AuthorSortKey" value="круз"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Эпоха мёртвых"/>
+    <option name="TagList" value="SF, Fantasy/Action SF"/>
+    <option name="Title" value="Эпоха мёртвых. Прорыв"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лири, Тимоти - История будущего.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Лири, Тимоти - История будущего.fb2.zip:Liri_Istoriya_buduschego.160123.fb2"/>
+    <option name="Size" value="1125139"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лири, Тимоти - История будущего.fb2.zip:Liri_Istoriya_buduschego.160123.fb2">
+    <option name="AuthorDisplayName" value="Тимоти Лири"/>
+    <option name="AuthorSortKey" value="лири"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Religion/Esoterics"/>
+    <option name="Title" value="История будущего"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Дозоры 3 - Сумеречный дозор.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Лукьяненко - Дозоры 3 - Сумеречный дозор.fb2.zip:Lukyanenko_Dozoryi_3_Sumerechnyiy_Dozor.198903.fb2"/>
+    <option name="Size" value="687865"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Дозоры 3 - Сумеречный дозор.fb2.zip:Lukyanenko_Dozoryi_3_Sumerechnyiy_Dozor.198903.fb2">
+    <option name="AuthorDisplayName" value="Сергей Васильевич Лукьяненко"/>
+    <option name="AuthorSortKey" value="лукьяненко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Дозоры"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Сумеречный Дозор"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 1 - Лабиринт отражений.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 1 - Лабиринт отражений.fb2.zip:Lukyanenko_Labirint_otrazheniy_1_Labirint_otrazheniy.111094.fb2"/>
+    <option name="Size" value="338674"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 1 - Лабиринт отражений.fb2.zip:Lukyanenko_Labirint_otrazheniy_1_Labirint_otrazheniy.111094.fb2">
+    <option name="AuthorDisplayName" value="Сергей Васильевич Лукьяненко"/>
+    <option name="AuthorSortKey" value="лукьяненко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Лабиринт отражений"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction,SF, Fantasy/Cyberpunk"/>
+    <option name="Title" value="Лабиринт отражений"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 2 - Фальшивые зеркала.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 2 - Фальшивые зеркала.fb2.zip:Lukyanenko_Labirint_otrazheniy_2_Falshivyie_zerkala.179907.fb2"/>
+    <option name="Size" value="310568"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 2 - Фальшивые зеркала.fb2.zip:Lukyanenko_Labirint_otrazheniy_2_Falshivyie_zerkala.179907.fb2">
+    <option name="AuthorDisplayName" value="Сергей Лукьяненко"/>
+    <option name="AuthorSortKey" value="лукьяненко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Лабиринт отражений"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction,SF, Fantasy/Cyberpunk"/>
+    <option name="Title" value="Фальшивые зеркала"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 3 - Прозрачные витражи.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 3 - Прозрачные витражи.fb2.zip:Lukyanenko_Labirint_otrazheniy_3_Prozrachnyie_vitrazhi.182131.fb2"/>
+    <option name="Size" value="128112"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Лабиринт отражений 3 - Прозрачные витражи.fb2.zip:Lukyanenko_Labirint_otrazheniy_3_Prozrachnyie_vitrazhi.182131.fb2">
+    <option name="AuthorDisplayName" value="Сергей Васильевич Лукьяненко"/>
+    <option name="AuthorSortKey" value="лукьяненко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Лабиринт отражений"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction,SF, Fantasy/Cyberpunk"/>
+    <option name="Title" value="Прозрачные витражи"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Спектр.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Лукьяненко - Спектр.fb2.zip:Lukyanenko_Spektr.171709.fb2"/>
+    <option name="Size" value="589001"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Лукьяненко - Спектр.fb2.zip:Lukyanenko_Spektr.171709.fb2">
+    <option name="AuthorDisplayName" value="Сергей Васильевич Лукьяненко"/>
+    <option name="AuthorSortKey" value="лукьяненко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Space SF,SF, Fantasy/Social SF"/>
+    <option name="Title" value="Спектр"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пелевин - Поколение П.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Пелевин - Поколение П.fb2.zip:Pelevin_Generation_P.201058.fb2"/>
+    <option name="Size" value="303569"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пелевин - Поколение П.fb2.zip:Pelevin_Generation_P.201058.fb2">
+    <option name="AuthorDisplayName" value="Виктор Олегович Пелевин"/>
+    <option name="AuthorSortKey" value="пелевин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Contemporary Prose"/>
+    <option name="Title" value="Generation П"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Перумов - Гибель богов.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Перумов - Гибель богов.fb2.zip:Perumov_Letopisi_Hervarda_1_Gibel_bogov_Kniga_Hagena_.178343.fb2"/>
+    <option name="Size" value="713645"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Перумов - Гибель богов.fb2.zip:Perumov_Letopisi_Hervarda_1_Gibel_bogov_Kniga_Hagena_.178343.fb2">
+    <option name="AuthorDisplayName" value="Ник Перумов"/>
+    <option name="AuthorSortKey" value="перумов"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Летописи Хьерварда"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Гибель богов (Книга Хагена)"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 1 - Кровные братья.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Пехов - Киндрет 1 - Кровные братья.fb2.zip:Pehov_Kindret_1_Kindret._Krovnyie_bratya.202902.fb2"/>
+    <option name="Size" value="400080"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 1 - Кровные братья.fb2.zip:Pehov_Kindret_1_Kindret._Krovnyie_bratya.202902.fb2">
+    <option name="AuthorDisplayName" value="Наталья Турчанинова, Алексей Юрьевич Пехов, Елена Александровна Бычкова"/>
+    <option name="AuthorSortKey" value="бычкова"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Киндрэт"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Киндрэт. Кровные братья"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 2 - Колдун из клана смерти.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Пехов - Киндрет 2 - Колдун из клана смерти.fb2.zip:Pehov_Kindret_2_Koldun_iz_klana_Smerti.203007.fb2"/>
+    <option name="Size" value="671205"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 2 - Колдун из клана смерти.fb2.zip:Pehov_Kindret_2_Koldun_iz_klana_Smerti.203007.fb2">
+    <option name="AuthorDisplayName" value="Наталья Турчанинова, Алексей Юрьевич Пехов, Елена Александровна Бычкова"/>
+    <option name="AuthorSortKey" value="бычкова"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Киндрэт"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Колдун из клана Смерти"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 3 - Основатель.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Пехов - Киндрет 3 - Основатель.fb2.zip:Pehov_Kindret_3_Osnovatel.203218.fb2"/>
+    <option name="Size" value="766785"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 3 - Основатель.fb2.zip:Pehov_Kindret_3_Osnovatel.203218.fb2">
+    <option name="AuthorDisplayName" value="Алексей Юрьевич Пехов, Елена Александровна Бычкова, Наталья Турчанинова"/>
+    <option name="AuthorSortKey" value="бычкова"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Киндрэт"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Основатель"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 4 - Новые боги.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Пехов - Киндрет 4 - Новые боги.fb2.zip:Pehov_Kindret_4_Novyie_bogi.203259.fb2"/>
+    <option name="Size" value="805968"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пехов - Киндрет 4 - Новые боги.fb2.zip:Pehov_Kindret_4_Novyie_bogi.203259.fb2">
+    <option name="AuthorDisplayName" value="Наталья Владимировна Турчанинова, Алексей Юрьевич Пехов, Елена Александровна Бычкова"/>
+    <option name="AuthorSortKey" value="бычкова"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="4"/>
+    <option name="Sequence" value="Киндрэт"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Новые боги"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пикуль - Баязет.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Пикуль - Баязет.fb2.zip:Pikul_Bayazet.76743.fb2"/>
+    <option name="Size" value="471509"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Пикуль - Баязет.fb2.zip:Pikul_Bayazet.76743.fb2">
+    <option name="AuthorDisplayName" value="Валентин Саввич Пикуль"/>
+    <option name="AuthorSortKey" value="пикуль"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Historical Prose"/>
+    <option name="Title" value="Баязет"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Полотта - Бюро 13.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Полотта - Бюро 13.fb2.zip:Pollotta_Byuro-13._Knigi_1-3.76445.fb2"/>
+    <option name="Size" value="521099"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Полотта - Бюро 13.fb2.zip:Pollotta_Byuro-13._Knigi_1-3.76445.fb2">
+    <option name="AuthorDisplayName" value="Ник Полотта"/>
+    <option name="AuthorSortKey" value="полотта"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Бюро-13"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Саймак - Сделай сам.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Саймак - Сделай сам.fb2.zip:Saymak_Sdelay_sam.112260.fb2"/>
+    <option name="Size" value="33050"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Саймак - Сделай сам.fb2.zip:Saymak_Sdelay_sam.112260.fb2">
+    <option name="AuthorDisplayName" value="Клиффорд Дональд Саймак"/>
+    <option name="AuthorSortKey" value="саймак"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Sequence" value="Повести"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Сделай сам"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Долина Ледяного Ветра 1 - Магический кристалл.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Сальваторе - Долина Ледяного Ветра 1 - Магический кристалл.fb2.zip:Salvatore_Zabyityie_Korolevstva_Dolina_Ledyanogo_Vetra_1_Magicheskiy_kristall.118238.fb2"/>
+    <option name="Size" value="316443"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Долина Ледяного Ветра 1 - Магический кристалл.fb2.zip:Salvatore_Zabyityie_Korolevstva_Dolina_Ledyanogo_Vetra_1_Magicheskiy_kristall.118238.fb2">
+    <option name="AuthorDisplayName" value="Роберт Сальваторе"/>
+    <option name="AuthorSortKey" value="сальваторе"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Забытые королевства: Долина Ледяного ветра"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Магический кристалл [Хрустальный осколок]"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 1 - Отступник.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 1 - Отступник.fb2.zip:Salvatore_Tyomnyiy_Elf_1_Otstupnik.81157.fb2"/>
+    <option name="Size" value="293863"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 1 - Отступник.fb2.zip:Salvatore_Tyomnyiy_Elf_1_Otstupnik.81157.fb2">
+    <option name="AuthorDisplayName" value="Роберт Энтони Сальваторе"/>
+    <option name="AuthorSortKey" value="сальваторе"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Тёмный Эльф"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Отступник"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 2 - Изгнанник.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 2 - Изгнанник.fb2.zip:Salvatore_Tyomnyiy_Elf_2_Izgnannik.81167.fb2"/>
+    <option name="Size" value="284232"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 2 - Изгнанник.fb2.zip:Salvatore_Tyomnyiy_Elf_2_Izgnannik.81167.fb2">
+    <option name="AuthorDisplayName" value="Роберт Энтони Сальваторе"/>
+    <option name="AuthorSortKey" value="сальваторе"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Тёмный Эльф"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Изгнанник"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 3 - Воин.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 3 - Воин.fb2.zip:Salvatore_Tyomnyiy_Elf_3_Voin.81179.fb2"/>
+    <option name="Size" value="317490"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Сальваторе - Темный эльф 3 - Воин.fb2.zip:Salvatore_Tyomnyiy_Elf_3_Voin.81179.fb2">
+    <option name="AuthorDisplayName" value="Роберт Энтони Сальваторе"/>
+    <option name="AuthorSortKey" value="сальваторе"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Тёмный Эльф"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Воин"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/1. Манеки-неко.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/1. Манеки-неко.zip:Sterling_Staromodnoe_buduschee_1_Maneki-Neko.54353.fb2"/>
+    <option name="Size" value="41599"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/1. Манеки-неко.zip:Sterling_Staromodnoe_buduschee_1_Maneki-Neko.54353.fb2">
+    <option name="AuthorDisplayName" value="Брюс Стерлинг"/>
+    <option name="AuthorSortKey" value="стерлинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Манеки-Неко"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/2. Жирный пузырь удачи.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/2. Жирный пузырь удачи.zip:Sterling_Staromodnoe_buduschee_2_Zhirnyiy_puzyir_udachi.150060.fb2"/>
+    <option name="Size" value="40050"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/2. Жирный пузырь удачи.zip:Sterling_Staromodnoe_buduschee_2_Zhirnyiy_puzyir_udachi.150060.fb2">
+    <option name="AuthorDisplayName" value="Руди Рюкер, Брюс Стерлинг"/>
+    <option name="AuthorSortKey" value="рюкер"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Старомодное будущее"/>
+    <option name="TagList" value="SF, Fantasy/Cyberpunk"/>
+    <option name="Title" value="Жирный пузырь удачи"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/3. Последний шакальчик.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/3. Последний шакальчик.zip:Sterling_Staromodnoe_buduschee_3_Posledniy_shakalchik.54358.fb2"/>
+    <option name="Size" value="46705"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/3. Последний шакальчик.zip:Sterling_Staromodnoe_buduschee_3_Posledniy_shakalchik.54358.fb2">
+    <option name="AuthorDisplayName" value="Брюс Стерлинг"/>
+    <option name="AuthorSortKey" value="стерлинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Последний шакальчик"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/4. Священная корова.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/4. Священная корова.zip:Sterling_Staromodnoe_buduschee_4_Svyaschennaya_korova.54363.fb2"/>
+    <option name="Size" value="2960"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/4. Священная корова.zip:Sterling_Staromodnoe_buduschee_4_Svyaschennaya_korova.54363.fb2">
+    <option name="AuthorDisplayName" value="Брюс Стерлинг"/>
+    <option name="AuthorSortKey" value="стерлинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Священная корова"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/5. Глубокий Эдди.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/5. Глубокий Эдди.zip:Sterling_Staromodnoe_buduschee_5_Glubokiy_Eddi.54348.fb2"/>
+    <option name="Size" value="42882"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/5. Глубокий Эдди.zip:Sterling_Staromodnoe_buduschee_5_Glubokiy_Eddi.54348.fb2">
+    <option name="AuthorDisplayName" value="Брюс Стерлинг"/>
+    <option name="AuthorSortKey" value="стерлинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Глубокий Эдди"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/6. Велосипедный мастер.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/6. Велосипедный мастер.zip:Sterling_Staromodnoe_buduschee_6_Velosipednyiy_master.54366.fb2"/>
+    <option name="Size" value="30640"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стерлинг - Старомодное будущее/6. Велосипедный мастер.zip:Sterling_Staromodnoe_buduschee_6_Velosipednyiy_master.54366.fb2">
+    <option name="AuthorDisplayName" value="Брюс Стерлинг"/>
+    <option name="AuthorSortKey" value="стерлинг"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Велосипедный мастер"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стивенсон - Зодиак.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стивенсон - Зодиак.zip:Stivenson_Zodiak.187373.fb2"/>
+    <option name="Size" value="353877"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стивенсон - Зодиак.zip:Stivenson_Zodiak.187373.fb2">
+    <option name="AuthorDisplayName" value="Нил Стивенсон"/>
+    <option name="AuthorSortKey" value="стивенсон"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction,Detectives, Thrillers/Thrillers"/>
+    <option name="Title" value="Зодиак"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стругацкие - Дьявол среди людей.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стругацкие - Дьявол среди людей.fb2.zip:Strugatskiy_Dyavol_sredi_lyudey.162899.fb2"/>
+    <option name="Size" value="135818"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стругацкие - Дьявол среди людей.fb2.zip:Strugatskiy_Dyavol_sredi_lyudey.162899.fb2">
+    <option name="AuthorDisplayName" value="С. Ярославцев"/>
+    <option name="AuthorSortKey" value="ярославцев"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="SF, Fantasy/Science Fiction"/>
+    <option name="Title" value="Дьявол среди людей"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 1.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 1.fb2.zip:Tolstoy_Voyna_i_mir_1_Voyna_i_mir._Tom_1.175105.fb2"/>
+    <option name="Size" value="390816"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 1.fb2.zip:Tolstoy_Voyna_i_mir_1_Voyna_i_mir._Tom_1.175105.fb2">
+    <option name="AuthorDisplayName" value="Лев Николаевич Толстой"/>
+    <option name="AuthorSortKey" value="толстой"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Война и мир"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Война и мир. Том 1"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 2.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 2.fb2.zip:Tolstoy_Voyna_i_mir_2_Voyna_i_mir._Tom_2.175143.fb2"/>
+    <option name="Size" value="415485"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 2.fb2.zip:Tolstoy_Voyna_i_mir_2_Voyna_i_mir._Tom_2.175143.fb2">
+    <option name="AuthorDisplayName" value="Лев Николаевич Толстой"/>
+    <option name="AuthorSortKey" value="толстой"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Война и мир"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Война и мир. Том 2"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 3.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 3.fb2.zip:Tolstoy_Voyna_i_mir_3_Voyna_i_mir._Tom_3.175746.fb2"/>
+    <option name="Size" value="481999"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 3.fb2.zip:Tolstoy_Voyna_i_mir_3_Voyna_i_mir._Tom_3.175746.fb2">
+    <option name="AuthorDisplayName" value="Лев Николаевич Толстой"/>
+    <option name="AuthorSortKey" value="толстой"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Война и мир"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Война и мир. Том 3"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 4.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 4.fb2.zip:Tolstoy_Voyna_i_mir_4_Voyna_i_mir._Tom_4.175747.fb2"/>
+    <option name="Size" value="362368"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Толстой - Война и мир/Том 4.fb2.zip:Tolstoy_Voyna_i_mir_4_Voyna_i_mir._Tom_4.175747.fb2">
+    <option name="AuthorDisplayName" value="Лев Николаевич Толстой"/>
+    <option name="AuthorSortKey" value="толстой"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="4"/>
+    <option name="Sequence" value="Война и мир"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Война и мир. Том 4"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Фостер - Проклятие 1 - Призыв к оружию.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Фостер - Проклятие 1 - Призыв к оружию.fb2.zip:Foster_Proklyatyie_1_Prizyiv_k_oruzhiyu.81406.fb2"/>
+    <option name="Size" value="453760"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Фостер - Проклятие 1 - Призыв к оружию.fb2.zip:Foster_Proklyatyie_1_Prizyiv_k_oruzhiyu.81406.fb2">
+    <option name="AuthorDisplayName" value="Алан Дин Фостер"/>
+    <option name="AuthorSortKey" value="фостер"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Проклятые"/>
+    <option name="TagList" value="SF, Fantasy/Action SF"/>
+    <option name="Title" value="Призыв к оружию"/>
   </group>
   <group name="/home/sio/muhas-1330292.txt">
     <option name="BreakType" value="6"/>
@@ -29,5 +1182,13 @@
     <option name="BreakType" value="6"/>
     <option name="IgnoredIndent" value="4"/>
     <option name="Initialized" value="true"/>
+  </group>
+  <group name="/usr/share/FBReader/help/MiniHelp.en.fb2">
+    <option name="AuthorDisplayName" value="FBReader"/>
+    <option name="AuthorSortKey" value="fbreader"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="12882"/>
+    <option name="Title" value="About FBReader"/>
   </group>
 </config>

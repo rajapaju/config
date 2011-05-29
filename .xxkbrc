@@ -1,2 +1,6 @@
-XXkb.mainwindow.enable no
-XXkb.button.enable no
+XXkb.mainwindow.type: tray
+
+
+
+XXkb.mainwindow.enable: no
+XXkb.button.enable: no

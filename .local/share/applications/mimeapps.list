@@ -38,6 +38,11 @@ video/ogg=smplayer.desktop
 application/x-cd-image=file-roller.desktop
 application/x-7z-compressed=file-roller.desktop
 application/x-shellscript=leafpad.desktop
+application/x-fictionbook=FBReader.desktop
+application/xhtml+xml=userapp-firefox-NM6IRV.desktop
+video/webm=smplayer.desktop
+video/x-msvideo=smplayer.desktop
+video/mp4=smplayer.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;
@@ -81,6 +86,10 @@ application/x-7z-compressed=file-roller.desktop;
 application/x-shellscript=leafpad.desktop;
 text/x-apt-sources-list=leafpad.desktop;
 application/x-tar=file-roller.desktop;
+application/x-fictionbook=FBReader.desktop;
+application/xhtml+xml=userapp-firefox-NM6IRV.desktop;
+video/webm=smplayer.desktop;
+video/x-msvideo=smplayer.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;

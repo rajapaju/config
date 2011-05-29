@@ -8,7 +8,7 @@
   [Dimensions]	{149 526}
   [Position]	(UPPERLEFT)	{0 272}
 [end]
-[app] (class=Firefox) (role=browser)
+[app] (class=Iceweasel) (role=browser)
   [Workspace]	{0}
   [Position]	(UPPERLEFT)	{151 99}
   [Deco]	{NONE}
@@ -267,5 +267,9 @@
 [app] (name=gimp-2.6) (class=Gimp-2.6) (role=gimp-rotate-tool)
   [Position]	(UPPERLEFT)	{0 22}
   [Layer]	{6}
+  [Close]	{yes}
+[end]
+[app] (name=pitivi) (class=Pitivi)
+  [Position]	(UPPERLEFT)	{434 351}
   [Close]	{yes}
 [end]
