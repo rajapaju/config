@@ -18,7 +18,7 @@ lib_view = 1
 lib_genre = !NONE!
 lib_path = !NONE!
 lib_year = !NONE!
-lib_artist = Iron Maiden
+lib_artist = Sonata Arctica
 lib_album = !NONE!
 
 [player]
@@ -27,7 +27,7 @@ lyrics = False
 columnwidths = 170,166,166
 trayicon = False
 playback = True
-covers = True
+covers = False
 sticky = False
 xfade_enabled = False
 info_song_more = False
@@ -43,7 +43,7 @@ stop_on_exit = False
 statusbar = False
 notif_location = 0
 popup_time = 2
-covers_pref = 1
+covers_pref = 0
 info_song_expanded = True
 tabs_expanded = False
 screen = 0
@@ -63,7 +63,7 @@ w = 513
 update_on_start = False
 y = 102
 x = 42
-art_location = 1
+art_location = 0
 browser = 
 
 [connection]

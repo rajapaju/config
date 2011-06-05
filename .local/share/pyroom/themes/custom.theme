@@ -1,0 +1,9 @@
+[theme]
+padding = 8
+foreground = #212121212121
+height = 0.95
+textboxbg = #ee14ee14ee14
+width = 0.55
+background = #e2e2e2e2e2e2
+border = #6f6f6f6f6f6f
+

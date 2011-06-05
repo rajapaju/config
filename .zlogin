@@ -4,6 +4,9 @@
 # [почти]нормальный вид java-приложений
 export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
 
+# отключить прописывание вайновых приложений в меню и "открыть с помощью..."
+export WINEDLLOVERRIDES="winemenubuilder.exe=d"
+
 
 # Автозапуск для указанного пользователя
 if [ $USER = sio  ]

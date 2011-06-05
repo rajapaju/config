@@ -46,9 +46,10 @@
         [exec] (Gnumeric) {gnumeric}
     [end]
     [separator]
+    [exec] (Dia) {dia}
     [exec] (Geany) {geany}
     [exec] (Leafpad) {leafpad}
-    [exec] (Dia) {dia}
+    [exec] (Pyroom) {pyroom}
     [exec] (Scribus) {scribus-ng}
 [end]
 [submenu] (Other/)
@@ -56,7 +57,7 @@
         [exec] (Armagetron) {armagetronad}
         [exec] (BattleTanks) {btanks}
         [exec] (Diablo II) {cd "/home/sio/.PlayOnLinux/wineprefix/DiabloII/drive_c/Program Files/Diablo II" && WINEPREFIX=~/.PlayOnLinux/wineprefix/DiabloII wine Game.exe}
-        [exec] (Duke Nukem) {cd ~/bin/DukeNukem && SDL_VIDEO_X11_DGAMOUSE=0 dosbox DUKE3D.EXE}
+        [exec] (Duke Nukem) {cd ~/bin/DukeNukem && export SDL_VIDEO_X11_DGAMOUSE=0 && dosbox DUKE3D.EXE}
         [exec] (GLTron) {gltron}
         [exec] (gtkPool) {gtkpool}
         [exec] (Heroes MM4) {cd "/home/sio/.wineprefixes/homm4/drive_c/Program Files/Heroes of Might and Magic IV/"; WINEPREFIX=~/.wineprefixes/homm4 wine "C:\Program Files\Heroes of Might and Magic IV\heroes4.exe"}
@@ -102,7 +103,8 @@
     [exec] (Comix) {comix}
     [exec] (FBReader) {FBReader}
     [exec] (Playonlinux) {playonlinux}
-    [exec] (VirtualBox) {sudo /etc/init.d/vboxdrv start && VirtualBox; sudo /etc/init.d/vboxdrv stop}
+    [exec] (VirtualBox) {VirtualBox}
+        #sudo /etc/init.d/vboxdrv start && VirtualBox; sudo /etc/init.d/vboxdrv stop}
 [end]
 [submenu] (System/)
     [exec] (Alsamixer) {urxvtc -name alsamixer -T "ALSA Mixer" -e alsamixer}

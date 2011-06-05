@@ -159,6 +159,25 @@
     <option name="TagList" value="SF, Fantasy/Science Fiction"/>
     <option name="Title" value="The Graveyard Book"/>
   </group>
+  <group name="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="Encoding" value="UTF-8"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="39097"/>
+    <option name="Title" value="01. Genius Loci"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="BreakType" value="6"/>
+    <option name="Encoding" value="UTF-8"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="17157"/>
+    <option name="Title" value="09. The Disinterment of Venus"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip">
     <option name="EntriesNumber" value="7"/>
     <option name="Entry0" value="/home/sio/documents/books/Fiction/Heinlein - The Door into Summer.zip:Heinlein - The Door into Summer/"/>
