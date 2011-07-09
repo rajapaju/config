@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="statistics" mtime="1287680512" type="list" ltype="string">
+	<entry name="fullscreen" mtime="1309246964" type="bool" value="false"/>
+	<entry name="statistics" mtime="1309249001" type="list" ltype="string">
 		<li type="string">
 			<stringvalue>klondike.scm</stringvalue>
 		</li>
@@ -17,7 +18,7 @@
 			<stringvalue>0</stringvalue>
 		</li>
 		<li type="string">
-			<stringvalue>spider.scm</stringvalue>
+			<stringvalue>spider_three_decks.scm</stringvalue>
 		</li>
 		<li type="string">
 			<stringvalue>0</stringvalue>
@@ -31,25 +32,43 @@
 		<li type="string">
 			<stringvalue>0</stringvalue>
 		</li>
+		<li type="string">
+			<stringvalue>spider.scm</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>6</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>0</stringvalue>
+		</li>
 	</entry>
-	<entry name="maximized" mtime="1287680507" type="bool" value="true"/>
+	<entry name="maximized" mtime="1309246956" type="bool" value="true"/>
 	<entry name="card_style" mtime="1281194302" type="string">
 		<stringvalue>tango.svg</stringvalue>
 	</entry>
-	<entry name="show_toolbar" mtime="1287680472" type="bool" value="false"/>
+	<entry name="show_toolbar" mtime="1309246955" type="bool" value="false"/>
 	<entry name="height" mtime="1287680508" type="int" value="779"/>
 	<entry name="width" mtime="1287680508" type="int" value="1280"/>
-	<entry name="game_file" mtime="1287680495" type="string">
+	<entry name="game_file" mtime="1309246997" type="string">
 		<stringvalue>spider.scm</stringvalue>
 	</entry>
-	<entry name="recent_games_list" mtime="1287680495" type="list" ltype="string">
+	<entry name="recent_games_list" mtime="1309246997" type="list" ltype="string">
 		<li type="string">
 			<stringvalue>spider.scm</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>spider_three_decks.scm</stringvalue>
 		</li>
 		<li type="string">
 			<stringvalue>klondike.scm</stringvalue>
 		</li>
 	</entry>
 	<entry name="animations" mtime="1283535185" type="bool" value="true"/>
-	<entry name="show_statusbar" mtime="1287680472" type="bool" value="true"/>
+	<entry name="show_statusbar" mtime="1309246955" type="bool" value="true"/>
 </gconf>

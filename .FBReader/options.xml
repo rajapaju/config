@@ -6,7 +6,7 @@
     <option name="Action10" value="none"/>
     <option name="Action11" value="quit"/>
     <option name="Action12" value="none"/>
-    <option name="Action13" value="pageForward"/>
+    <option name="Action13" value="largeScrollForward"/>
     <option name="Action14" value="pageBackward"/>
     <option name="Action2" value="showNetLibrary"/>
     <option name="Action3" value="undo"/>

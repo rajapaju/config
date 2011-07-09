@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+  <group name="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2">
+    <option name="Char" value="2"/>
+    <option name="Paragraph" value="8"/>
+    <option name="Word" value="125"/>
+  </group>
   <group name="BookList">
     <option name="Book0" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
     <option name="Book1" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
     <option name="Book2" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Size" value="3"/>
+    <option name="Book3" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Size" value="4"/>
   </group>
   <group name="LastOpenedBooks">
-    <option name="Book0" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Book1" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
-    <option name="Book3" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
+    <option name="Book0" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Book1" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Book2" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
+    <option name="Book3" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
+    <option name="Book4" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
   </group>
   <group name="State">
-    <option name="Book" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Book" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
   </group>
 </config>

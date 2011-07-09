@@ -1100,6 +1100,19 @@
     <option name="TagList" value="SF, Fantasy/Science Fiction,Detectives, Thrillers/Thrillers"/>
     <option name="Title" value="Зодиак"/>
   </group>
+  <group name="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Size" value="167442"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2">
+    <option name="AuthorDisplayName" value="Роберт Луис Стивенсон"/>
+    <option name="AuthorSortKey" value="стивенсон"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Adventure/History"/>
+    <option name="Title" value="Черная стрела"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/Стругацкие - Дьявол среди людей.fb2.zip">
     <option name="EntriesNumber" value="1"/>
     <option name="Entry0" value="/home/sio/documents/books/Fiction/Стругацкие - Дьявол среди людей.fb2.zip:Strugatskiy_Dyavol_sredi_lyudey.162899.fb2"/>

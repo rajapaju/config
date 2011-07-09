@@ -15,6 +15,7 @@ synclient TapButton1=1 FastTaps=1 PalmDetect=1 TouchpadOff=1&
 
 # ENVIROMENT VARIABLES
 export GNOME_DESKTOP_SESSION_ID=1234567890&
+export OOO_FORCE_DESKTOP="gnome"
 # END VARIABLES
 
 

@@ -14,7 +14,7 @@
         (follow-active-image "true"))
     (dock
         (book
-            (current-page 4)
+            (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style icon)
                 (preview-size 32))
@@ -40,7 +40,7 @@
             (dockable "gimp-color-editor"
                 (tab-style preview)
                 (aux-info
-                    (current-page "GimpColorScales"))))))
+                    (current-page "ColorselWheel"))))))
 (session-info "toplevel" "gimp-file-open-dialog"
     (position 100 41)
     (size 720 702))
@@ -78,6 +78,6 @@
     (position 0 0)
     (size 1072 799))
 
-(last-tip-shown 104)
+(last-tip-shown 110)
 
 # end of sessionrc

@@ -10,6 +10,7 @@ last-window-state=MIDORI_WINDOW_MAXIMIZED
 last-panel-position=224
 last-panel-page=7
 show-menubar=false
+show-bookmarkbar=true
 show-transferbar=false
 show-statusbar=false
 toolbar-style=MIDORI_TOOLBAR_SMALL_ICONS
