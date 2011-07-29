@@ -222,7 +222,7 @@
   [Maximized]	{yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{167 120}
+  [Position]	(UPPERLEFT)	{687 121}
   [Close]	{yes}
 [end]
 [app] (name=deadbeef) (class=Deadbeef)

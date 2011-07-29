@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2">
+    <option name="Paragraph" value="2981"/>
+    <option name="Paragraph_0" value="2"/>
+    <option name="PositionInBuffer" value="1"/>
+    <option name="UndoBufferSize" value="1"/>
+    <option name="Word_0" value="9"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2">
     <option name="Char" value="2"/>
     <option name="Paragraph" value="8"/>
@@ -8,18 +15,20 @@
   <group name="BookList">
     <option name="Book0" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
     <option name="Book1" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Book3" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
-    <option name="Size" value="4"/>
+    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
+    <option name="Book3" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Book4" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Size" value="5"/>
   </group>
   <group name="LastOpenedBooks">
-    <option name="Book0" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
-    <option name="Book1" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
-    <option name="Book3" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
-    <option name="Book4" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
+    <option name="Book0" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
+    <option name="Book1" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Book2" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Book3" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
+    <option name="Book4" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
+    <option name="Book5" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
   </group>
   <group name="State">
-    <option name="Book" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Book" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
   </group>
 </config>

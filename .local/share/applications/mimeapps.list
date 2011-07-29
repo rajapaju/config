@@ -44,6 +44,7 @@ video/webm=smplayer.desktop
 video/x-msvideo=smplayer.desktop
 video/mp4=smplayer.desktop
 application/postscript=evince.desktop
+application/x-rar=file-roller.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;

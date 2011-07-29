@@ -7,6 +7,8 @@ export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -Dsw
 # отключить прописывание вайновых приложений в меню и "открыть с помощью..."
 export WINEDLLOVERRIDES="winemenubuilder.exe=d"
 
+export EDITOR=vim
+export VISUAL=vim
 
 # Автозапуск для указанного пользователя
 if [ $USER = sio  ]
@@ -40,7 +42,7 @@ then
 else
     # Для других пользователей, которые пользуются конфигом
     # (у меня - root - пользуется через симлинк)
-    [ $USER = guest ] && setsid startx -- :9; exit
+    [ $USER = guest ] && setsid startx -- :9 && exit
     clear
 fi
     

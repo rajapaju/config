@@ -61,7 +61,7 @@
 (session-info "toplevel" "gimp-color-balance-tool-dialog"
     (position 700 0))
 (session-info "toplevel" "gimp-rotate-tool-dialog"
-    (position 0 1))
+    (position 0 22))
 (session-info "toplevel" "gimp-hue-saturation-tool-dialog"
     (position 594 64))
 (session-info "toplevel" "gimp-colorize-tool-dialog"
@@ -70,6 +70,10 @@
     (position 0 21))
 (session-info "toplevel" "gimp-threshold-tool-dialog"
     (position 697 0))
+(session-info "toplevel" "gimp-desaturate-tool-dialog"
+    (position 653 357))
+(session-info "toplevel" "gimp-posterize-tool-dialog"
+    (position 0 21))
 (session-info "toolbox" "dock"
     (position 13 309)
     (size 44 440)
@@ -78,6 +82,6 @@
     (position 0 0)
     (size 1072 799))
 
-(last-tip-shown 110)
+(last-tip-shown 116)
 
 # end of sessionrc
