@@ -69,7 +69,7 @@ esac
 [ "x$USER" = "xroot" ] && NAMECOLOR=red || NAMECOLOR=grey
 PROMPT="%f%b
 
-%F{$NAMECOLOR}%B[%n@%M] %F{green}%//%f%b
+%F{$NAMECOLOR}%B[%n@%M] %F{green}%/%(1~./.)%f%b
 %F{$NAMECOLOR}%B# %f%b"
 #~RPROMPT="%F{$NAMECOLOR}%B[%T]%b"
 ### END PROMPT
@@ -83,6 +83,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 ### TERMINAL HEADER
 precmd() {
+  #SLASH=`[ $PWD = / ] && echo -n || echo -n /`
   [[ -t 1 ]] || return
   case $TERM in
     (sun-cmd) print -Pn "\e]l%~\e\\"

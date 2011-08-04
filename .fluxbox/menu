@@ -51,6 +51,7 @@
     [exec] (Leafpad) {leafpad}
     [exec] (Pyroom) {pyroom}
     [exec] (Scribus) {scribus-ng}
+    [exec] (Stardict) {stardict}
 [end]
 [submenu] (Other/)
     [submenu] (Games/)

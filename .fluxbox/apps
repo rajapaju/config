@@ -87,7 +87,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{637 635}
-  [Position]	(UPPERLEFT)	{643 0}
+  [Position]	(UPPERLEFT)	{641 0}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
