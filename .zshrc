@@ -83,7 +83,6 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 ### TERMINAL HEADER
 precmd() {
-  #SLASH=`[ $PWD = / ] && echo -n || echo -n /`
   [[ -t 1 ]] || return
   case $TERM in
     (sun-cmd) print -Pn "\e]l%~\e\\"
