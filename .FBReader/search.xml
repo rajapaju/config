@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
   <group name="Search">
-    <option name="Pattern" value="на высоких поилках"/>
-    <option name="Pattern1" value="в клане лигаментиа"/>
-    <option name="Pattern2" value="fourth interlude"/>
-    <option name="Pattern3" value="interlude"/>
-    <option name="Pattern4" value="standpipe"/>
+    <option name="Pattern" value="дочь десницы"/>
+    <option name="Pattern1" value="пробившись сквозь толпу рыцарей"/>
+    <option name="Pattern2" value="на высоких поилках"/>
+    <option name="Pattern3" value="в клане лигаментиа"/>
+    <option name="Pattern4" value="fourth interlude"/>
+    <option name="Pattern5" value="interlude"/>
   </group>
 </config>

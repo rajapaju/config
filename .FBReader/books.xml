@@ -316,6 +316,68 @@
     <option name="TagList" value="SF, Fantasy/Horror &amp; Mystic"/>
     <option name="Title" value="ОНО"/>
   </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub">
+    <option name="AuthorDisplayName" value="Михаил Зощенко"/>
+    <option name="AuthorSortKey" value="зощенко"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="524431"/>
+    <option name="Title" value="Голубая книга"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
+    <option name="Size" value="1427390"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2">
+    <option name="AuthorDisplayName" value="Джордж Мартин"/>
+    <option name="AuthorSortKey" value="мартин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="1"/>
+    <option name="Sequence" value="Песнь Льда и Пламени"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Игра престолов"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
+    <option name="Size" value="1677077"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2">
+    <option name="AuthorDisplayName" value="Джордж Мартин"/>
+    <option name="AuthorSortKey" value="мартин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="2"/>
+    <option name="Sequence" value="Песнь Льда и Пламени"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Битва королей"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
+    <option name="Size" value="1793738"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2">
+    <option name="AuthorDisplayName" value="Джордж Мартин"/>
+    <option name="AuthorSortKey" value="мартин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="3"/>
+    <option name="Sequence" value="Песнь Льда и Пламени"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Буря мечей"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2">
+    <option name="AuthorDisplayName" value="Дмитрий Неведимов"/>
+    <option name="AuthorSortKey" value="неведимов"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="2445117"/>
+    <option name="TagList" value="Science, Education/Philosophy"/>
+    <option name="Title" value="Религия Денег или Лекарство от Рыночной Экономики"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip">
     <option name="EntriesNumber" value="1"/>
     <option name="Entry0" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
@@ -1216,6 +1278,15 @@
     <option name="TagList" value="SF, Fantasy/Action SF"/>
     <option name="Title" value="Призыв к оружию"/>
   </group>
+  <group name="/home/sio/kipling-soldiers-three.epub">
+    <option name="AuthorDisplayName" value="Rudyard Kipling"/>
+    <option name="AuthorSortKey" value="kipling"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="240827"/>
+    <option name="TagList" value="Short Stories"/>
+    <option name="Title" value="Soldiers Three"/>
+  </group>
   <group name="/home/sio/muhas-1330292.txt">
     <option name="BreakType" value="6"/>
     <option name="Initialized" value="true"/>
@@ -1229,6 +1300,40 @@
     <option name="BreakType" value="6"/>
     <option name="IgnoredIndent" value="4"/>
     <option name="Initialized" value="true"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="507013"/>
+    <option name="Title" value="Зощенко - Голубая книга"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
+    <option name="Size" value="329852"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2">
+    <option name="AuthorDisplayName" value="Ивлин Во"/>
+    <option name="AuthorSortKey" value="во"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Возвращение в Брайдсхед"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
+    <option name="Size" value="242046"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2">
+    <option name="AuthorDisplayName" value="Франц Кафка"/>
+    <option name="AuthorSortKey" value="кафка"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Classics Prose,Romance/Contemporary Romance"/>
+    <option name="Title" value="Замок"/>
   </group>
   <group name="/usr/share/FBReader/help/MiniHelp.en.fb2">
     <option name="AuthorDisplayName" value="FBReader"/>

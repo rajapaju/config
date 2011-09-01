@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2">
+    <option name="Paragraph" value="9121"/>
+    <option name="Paragraph_0" value="2"/>
+    <option name="PositionInBuffer" value="1"/>
+    <option name="UndoBufferSize" value="1"/>
+    <option name="Word_0" value="0"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2">
+    <option name="Paragraph" value="8857"/>
+    <option name="Paragraph_0" value="0"/>
+    <option name="PositionInBuffer" value="1"/>
+    <option name="UndoBufferSize" value="1"/>
+    <option name="Word_0" value="0"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2">
+    <option name="Paragraph" value="1877"/>
+    <option name="Paragraph_0" value="0"/>
+    <option name="Paragraph_1" value="2094"/>
+    <option name="Paragraph_2" value="2504"/>
+    <option name="PositionInBuffer" value="3"/>
+    <option name="UndoBufferSize" value="3"/>
+    <option name="Word_0" value="0"/>
+    <option name="Word_1" value="0"/>
+    <option name="Word_2" value="0"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2">
+    <option name="Paragraph" value="7"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2">
     <option name="Paragraph" value="2981"/>
     <option name="Paragraph_0" value="2"/>
@@ -12,23 +40,46 @@
     <option name="Paragraph" value="8"/>
     <option name="Word" value="125"/>
   </group>
+  <group name="/home/sio/kipling-soldiers-three.epub">
+    <option name="Paragraph" value="84"/>
+    <option name="Word" value="169"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2">
+    <option name="Paragraph" value="1"/>
+  </group>
+  <group name="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2">
+    <option name="Paragraph" value="4"/>
+  </group>
   <group name="BookList">
     <option name="Book0" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
     <option name="Book1" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
-    <option name="Book3" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Book4" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
-    <option name="Size" value="5"/>
+    <option name="Book10" value="/home/sio/kipling-soldiers-three.epub"/>
+    <option name="Book11" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
+    <option name="Book12" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
+    <option name="Book13" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
+    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub"/>
+    <option name="Book3" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
+    <option name="Book4" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
+    <option name="Book5" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
+    <option name="Book6" value="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2"/>
+    <option name="Book7" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
+    <option name="Book8" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Book9" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Size" value="14"/>
   </group>
   <group name="LastOpenedBooks">
-    <option name="Book0" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
-    <option name="Book1" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Book3" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
-    <option name="Book4" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
-    <option name="Book5" value="/usr/share/FBReader/help/MiniHelp.en.fb2"/>
+    <option name="Book0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
+    <option name="Book1" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
+    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
+    <option name="Book3" value="/home/sio/kipling-soldiers-three.epub"/>
+    <option name="Book4" value="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2"/>
+    <option name="Book5" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
+    <option name="Book6" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
+    <option name="Book7" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
+    <option name="Book8" value="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub"/>
+    <option name="Book9" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
   </group>
   <group name="State">
-    <option name="Book" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
+    <option name="Book" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
   </group>
 </config>

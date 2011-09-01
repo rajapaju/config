@@ -47,7 +47,7 @@ application/postscript=evince.desktop
 application/x-rar=file-roller.desktop
 
 [Added Associations]
-image/jpeg=gpicview.desktop;
+image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
 image/svg+xml=gpicview.desktop;
 video/x-flv=smplayer.desktop;
 audio/mpeg=totem.desktop;smplayer_enqueue.desktop;smplayer.desktop;deadbeef.desktop;
@@ -93,6 +93,7 @@ application/xhtml+xml=userapp-firefox-NM6IRV.desktop;
 video/webm=smplayer.desktop;
 video/x-msvideo=smplayer.desktop;
 application/postscript=evince.desktop;
+application/epub+zip=FBReader.desktop;evince.desktop;file-roller.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;

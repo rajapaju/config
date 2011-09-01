@@ -273,3 +273,7 @@
   [Position]	(UPPERLEFT)	{434 351}
   [Close]	{yes}
 [end]
+[app] (name=Aedeliciouspost) (class=Iceweasel) (role=submit)
+  [Position]	(UPPERLEFT)	{460 305}
+  [Close]	{yes}
+[end]

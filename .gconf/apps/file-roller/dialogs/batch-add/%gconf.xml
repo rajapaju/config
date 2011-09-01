@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <gconf>
 	<entry name="volume_size" mtime="1301333619" type="int" value="15728640"/>
-	<entry name="default_extension" mtime="1307292476" type="string">
+	<entry name="default_extension" mtime="1312910267" type="string">
 		<stringvalue>.7z</stringvalue>
 	</entry>
 </gconf>
