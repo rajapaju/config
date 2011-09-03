@@ -1,0 +1,2651 @@
+                  ____        _ _     _   ____
+                 | __ ) _   _(_) | __| | |  _ \  ___   ___ ___
+                 |  _ \| | | | | |/ _` | | | | |/ _ \ / __/ __|
+                 | |_) | |_| | | | (_| | | |_| | (_) | (__\__ \
+                 |____/ \__,_|_|_|\__,_| |____/ \___/ \___|___/
+
+        for Duke Nukem 3D by Allen H Blum III & Richard "Levelord" Gray.
+                 Additional documentation by Kenneth Silverman.
+
+    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+    ³ This information is provided as is.  It is very possible to corrupt  ³
+    ³ your copy of Duke Nukem 3D, so make backups!!!   3D Realms & Apogee  ³
+    ³ cannot and will not support the use of this program.  If you choose  ³
+    ³ to use it, you do so on your own.  We cannot help with questions     ³
+    ³ about this program or its use.                                       ³
+    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+IN ORDER TO USE BUILD, YOU MUST COPY THE ENTIRE CONTENTS OF YOUR \GOODIES\BUILD
+ DIRECTORY FROM THE CD-ROM TO THE DIRECTORY YOU HAVE DUKE NUKEM 3D INSTALLED TO
+     ON YOUR HARD DRIVE.  BUILD WILL NOT WORK CORRECTLY UNLESS YOU DO THIS!
+
+  This document is intended to give simple instructions on how to get started
+   with Build.  If you wish more detailed information, please look at some of
+   the user created Build help files in the \goodies\build\userfaq directory.
+
+ Or, you can purchase the "Official Duke Nukem 3D Level Design Handbook", which
+ is available from Sybex books at a bookstore or computer store near you.  The
+  book's ISBN number is 0-7821-1869-0, and it is authored by Matt Tagliaferri.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                       ³INDEX AND HOW TO USE THIS FILE³
+                       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+This document is set up with a quick search capability.  If you press F7 at
+any time, you will get a listing of all the categories to look at in this
+file.  Press F7 now to look at it.  In this menu, you can scroll up and down
+the listing of items to read, and then select one by pressing ENTER.  You will
+be taken directly to that item.  If you wish to search for a specific piece of
+text, you can hit F3 to enter any text to search for.  If you just wish to
+scroll up and down, you can use the arrow keys to move through the text.  You
+can also use the Home and End keys to quickly get to the top or the bottom of
+this file.  Press F7 now to see a listing of the categories in this document.
+Here is an Index of all the sections in this file:
+
+ 1  The BUILD EDITOR AND BASIC LEVEL EDITING
+    1.1  Two Editing Modes: 2D and 3D
+    1.2  Level Basics: Sectors, Walls, Vertices, and Sprites
+         1.2.1   Sector, Wall, and Sprites Attributes
+    1.3   2D Editor Mode
+         1.3.1   2D Grid and Resizing the Grid
+         1.3.2   2D Grid Locking Feature
+         1.3.3   2D Zooming In and Out
+    1.4   3D Editing
+
+ 2  BUILDING A BASIC LEVEL
+    2.1   Sectors and Walls
+    2.2   Build a Simple Sector
+          2.2.1  Start up BUILD
+          2.2.2   Make Your First Sector
+          2.2.3   Backtracking in Line Draw Mode
+    2.3  Single-sided and Double-sided Walls
+    2.4   Placing the Player's Start Position (IMPORTANT)
+    2.5   Quitting BUILD and Saving, Loading, Renaming Levels
+
+ 3  BUILDING A BETTER LEVEL
+    3.1   Modifying Wall, Floor, and Ceiling Textures
+          3.1.1   Selecting Textures
+          3.1.2   Shading Textures
+          3.1.3   Resizing Textures
+          3.1.4   Panning Textures
+          3.1.5   Relative Textures (Floors/Ceilings)
+          3.1.6   Parallax Floors and Ceilings
+    3.2   Splitting and Removing Walls
+    3.3   Resizing and Moving Sectors
+    3.4   Altering Floor and Ceiling Heights ...and Textures again
+    3.5   Splitting, Joining, Adding, and Deleting Sectors
+          3.5.1   Splitting Sectors
+          3.5.2   Joining Sectors
+          3.5.3   Adding a Sector
+                  3.5.3.1   Adding an Independent Sector
+                  3.5.3.2   Adding an Extension Sector
+                  3.5.3.3   Adding a Sector within a Sector (island)
+                  3.5.3.4   Adding a Sector within a Sector (peninsula)
+          3.5.4   Deleting a Sector
+    3.6   Incremental Backups of Your Level
+
+ 4  SPRITES
+    4.1   Adding Sprites
+          4.1.1   Adding Weapons and Goodies
+          4.1.2   Adding Bad Guys
+                  4.1.2.1   Bad Guy Poses
+    4.2   Modifying Sprites
+                 4.2.1   Resizing and Shading Sprites
+    4.3   Making Copies of Sprites
+    4.4   Moving Sprites
+    4.5   Deleting Sprites
+    4.6   Flipping Sprites and Sprite Angles
+
+ 5  ADVANCED SECTOR STUFF
+    5.1   Cut-and-Pasting Sectors
+          5.1.1   Within the Same Level
+          5.1.2   Between Different Levels
+    5.2   Overlapping Sectors
+
+ 6  MISCELLEANOUS
+    6.1   Sector's "First" Wall and Relative Floors/Ceilings.
+    6.2   Slopes.
+    6.3   Multi-Player/Co-Op Start Points.
+    6.4   Multi-Play Weapons.
+
+ 7  SECTOR EFFECTOR REFERENCE GUIDE
+
+ 8  SPECIAL SPRITE REFERENCE GUIDE
+
+ 9  SECTOR TAGS REFERENCE GUIDE
+
+10  BUILD KEYBOARD COMMANDS
+
+11  BUILD MAP FORMAT
+
+12  MAP AUTHORING TEMPLATE
+
+13  A FEW FINAL WORDS FROM THE LEVELORD
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                  ³1. THE BUILD EDITOR & BASIC LEVEL EDITING³
+                  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+This section gives detailed info on several ways to edit levels in Build.
+If you would like to see an index of everything you can do in Build, please
+see Section 10: Build Keys.
+
+    1.1  Two Editing Modes: 2D and 3D
+
+   There are two modes with which to make your cool Duke levels: 2D and 3D.
+2D mode is a 2 dimensional view of your level and making a level in this mode
+is like drawing on grid paper.  3D mode is 3 dimensional and is similar to
+the game itself (switches, doors, some light effects, etc. don't work like in
+the game).
+
+   Switching between the two modes is done with the Enter key on the numeric
+pad (*not* the Enter key near all the regular keys).  When in 2D mode, you're
+current position within the level is indicated by the white arrow.  The brown
+arrow, if you can see it, is the player's starting position when the game
+begins (this is explained later).
+
+   NOTE:  Your current location (white arrow) must be within a valid sector
+to enter 3D mode.
+
+    1.2  Level Basics: Sectors, Walls, Vertices, and Sprites
+
+   Your level will be made of a few basic elements: sectors, walls, vertices,
+and sprites.  Sectors are like rooms and hallways and outside areas.  Sectors
+are made up of a floor, a ceiling, and walls.  Walls are just that - wall
+space between the floor and the ceiling of a sector.  The two points on
+either side of the wall, as seen in 2D mode (seen as corners in 3D mode), are
+its vertices.
+
+   Sprites are used for bad guys, goodies, sector effectors, etc..  They can
+also be made to lay flat on walls, floors, and ceilings.  These flatten
+sprites, called "rotated", can be used for switches, blood splats, and
+decorations.
+
+         1.2.1   Sector, Wall, and Sprites Attributes
+
+   You can see the attributes (shade, tags, tile number, etc.) of sectors in
+2D mode by pointing at them and hitting the TAB key.  You can do the same for
+walls and sprites with the Alt-TAB keys.  Since walls can be double-sided,
+make sure you point on the exact side of the wall before hitting Alt-TAB.
+
+    1.3   2D Editor Mode
+
+   2D mode editing is used to lay out the basic level.  It provides you with
+a top view of your level and shows your level's walls and sprites on a grid.
+It is very similar to a blueprint and most of a level's preliminary work done
+in this mode.
+
+   When editing in 2D mode, use the left mouse button to grab things (vertices,
+sprites) and move them around the map.  Use the right mouse button to move your
+current position around the map.
+
+   You'll notice, in 2D mode, that the closest sprite, the closest vertex,
+and the closest wall to the white arrow will blink.  This indicates that
+these particular objects will be acted upon by you.  This will be more
+important later when you start using high and low tags, and hit scan/
+blocking.  For now, though, you need to know that the blinking vertex is
+the one you'll grab if the mouse's left button is used.
+
+         1.3.1   2D Grid and Resizing the Grid
+
+   There are seven gradations to the 2D mode's grid.  The first six will
+actually display a grid of six varying sizes and a seventh with no grid at
+all.  The six grid sizes give you varying control and accuracy on sector wall
+and sprite placement.  Detailed work on very small spaces or tight sprite
+locations can be done at the sixth, finest grid size, while more grand, room-
+sized leveling can be done with the larger grid sizes.  The seventh, gridless
+display is usually only used to capture screen shots of levels for printing
+and planning.
+
+         1.3.2   2D Grid Locking Feature
+
+   When drawing walls or placing sprites in 2D mode, you'll notice that the
+wall's vertices, and the sprites, are placed exactly on grid cross lines.
+This is very useful because almost everything you BUILD will be rectilinear
+(square-shaped).  You will also want to keep areas symmetrical and
+proportioned with respect to sector sizes for rooms, doors, windows, etc..
+
+   I don't recommend turning Grid Lock Mode off until you feel comfortable
+with BUILD and level designing.  When you want to make crazy shapes with your
+sectors, or place sprites so precisely that they need to be off the grid
+system, then use the "G" key to enable and disable the Grid Lock feature.
+
+         1.3.3   2D Zooming In and Out
+
+   You can zoom in and out within the 2D mode by using the "A" key to zoom
+in, and the "Z" key for zooming out.  These two keys, along with grid
+resizing, can greatly help when trying to develop differently sized areas
+of your maps.
+
+    1.4   3D Editing
+
+   The 3D mode of editing is used to do most of your level's designing.
+This mode resembles the actual game and therefore is more intuitive.  You
+will do your tile selections, shading, floor/ceiling elevations, etc. in
+3D mode.
+
+   Holding the left mouse key after pointing at a sprite, wall, floor, or
+ceiling in 3D mode will hold it as selected, even if the sprite moves beyond
+the mouse's crosshair during an editing operation.
+
+   There three ways to control your altitude in 3D mode: Game Mode, Height
+Lock Mode, and Float Mode.  Game Mode is just like the game; you will be
+effected by gravity.  Height Lock Mode will let you move around the level
+with no gravity and always at the same height above the current floor.  Float
+Mode will let you hover without gravity and your height will not be effected
+by the floor's height below.
+
+   You can switch between these modes by hitting the CapsLock key.  You can
+change your altitude by hitting the "A" and "Z" keys.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                        ³2. BUILDING A BASIC LEVEL³
+                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    2.1   Sectors and Walls
+
+   A sector is the simplest and most fundamental of structures in your level.
+It is made of walls, a floor, and a ceiling.  You can control everything
+about each sector including its size and shape, the height of its floor and
+ceiling, the textures of its walls, and its shading and visibility.
+
+
+    2.2   Build a Simple Sector
+
+
+          2.2.1  Start up BUILD
+
+   At the DOS prompt and within your Duke Nukem 3D directory, type the
+following:  YOU MUST BE IN THE DIRECTORY BUILD IS IN TO DO THIS!
+
+   BUILD <map name>
+
+   If it's a new level, you'll start in 2D mode with an empty grid.  If the
+level already exists, then you'll start in 3D mode at the player's start
+point.
+
+
+          2.2.2   Make Your First Sector
+
+   If you're not already there, go to 2D mode (numeric pad "ENTER" key).
+Make a square sector by pointing the mouse at a starting point for the first
+wall of the sector and hit the SPACE bar.  You are now in Line Drawing Mode
+and you will notice that a white line is now following your mouse movements.
+
+   Drag the mouse to a second point where you want the first wall to end and
+hit the SPACE bar again.  Continue in this fashion until a square is made
+with last point's position being exactly where the first point was put.  Line
+Drawing Mode will automatically stop when the last point is connected to the
+first and your first sector is now complete!  ...it's a milestone, so enjoy
+it ;)
+
+   Go ahead and check out your new sector by placing the mouse's white arrow
+inside the new sector and hit the numeric ENTER key.  That's it, you new
+sector.  Check the size of the 3D view and compare it to the 2D view so you
+can get a feel for the grid size in 2D relative to the actual area it
+creates.
+
+   The size of the sector can be changed (bigger, smaller) in 2D mode by
+grabbing the vertices with the left mouse button and dragging them.  You can
+select more than one vertex by first positioning the mouse pointer and
+holding the ...
+
+   The walls will be an ugly (on purpose) brown stone tile if the map is a
+new one.  The walls will be the last defaulted wall if the map is not new.
+Okay, okay, we'll change the textures later, right now it's back to 2D mode
+(numeric ENTER key)...
+
+
+          2.2.3   Backtracking in Line Draw Mode
+
+   If you make a mistake while in Line Draw Mode and want to backtrack a line
+or more, then simply hit the Backspace key.  You'll see the last placed point
+erased and the line it made removed.  You can complete undo all your lines
+and cancel Line Draw MOde by backspacing all the way back to the first point.
+
+
+    2.3  Single-sided and Double-sided Walls^B0
+
+   You'll notice, upon returning to 2D mode, that your sector is made of
+white lines.  These whites are single-sided walls.  A single-sided wall only
+has player space on one side; the other side is "null" and can never be
+occupied by the player or anything else.  Your new sector has player space on
+the inside, but not on the outside.
+
+   Double-sided walls are red in 2D mode and they have player space on both
+sides.  Double-sided lines always separate two sectors.  We'll add more
+sectors to our one-sector level in a bit.
+
+
+    2.4   Placing the Player's Start Position (IMPORTANT)
+
+   It is important to make sure that the player's start position, indicated
+by a brown arrow in 2D mode, is within a sector (user space).  The game will
+behave very strangely if it tries to start the player in null space, and you
+will not think of this reason for the trouble at first and get all bummed
+that your level got corrupted and all that work is lost and oh, my...
+...you've been warned.
+
+   Place the player's start position by putting the mouse, and the white
+arrow, where you want and hit "Scroll Lock".  The brown arrow will now be
+there (you'll have to move the mouse a bit to see it).  The player's starting
+direction will be the same as the brown arrow's.
+
+
+    2.5   Quitting BUILD and Saving, Loading, Renaming Levels
+
+   It's ALWAYS a good idea to test your level in stages as it grows.  Don't
+try to take on too much in any one editing session.  Let's stop here and load
+your new level into the game.  Even this simple level will make you utter
+"Cooool, I built this!" when you see it in the game.
+
+   Exit BUILD by hitting the "Esc" key in 2D mode.  You can do a couple of
+things here.   We want to quit with the "Q" key and save our level by hitting
+the "Y" key when it asks.
+
+   You can also simply save your level to disk with the "S" key and return
+immediately to BUILD.  I recommend that you do this often as you BUILD more
+complicated levels.  You will often want to backtrack away from an idea and
+reloading a previous version of your level is much easier than undoing the
+idea.
+
+   Although you don't need to now, in the future you will want to load in
+different levels during a single BUILD session.  This can be done by hitting
+the "L" key and selecting the level from the list.
+
+   Finally, you can rename your level by hitting the "A" key and providing
+the new name.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                        ³3. BUILDING A BETTER LEVEL³
+                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    Let's make our single-sectored, ugly-textured level a little better.  We
+can start adding rooms and splitting sectors but, first, let's fix those
+textures.
+
+    3.1   Modifying Wall, Floor, and Ceiling Textures
+
+          3.1.1   Selecting Textures
+
+   Go to 3D mode and point at a wall in your sector.  Hit the "V" key and a
+screen will appear with textures.  If this is your first level, then only
+that ugly, brown stone texture will be showing.  This first screen of
+textures are all the ones that have been used in the current level.  Hit the
+"V" key again and the screen will fill with the complete texture set.
+
+   Look for a texture that's cool and one that fits the level's motif.  You
+can peruse the textures with the arrow keys and PgUp/PgDn keys.  You can also
+go directly to a texture if you know its number.  Hit the "G" key and enter
+the tile number.  This will be more helpful later when you know where
+everything is.
+
+   Do the same for the other walls; or, if the same texture is to used on all
+four walls (do this for now), simply point at the first wall (3D mode), hit
+the TAB key, point at other walls, and hit the ENTER key on each.
+
+   Select a texture for the ceiling and floor by first pointing to each in 3D
+and then hitting the "V" key just as you did with the walls.  Again, the
+first screen will be the ceiling/floor textures already used in this level
+and, by hitting the "V" key a second time, you can get to all the textures.
+
+   Floor and ceiling texture sizes *most* be a factor of 8 pixels in size to
+look right.  Most floor and ceiling textures are 64x64 or 128x128 pixels in
+size.  You'll notice a weird effect after selecting a texture that's not
+proportioned correctly.
+
+
+          3.1.2   Shading Textures
+
+   Walls, ceilings, and floors can be shaded individually by pointing at each
+and hitting the numeric pad's "-" and "+" keys in 3D mode.  Shading a level
+can take tons of time and it is crucial to any good level to have good
+shading.  Don't spend too much time with it right now; you can fine tune the
+level later ;)
+
+
+          3.1.3   Resizing Textures
+
+   The size of a texture can be changed (X and Y repeats for walls,
+"expansion" and "compression" for floors and ceilings).  Like shading, you
+shouldn't do much more than play with this feature for now.
+
+   To change the size of wall textures, point at each in 3D mode and hit the
+numeric pad's 2, 4, 6, and 8.  You can see the texture expand and shrink.  If
+you want to go back to the default repeat value, point at the wall and hit
+the "/" key.  This will reset most of the wall's attributes to their
+defaults.
+
+   The effect of the numeric pad's "2", "4", "6", and "8" keys can be
+incremented by a factor of four by holding the numeric pad's "5" key down
+while hitting these keys.
+
+   To change the size of floor and ceiling textures, point at each  and hit
+the "E" key.  Floors and ceilings only have two sizes: "expanded" and
+"compressed" (the numeric pad's keys will not function).
+
+
+          3.1.4   Panning Textures
+
+   Textures can be panned by pointing at the them in 3D mode and hitting the
+Shift key and the numeric pad's "2", "4", "6", and "8".  You'll see the
+texture shifting along in the direction of the numeric key.  Similar to
+texture sizing, you can hold the numeric pad's "5" key down while hitting
+these keys to resize texture in increments of four.
+
+   You shouldn't need to play with this feature too much for now and I really
+only mention it early in case you've accidentally hit the numeric pad without
+the "Shift" key (resizing texture) and wondered what the heck happened to the
+texture.
+
+
+          3.1.5   Relative Textures (Floors/Ceilings)
+
+   A floor's/ceiling's texture can be oriented relative to a specific wall.
+This can get a little confusing and I suggest you put it off until later.
+When you've finished this section, go ahead and make a triangular sector and
+play with the floor's relative alignment by pointing at the floor near one of
+the walls (in 3D mode) and hitting the Alt-F keys.  Go over to another wall
+and hit Alt-F again. ...cool, eh?
+
+
+          3.1.6   Parallax Floors and Ceilings
+
+   To make a ceiling texture look like an arching sky, point at it in 3D mode
+and hit the "P" key.  Parallax skies usually need more than one texture, so
+notice that most textures won't look good when set to parallaxing;  it's best
+to use the textures intended for paralaxing.   Floors can also be parallaxed
+for a weird effect.
+
+   Things can get a little tricky once a ceiling or floor has been set to
+parallaxing.  When you start adding more sectors to your level, especially
+ones that involve parallaxed ceilings/floors, some walls will disappear or
+look weird in 3D mode.  It's hard to explain in text here, but you'll see
+what I mean and you'll see what to do to muscle your way through.
+
+
+          3.1.7   Orienting Walls to the Floor or Ceiling
+
+   Walls will either be oriented to the sector's floor or its ceiling.  You
+can change the wall's orientation by pointing at it and hit the "O" key.
+The orientation of the wall determines whether the wall's tile moves with
+the floor or the ceiling.  To play with this, simply point at a floor in your
+map and watch the wall as you raise and lower the floor with the PgUp/PgDn
+keys.  Now point at the wall and hit the "O" key.  Change the floor's
+elevation again and watch the wall.  Notice that the wall tile moved with the
+floor in one case and didn't in the other.  This will be more important
+when you start using moving sectors.
+
+
+    3.2   Splitting and Removing Walls
+
+   You can split a wall into two, smaller walls (for texture changes,
+shading, etc.) in 2D mode.  To split an existing wall into two walls, point
+at the desired location along the wall and hit the Insert key.  A new vertex
+will be added along the wall.
+
+   A split in a wall can be removed by dragging the undesired vertex to one
+of its neighbor vertices with the mouse's left button.  This will remove the
+vertex and thus make a single wall of the original two.
+
+
+    3.3   Resizing and Moving Sectors
+
+   Remember, you can resize the sectors of your level in 2D mode and the left
+mouse button.  Also, you can grab more than one vertex when doing this.
+Position the white arrow above and to the left of the desired group of
+vertices.  Hold the Right-Shift key down and you'll see a white box grow and
+shrink as you move the mouse.  Make a box big enough to surround all of the
+desired vertices and release the Right-Shift key.  The selected vertices will
+all blink now and you can move them all by moving one.  To un-select the
+vertices, simply hit the Right-Shift key again.  Multiple sprites can be
+selected and moved like this, too.
+
+   You can move entire sector groups by Right-Shifting them, but be careful
+to notice that this moves the sector(s) by the vertices.  If not all vertices
+are selected, then some of the sectors can get deformed and twisted.
+
+   If you want to move sectors without regard to their vertices, then you can
+can them with the Right-Alt key.  A box similar to the Right-Shift selection
+one will appear.  This box will be green.
+
+   You will have to play with the two selection features, Right-Shift and
+Right-Alt, to get a feel for their differences.  Save this for later.
+
+
+    3.4   Altering Floor and Ceiling Heights ...and Textures again
+
+   You can raise and lower floors and ceilings by pointing at each, in 3D
+mode, and hitting the PgUp/PgDn keys.  You can also, now, change the texture
+of the different floors and ceilings with the "V" key.
+
+
+    3.5   Splitting, Joining, Adding, and Deleting Sectors
+
+   We're now ready to split, add, and delete sectors.  From here you will be
+able to add rooms, windows, doors, whatever to your level.  Most of this
+designing will be in 2D mode and keep Grid Locking "ON".
+
+
+          3.5.1   Splitting Sectors
+   Let's split our single-sectored level into a two-sectored room.  Add a
+vertex to two of the opposing walls in the sector; that is, split two of the
+walls.  Point at either of these two, new vertices and hit the Space bar.
+You are in Line Drawing mode and should point the mouse at the other new
+vertex and hit Space bar.  Your original sector is now split into two.  Go
+ahead into 3D mode for a moment and play with the two different floors and
+ceilings.
+
+
+          3.5.2   Joining Sectors
+
+   You can join the two, new sectors back into their original single sector
+by pointing at one of the sectors in 2D mode and hitting the "J" key.  Then,
+point to the second sector and hit the "J" key again.
+
+
+          3.5.3   Adding a Sector
+
+   In effect, we added a sector when we split the original sector just
+before.  There are a few more ways that we can add sectors to our level.  We
+can create a new, stand-alone sector independent of an existing one, we can
+add a new sector along the outside of an existing one, and we can make a
+sector inside an existing one.
+
+
+                  3.5.3.1   Adding an Independent Sector
+
+   To add a new, independent sector to your level, simply follow the stages
+that you did above.  You can decide to connect independent sectors later, if
+you wish.
+
+
+                  3.5.3.2   Adding an Extension Sector
+
+   You can add a new extension to your level by starting Line Drawing at one
+of the vertices in 2D mode.  Draw three lines, outside the original sector,
+with the third ending at the vertex on the original sector such that a square
+is made by the three new lines and one of the lines in the original sector.
+Notice the line between the two vertices of the first sector has turned red
+indicating that it now separates two sector.  The original single-room sector
+is now bigger and made of two sectors.
+
+
+                  3.5.3.3   Adding a Sector within a Sector (island)
+
+   Draw a sector within an existing sector the same way you did with the
+original sector.  When the four walls are connected and the inner sector is
+established, it will be made of single-sided (white) walls.  This means that
+the space inside the new sector is null and the original sector is now
+doughnut-shaped.
+
+   If you want to make an actual sector-in-a-sector, then position the mouse
+cursor inside the inner sector and hit Alt-Insert.  This will change the
+inner sector into valid player space.
+
+
+                  3.5.3.4   Adding a Sector within a Sector (peninsula)
+
+   You will probably need to insert connection points for the new sector.
+Add the new sector by starting at one of the newly inserted vertices and
+drawing 3 lines inside the original sector, ending at the other newly added
+vertex.  This new sector will automatically be made of double-sided lines and
+the new sector will be a valid sector.
+
+
+          3.5.4   Deleting a Sector
+
+   You can delete a sector, in 2D mode, by placing the white arrow in it and
+hitting the Ctrl-Delete keys.  Be careful!  There is no "undo" feature in
+BUILD, so I usually do a quick Esc-and-Save before I delete sectors.
+
+
+    3.6   Incremental Backups of Your Level
+
+   As your level gets bigger and more complicated, I highly recommend that
+you quit and save it in it's growing versions as you go.  That is, quit BUILD
+with a save and then copy your level to a temporary file (LEVEL.001,
+LEVEL.002, ..., etc.).  I usually make progressive, incremental backup copies
+of my level about once an hour.  With these backup copies, not only can I
+backtrack to previous versions of a level if an idea goes bad, but I can also
+try different variations of the same level.
+
+   You should play with sectors now and get a good feel for their basic
+layout.  Try adding rooms and hallways.  Change some floor and ceiling
+heights.  Play with the textures.  Next we'll start adding sprites (weapons,
+goodies, bad guys, etc.) and you can actually "play" your level.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                  ÚÄÄÄÄÄÄÄÄÄÄ¿
+                                  ³4. SPRITES³
+                                  ÀÄÄÄÄÄÄÄÄÄÄÙ
+
+   Sprites are used for bad guys, weapons, ammo, goodies, switches, and
+decoration.  You probably noticed while you were looking for wall textures
+before, that the art work for these things were there, too.  When you start
+adding sprites, take a look around within the textures again; there are lots
+of sprites and they're often good for inspiring ideas for the level.
+
+   In 2D mode, sprites will appear as little dots with a tail.  If the sprite
+has a name assigned to it, such as "shotgun", this will be displayed if you
+are zoomed in enough.  The tail of the sprite tells you its orientation.  The
+sprite will point in the direction of the tail when it's initiated by the
+game.
+
+
+    4.1   Adding Sprites
+
+   You will usually use 2D mode for sprite placement because it's more
+accurate and seems more convenient with a top view.  Go to 2D mode, point at
+a place for the sprite and hit the "S" key.  The "S" key will work in 3D mode
+in the same way - point at the spot on the floor or ceiling where you want
+the sprite and hit "S".
+
+   Go to 3D mode and look at the sprite.  If this is a new map, or at least
+one without any sprites, you'll see that ugly, brown texture.  You can select
+the right texture for the sprite in the same way that you selected wall
+textures.
+
+   Point at sprite hit the "V" key.  The first screen are the sprites already
+used in current map and hitting the "V" key again will show all the textures.
+Use the arrow keys and PgUp/PgDn to move around the textures and hit Enter
+when you see the one you want.
+
+   You can leave the sprite on the floor or move it up and down with the
+PgUp/PgDn keys in 3D mode.  Ctrl-PgUp and Ctrl-PgDn, while pointing at the
+sprite, will put the sprite directly on the ceiling or floor, respectively.
+
+
+          4.1.1   Adding Weapons and Goodies
+
+   You'll find all of the weapons, ammo, and goodies near the beginning of
+the texture set.  Select one of these.
+
+
+          4.1.2   Adding Bad Guys
+
+   All of the bad guys are near the end of the textures set.  You'll notice,
+when you find them, that all of the poses of each character is there.  When
+placing a bad guy, ALWAYS make sure that you've selected the specific texture
+with the bad guy's name ("pigcop").  You'll see texture names at the bottom,
+right of the screen while you're viewing them ("V" key from 3D mode).
+
+
+                  4.1.2.1   Bad Guy Poses
+
+   You will usually select the first sprite texture (called a "frame" because
+these frames are used to animate the bad guy within the game) for the bad
+guy.  Again, this texture will always have the generic name of the bad guy.
+There are other textures for the bad guy that can be used, though, that give
+you control over its initial attack style and roaming capabilities.
+
+   The second frame of most bad guys is called its "stayput".  If you use
+this frame for the bad guy's sprite, then the actual bad guy in the game will
+stay in its sector and never leave it.  This is great for setting up sniper
+bad guys or keeping them on roof tops.
+
+   There are other poses for various bad guys and you should take the time to
+check them.  For instance, the Troopers can be started in their crouching
+pose and Pig Cops in their prone pose (great for behind-the-counter
+encounters).  Troopers can also be started in their jet pack mode (death from
+above) and Liz Troopers in their leaping pose (always good for a jolt to the
+player).
+
+
+    4.2   Modifying Sprites
+
+
+                 4.2.1   Resizing and Shading Sprites
+
+   The size of the sprite can be changed by pointing at it in 3D mode and
+hitting the "2", "4", "6", and "8" keys on the numeric pad just the way you
+did to resize wall textures.  You will probably want to resize most of the
+sprites to what looks good to you, but beware, always be consistent and keep
+all similar sprites the same size throughout the level.
+
+   You can also shade the sprite in 3D mode with the "-" and "+" keys on the
+numeric pad.  It's usually a good idea to keep the shade setting at zero and
+let the sector's shade take control during the game.  Then again, I do like
+to set the shade on goodies and weapons to their max (-127) so the player can
+see them from far away.
+
+
+    4.3   Making Copies of Sprites
+
+   If you want to make exact copies of a sprite, you can point at it in 3D
+mode, hit the TAB key and now, each time you hit the "S" key to add a sprite,
+it will generate a copy (size, shading, and all).
+
+
+    4.4   Moving Sprites
+
+   Sprites can be moved around the level in 2D mode by pointing at the sprite
+and holding the left mouse button down.  Remember that more than one sprite
+can be selected with the Right-Shift keys.
+
+
+    4.5   Deleting Sprites
+
+   Sprites can be deleted in either 2D or 3D mode by pointing at it and
+hitting the Delete key.
+
+
+    4.6   Flipping Sprites and Sprite Angles
+
+   You can flip the sprite's texture in 3D mode by pointing at it and hitting
+the "F" key.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                         ³5. ADVANCED SECTOR STUFF³
+                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+   As you start trying more difficult level designing, keep in mind that many
+of the things you want to do are already done in other levels.  You should
+load some of our levels into BUILD and see how we did things.  There are tons
+of tricks and neat things in BUILD, and I can't mention most of them here.
+
+
+    5.1   Cut-and-Pasting Sectors
+
+   You can cut-and-paste a sector or group of sectors.  This can save you
+lots of time when making multiple copies of doors, elevators, and other
+sector gizmos.  You can also grab sections of other levels and copy them into
+your current level.
+
+
+          5.1.1   Within the Same Level
+
+   Sector-select (Right-Alt key in 2D mode) the group of sectors that you
+want to copy.  While the desired sectors are blinking green, point the mouse
+within the group and hold the left button down.  (Be careful not to move the
+group while holding the mouse button down.)  Hit the Insert key and the group
+of sectors will be copied.  Keep the left mouse button depressed and move the
+new group of sectors to their new location.  When the new group is relocated,
+hit the Right-Alt key again to un-select the group.
+
+   Notice that everything was copied: sprites, walls, tags, everything.  You
+may have to re-assign switch tags and check weapons and goodies.
+
+
+          5.1.2   Between Different Levels
+
+   You can also copy sectors from one level to another.  Grab and copy the
+group of sectors the same way as described above (Right-Alt select group in
+2D mode, hit Insert key while holding left mouse button down over sector
+group).  While the new, copied sector group is still blinking green, hit the
+Escape key and load in the second level.  When it is loaded into BUILD, the
+copied sector group will be overlaid and you can re-position it.
+
+   It's always a good idea to do a quick Escape/Save after copying a group of
+sectors into another level.  After copying and positioning the group, un-
+select it (Right-Alt) and save the level.
+
+
+    5.2   Overlapping Sectors
+
+   BUILD will let you overlap sectors and you can do some really cool things
+by doing so.  We didn't have time to finish this section of the document
+before release, but some of the restrictions are:
+
+   1) You can never see 2 overlapping floors/ceilings in 3d mode.
+      The sectors can be cut to get around this
+   2) Overlapping sectors can never share a double-sided (red) wall
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                             ³6. MISCELLEANOUS³
+                             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+    6.1   Sector's "First" Wall and Relative Floors/Ceilings.
+
+   The wall between the first two points of a sector is the sector's first
+wall.  You can select the sector's first wall by pointing at the floor or
+ceiling, in 3D mode, just in front of the desired wall and hitting the Alt-F
+keys.  More times than not, you will not need to re-assign sector first
+walls.
+
+   If you want to align the floor/ceiling textures along a specific wall,
+usually to make the pattern in the texture match the direction of the wall,
+you can make the floor/ceiling texture "relative".  To toggle between
+relatively aligned textures and normally aligned textures, point at the floor
+or ceiling in 3D mode and hit the "R" key.
+
+   You may also want to make floors/ceilings relative when you start playing
+with moving sectors.
+
+
+    6.2   Slopes.
+
+   can slope with the "[" and "]" keys
+
+   can make a perfect match with the next sector's floor or ceiling with the
+Alt-[ and Alt-] keys.
+
+
+    6.3   Multi-Player/Co-Op Start Points.
+
+   Place Duke's first frame for each multi-player and co-op start position.
+There needs to be seven of each; the single-play start position will be used
+as one of the multi-play and one of the co-op start positions.  That makes a
+total of eight start positions for each.
+
+   To identify co-op start positions from multi-play ones, give the co-op
+Duke sprites a low tag of 1.
+
+   For multiplay, spread the starting positions around the level in good
+places where none of the players will have an advantage over the others (near
+a good weapon, etc.).  For co-op, place all the player starts right near the
+single-play start position (brown arrow in 2D mode) so that the co-op team
+will be together at the start of the game.
+
+
+    6.4   Multi-Play Weapons.
+
+   palette shift to palette #1 (blue)
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                   ³7. SECTOR EFFECTOR REFERENCE GUIDE³
+                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+--------------------------------------------------------------------------------
+Sector Effect Reference Guide
+1996 Allen H. Blum III
+--------------------------------------------------------------------------------
+
+-SECTOR EFFECTOR -
+
+ 0  : ROTATED SECTOR
+ 1  : PIVOT SPRITE FOR SE 0
+ 2  : EARTHQUAKE
+ 3  : RANDOM LIGHTS AFTER SHOT OUT
+ 4  : RANDOM LIGHTS
+ 6  : SUBWAY
+ 7  : TRANSPORT (UNDERWATER ST 1 or 2)
+ 8  : UP OPEN DOOR LIGHTS
+ 9  : DOWN OPEN DOOR LIGHTS
+ 10 : DOOR AUTO CLOSE (H=DELAY)
+ 11 : ROTATE SECTOR DOOR
+ 12 : LIGHT SWITCH
+ 13 : C-9 EXPLOSIVE
+ 14 : SUBWAY CAR
+ 15 : SLIDE DOOR (ST 25)
+ 16 : ROTATE REACTOR SECTOR
+ 17 : ELEVATOR TRANSPORT (ST 15)
+ 18 : INCREMENTAL SECTOR RAISE/FALL
+ 19 : SHOT TOUCHPLATE CIELING DOWN
+ 20 : BRIDGE (ST 27)
+ 21 : DROP FLOOR (ST 28)
+ 22 : PRONG (ST 29)
+ 23 : ONE WAY TELEPORTER EXIT
+ 24 : CONVAIRBELT
+ 25 : ENGINE
+ 27 : CAMERA FOR PLAYBACK
+ 28 : LIGHTING BOLT ENGINE
+ 29 : FLOAT
+ 30 : 2 WAY TRAIN (ST=31)
+ 31 : FLOOR RISE
+ 32 : CEILING FALL
+ 33 : SPAWN JIB W/QUAKE
+ 36 : SKRINK RAY SHOOTER
+
+--------------------------------------------------------------------------------
+Definitions:
+--------------------------------------------------------------------------------
+
+SE 0 : Rotate Sector
+
+   :Used to rotate a sector around a pivot point.
+
+   Hitag : Set equal to Hitag of SE 1 as pivot point for sector.
+   Sector Lotag : none
+   Angle : up = Rotate all points around SE 1.
+           down = Rotate sector around SE 1.
+   Shade : none
+   Palette : none
+   Comment :
+      :If Relative alignment is set on the floor,( the R key ), then all
+       sprites and actors on the floor will rotate with the sector
+
+SE 1 : Pivot for Rotate SE 0
+
+   :Used as a pivot point for Sector Effector 0 to rotate a sector around.
+
+   Hitag : Set equal to Hitag of all SE 0 to rotate.
+   Sector Lotag : none
+   Angle : up = Rotate clockwise
+           down = Rotate counter-clockwise
+   Shade : none
+   Palette : none
+   Comment :
+
+SE 2 : Earthquake
+
+   :Used to set off an earthquake. During the earthquake the screen will
+   shake for about 4 seconds. The sector will move in the direction that
+   the SE sprite is pointing. If there is a slope, then it will rise
+   during the earthquake.
+
+   Hitag : none
+   Sector Lotag : none
+   Angle : Direction to move sector during earthquake.
+   Shade : none
+   Palette : none
+   Comment :
+      :Must activate with Masterswitch.
+      :If there is a slope, then it will be made flat at pre-map and
+       raised during the earthquake to a maximum height of 4 clicks.
+
+SE 3 : Random lights after shot out
+
+   :Used to create lighting effect when lights are shot out. It will
+    also set the color of light when the light is on. Make the sector
+    shade dark when the light is out and make the SE sprite shade bright
+    when the light is on.
+
+   Hitag : Set equal to Wall Lotag with graphic of Light or
+           Set equal to Ceiling Hitag with graphic of Light.
+   Sector Lotag : none
+   Angle : none
+   Shade : Set to brightness when light is on, set sector brightness to when light is off.
+   Palette : Set to Palette Lookup number when light is on.
+   Comment :
+      :Can be used with SE 12 to be turned on and off with a light
+       switch until the lights are shot out.
+      :The lights color is taken from the SE sprites Palette when the
+       light is on, and the sectors palette when the light is off.
+       Default is no color. e.g. palette = 0.
+      :Both the SE sprite and the sector can have different palettes.
+
+SE 4 : Random lights
+
+   :Used to make sector randomly flash in brightness. It will also set
+    the color of light when the light is on. Make the sector shade dark
+    when the light is off and make the SE sprite shade bright when the
+    light is on.
+
+   Hitag : Set for Random Flash number.
+   Sector Lotag : none
+   Angle : none
+   Shade : Set to brightness when light is on, set sector brightness to when light is off.
+   Palette : Set to when light is on.
+   Comment :
+      :Can NOT be used with SE 12 to be turned on and off with a light
+       switch.
+      :The lights color is taken from the SE sprites Palette when the
+       light is on, and the sectors palette when the light is off.
+       Default is no color. e.g. palette = 0.
+      :Both the SE sprite and the sector can have different palettes.
+
+SE 5 : Reserved
+
+SE 6 : Subway Engine
+
+   :Used as the Engine for a Subway. Use with SE 14 for multiple subway
+    cars. Must be used with Locator Sprite to set track.
+
+   Hitag : Set equal to Locator Lotag for starting position.
+   Sector Lotag : none
+   Sector Hitag : All sectors within Car sector must be equal.
+   Angle : Set for direction of Subway.
+   Shade : none
+   Palette : none
+   Comment :
+      :Set relative align on sector floor, (R key), to make sprites
+       move.
+      :If a Locator has a Hitag of 1, then the Subway will stop at that
+       locator for 5 seconds then continue.
+
+SE 7 : Transport / Water
+
+   :Used as Teleporter and Water Effect.
+
+   Hitag : Set equal to one other SE 7 to Transport to.
+   Sector Lotag : 0 = Teleporter.
+                  1 = On top of water.
+                  2 = Underwater
+   Angle : none
+   Shade : none
+   Palette: 0 = Normal/Default
+               > 0 = Teleporter won't play sfx or flash when used.
+   Sector Palette : 0 = Water
+                             8 = Green Slime
+   Comment :
+      :If the Sector Effector Sprite is off the ground, then you will only
+       teleport when dukes waist is at the same height as the sprite and in
+       the same sector.
+      :When using with Sector Lotag 1 and 2 as water, the two sectors must be
+       exactly the same size or you will teleport to death.
+
+SE 8 : Up Open Door Lights
+
+   :Used to light up a room when a door is opened.
+
+   Hitag : Set equal to all other SE 8 used together.
+   Sector Lotag : Use with any that raises the ceiling. ex: Sector Lotag 20
+   Angle : none
+   Shade : Set to brightness when light is on, set sector brightness to when light is off.
+   Palette : none
+   Comment :
+      :At least one SE 8 with equal Hitag must be in a sector in which the
+       ceiling rises.
+
+SE 9 : Down Open Door Lights
+
+   :Used to light up a room when a light comes down from the ceiling.
+
+   Hitag : Set equal to all other SE 9 used together.
+   Sector Lotag : Use with any that lowers to floor. ex: Sector Lotag 21
+   Angle : none
+   Shade : Set to brightness when light is on, set sector brightness to when light is off.
+   Palette : none
+   Comment :
+      :At least one SE 8 with equal Hitag must be in a sector in witch the floor rises.
+
+SE 10 : Door Auto Close
+
+   :Used to Automatically close a door after a set delay.
+
+   Hitag : Delay until door closes. ex: 128 equals 4 seconds.
+   Sector Lotag : Use with all door Sector Lotags
+   Angle : none
+   Shade : none
+   Palette : none
+   Comment :
+
+SE 11 : Rotate Sector Door
+
+   :Used as a door that rotates 90 degrees when activated.
+
+   Hitag : none
+   Sector Lotag : 23
+   Angle : none
+   Shade : none
+   Palette : 0 = clockwise
+             1 = Counter-clockwise
+   Comment :
+      :Will also activate other SE 11 with equal Hitag values.
+
+SE 12 : Light Switch
+
+   :Used light up a sector when activated with a switch.
+
+   Hitag : Set equal to all other SE 12 used together
+   Sector Lotag : none
+   Angle : none
+   Shade : Set to brightness when light is on, set sector brightness to when light is off.
+   Palette : Set to when lights are on.
+   Comment :
+      :The lights color is taken from the SE sprites Palette when the
+       light is on, and the sectors palette when the light is off.
+       Default is no color. e.g. palette = 0.
+      :Both the SE sprite and the sector can have different palettes.
+
+SE 13 : C-9 Explosive
+
+   :Used to blow apart the ceiling and floor of a sector to create holes
+    in walls
+
+    Hitag : Set equal to SEENINE, OOZCAN, or CRACK sprites to activate
+    Sector Lotag : none
+    Angle : up = both ceiling and floor come together at Pre-map.
+            down = Only the ceiling or the floor matches height with the
+                   SE sprite depending on which one is closest.
+    Shade : none
+    Palette : none
+    Comment :
+       :Can be activated by a Masterswitch with equal Hitags.
+       :If the ceiling has a Sky texture without Parallax set, then the
+        tile will be replaced at Pre-map with the closest non-Sky
+        texture. When it explodes, the sky will change to Parallax.
+
+SE 14 : Subway Car
+
+   :Used as the Car for a Subway. Use with SE 6 for Subway engine.
+    Must be used with Locator Sprite to set track.
+
+   Hitag : Set equal to Locator Lotag for starting position.
+   Sector Lotag : none
+   Sector Hitag : All sectors within Car sector must be equal.
+   Angle : Set for direction of Subway.
+   Shade : none
+   Palette : none
+   Comment :
+      :Set relative align on sector floor, (R key), to make sprites
+       move.
+      :If a Locator has a Hitag of 1, then the Subway will stop at that
+       locator for 5 seconds then continue.
+
+SE 15 : Slide Door
+
+   :Used as a door that slides when opened.
+
+   Hitag : Set equal to other doors to be opened at same time.
+   Sector Lotag : 25
+   Angle : Set to direction when door is closed.
+   Shade : none
+   Palette : none
+   Comment :
+      :Speed Sprite sets distance to door to open.
+      :Check !SE.map on how to build.
+      :Use MusicSFX sprite for sound.
+
+SE 16 : Reserved
+
+SE 17 : Elevator Transport
+
+   :Used as an Elevator that transports from one elevator shaft to
+    another to simulate going straight up from one floor to another.
+
+   Hitag : Equal to one other SE 17.
+   Sector Lotag : 15
+   Sector Hitag : 0 = Bottom Floor
+                  1 = Top Floor
+   Angle : none
+   Shade : Darkest shade of the two SE 17 with equal Hitag is the
+           starting floor for the elevator.
+   Palette : none
+   Comment :
+      :Top and Bottom floors must be physically built at proper height
+       difference to work properly.
+      :Both Elevators must be Exactly the same size.
+
+SE 18 : Incremental Sector Raise/Fall
+
+   : Used as sector floor or ceiling raise/fall that can be activated incrementally.
+
+   Hitag : Set equal to units moved per activation.
+           Unit = one page-up/page-down in build.
+   Angle : Up = Floor will move incrementally (by Hitag #).
+           Down = Ceiling will move incrementally.
+   Palette : 0 = Start at build set height.
+            >0 = height set to SE Sprite in premap.
+   Comment:
+      :Sector will move in opposite direction as it is at premap.
+       i.e. if sector is set to SE Sprite floor/ceiling will move to set height.
+
+SE 19 : Shot Touchplate Ceiling Down
+
+   :Used to close ceiling when a shot or explosion hits within the
+    sector.
+
+   Hitag : Equal to others to activate at same time.
+   Sector Lotag : none
+   Angle : none
+   Shade : none
+   Comment :
+      :Does not check to when a shot or object passes through the
+       sector.
+      :Use MusicSFX sprite for sound.
+
+SE 20 : Bridge
+
+   :Used to stretch a sector when activated.
+   Hitag : none
+   Sector Lotag : 27
+   Angle : Set to direction to stretch sector.
+   Shade : none
+   Comment :
+      :Set relative alignment, (R key), on sector to move floor.
+      :Use Speed sprite for distance.
+
+SE 21 : Drop Floor
+
+   :Used to make a floor or ceiling drop to the height of the
+    SE sprite when activated by a Masterswitch.
+
+   Hitag : Set equal to others that activate at same time.
+   Sector Lotag : 28
+   Angle : up = Drop Ceiling
+           down = Drop Floor
+   Shade : none
+   Comment:
+      :Floor or Ceiling matches height of SE sprite at Pre-map then
+       drops to set position when activated.
+      :To do opposite, the SE sprite height must be put into sector.
+
+SE 22 : Prong
+
+   :Used as Door inside Teeth Prongs.
+
+   Hitag : Set equal to Hitag of Sector Lotaged 29.
+   Sector Lotag : 0, Outside Sector Lotag of 29
+   Angle : none
+   Shade : none
+   Comment:
+      :This Effector was not tested in the, game so use at your own risk.
+       It may cause problems in multi-play.
+      :See !SE.MAP for usage.
+
+SE 23 : One Way Teleporter Exit
+
+   :  Used as an exit indicator for a one way teleporter.
+
+   Hitag:  Set equal to teleporter entrance sprite Hitag (SE 7).
+   Angle:  Actor facing on exit.
+   Palette:  0 = Normal/default
+            >0 = No Teleporter sound or flash on use.
+
+SE 24 : Conveyor belt
+
+   :Used to move sprites along the floor like a conveyor belt.
+
+   Hitag : Set equal to a switch to turn on and off.
+   Sector Lotag : none
+   Angle : Set to direction to move sprites.
+   Shade : none
+   Comment:
+      :Set relative alignment (R key) on sector floor to move sprites.
+      :Set Speed sprite equal to rate of movement.
+
+SE 25 : Engine Piston
+
+   :Used as a Piston that only goes up and down.
+
+   Hitag : none
+   Sector Lotag : none
+   Angle : none
+   Shade : none
+   Comment:
+      :Put SE sprite height to starting position of Piston.
+      :Speed sprite equals rate of movement.
+
+SE 26 : Reserved
+
+SE 27 : Camera for Playback
+
+   :Used as a camera position to view playback of game Demos.
+
+   Hitag : Set to maximum distance for the camera to view the action of
+           other players. e.g. 2048 equals largest grid in build.
+   Sector Lotag : none
+   Angle : none
+   Shade : none
+   Comment:
+      :Camera does not always work well with extreme heights.
+
+SE 28 : Lighting Engine
+
+   : Used to create lighting effect in an area of 10000. On random activation
+     will flash linked Lighting Bolt sprites and start sfx.
+
+   Hitag: Set equal to Lighting Bolt Sprite #4890 Hitag.
+   Angle: none
+   Shade: none.
+
+SE 29 : Floating Sector
+
+   :Used to make sector float like water or waves.
+
+   Hitag : Set to starting height of sector. 0-2047
+   Sector Lotag : none
+   Angle : none
+   Shade : none
+   Comment:
+      :Use Speed sprite to set height of wave.
+      :To use as a wave, the sector must only be made of 4 lines. Set
+       one wall as first wall (alt-f) next to another sector with a
+       SE 29 sprite in it to create a wave.
+
+SE 30 : 2 Way Train
+
+   :Used as a Train car that only goes back and forth from point A to
+    point B.
+
+   Hitag : Set equal to a switch to activate.
+   Sector Lotag : 31
+   Angle : Set to direction of front of Car.
+   Shade : none
+   Comment:
+      :Use with 2 Locator sprites to define track.
+      :Activator with equal hitag+1 activates when car stops at point A.
+       Activator with equal hitag+2 activates when car stops at point B.
+SE 31 : Floor Rise
+
+   :Used to rise or lower sector floor when activated by an Activator or
+    Masterswitch.
+
+   Hitag : none
+   Sector Lotag : none
+   Angle : Up = Move sector to SE sprite height when activated.
+                Down = Start sector height equal to SE sprite height at Pre-map.
+                              On activation, falls to pre set height.
+           	
+   Shade : none
+   Comment:
+      :Use Speed to set rate of rise.
+      :Use MusicSFX sprite for sound.
+
+SE 32 : Ceiling Fall
+
+   :Used to rise or lower sector Ceiling when activated by an Activator or
+    Masterswitch.
+
+   Hitag : none
+   Sector Lotag : none
+   Angle : Up = Rise sector to SE sprite height when activated.
+                Down = Start sector height equal to SE sprite height at Pre-map.
+                              On activation, raises to pre set height.
+   Shade : none
+   Comment:
+      :Use Speed to set rate of rise.
+      :Use MusicSFX sprite for sound.
+
+SE 33 : Spawn Earthquake Jibs
+
+   :Used to spawn pieces of metal and rock from SE sprite during an
+    Earthquake.
+
+   Hitag : none
+   Sector Lotag : none
+   Angle : none
+   Shade : none
+   Comment:
+      :Jibs will be spawned whenever a earthquake anywhere on the map.
+
+SE 34 : Reserved
+
+SE 35 : Reserved
+
+SE 36 : Spawn Shot
+
+   :Used to Spawn a shot every 5 seconds when activated by a
+    Masterswitch.
+
+   Hitag : none
+   Sector Lotag : none
+   Angle : Set to direction to shoot.
+   Shade : none
+   Comment:
+      :Once activated, it will never stop shooting.
+      :Use Speed sprite to set object to shoot. e.g.
+       2556 : Shrink Ray
+       2605 : RPG
+       1650 : Mortar
+       1625 : Trooper Laser
+       1636 : Lizman Spit
+
+
+
+
+
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                   ³8. SPECIAL SPRITE REFERENCE GUIDE³
+                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+--------------------------------------------------------------------------------
+Special Sprite Reference Guide
+1996 Allen H. Blum III
+--------------------------------------------------------------------------------
+
+   SECTOREFFECTOR : Sprite #1
+   ACTIVATOR : Sprite #2
+   TOUCHPLATE : Sprite #3
+   ACTIVATORLOCKED : Sprite #4
+   MUSICANDSFX : Sprite #5
+   LOCATORS : Sprite #6
+   CYCLER : Sprite #7
+   MASTERSWITCH : Sprite #8
+   RESPAWN : Sprite #9
+   GPSPEED : Sprite #10
+   ACCESSSWITCH : Sprite #130
+   SWITCH : Sprite #132 and all other SWITCHes
+   NUKEBUTTON : Sprite #142
+   MULTISWITCH : Sprite #146
+   DOORTILE5 : Tile #150 and all other DOORTILEs
+   DIPSWITCH : Sprite #162
+   VIEWSCREEN : Sprite #502
+   CRACK1 : Sprite #546 and all other CRACKs
+   MIRROR : Tile #560
+   CAMERA1 : Sprite #621
+   CANWITHSOMETHING : Sprite #1232
+   SEENINE : Sprite #1247
+   FEMPIC1 : Sprite #1280
+   APLAYER : Sprite #1405
+
+--------------------------------------------------------------------------------
+Definitions:
+--------------------------------------------------------------------------------
+
+SECTOREFFECTOR : Sprite #1
+
+   :The Sector Effector Sprite is used to create game effects and
+    manipulate Sector attributes. The SE is the main tool to create
+    effects such as Earthquakes, Explosions, and Lighting Effects. Place
+    a Sprite #1 in the sector to effect.
+
+   Lotag : See !SE.TXT for details
+   Hitag : Set equal to other SE Sprites with same Lotag to activate
+          together. See Sector Effect Reference (!SE.TXT) for more details.
+
+   Comments:
+      :Multiple SE Sprites can be used in a Sector to create different
+       effects.
+
+ACTIVATOR : Sprite #2
+
+   :The Activator Sprite is used with Switchs or the TOUCHPLATE Sprite
+    to activate the Sector Lotag function or any Sector Effectors within
+    the Sector.
+
+   Lotag : Set equal to a Switch Lotag or a TOUCHPLATE Lotag
+   Hitag : 0 = normal/default.
+               1 = Open door only.   Only works for Sector Tag 20 or 21 doors.
+               2 = Close door only.  Only works for Sector Tag 20 or 21 doors.
+
+TOUCHPLATE : Sprite #3
+
+   :The Touchplate will activate an ACTIVATOR or a MASTERSWITCH Sprite
+    when the player walks on the sector floor.
+
+   Lotag : Set equal to an ACTIVATOR or MASTERSWITCH Lotag.
+   Hitag : 0  = Activate touchplate every time player walks on the sector.
+           >0 = The touchplate will only activate this many times when
+                the player walks on the sector then never again.
+
+ACTIVATORLOCKED : Sprite #4
+
+   :The Activator locked Sprite will lock the sectors Lotag function so
+    it can not be activated by the player until it is unlocked with a
+    switch.
+
+    Lotag : Set equal to a switch's Lotag to be toggled Locked and
+            Unlocked.
+    Hitag : none.
+
+MUSICANDSFX : Sprite #5
+
+   :The Music and Sound Effects Sprite can be used 3 ways.
+      1. Activation Sound :
+         When used in a sector with a Lotag, it will play a sound when
+         the sectors Lotag function is activated.
+         Lotag : Sound number.
+         Hitag : none.
+      2. Ambient Sound :
+         When used in a sector with no Lotag, it will play an ambient
+         sound.
+         Lotag : Ambient Sound.
+         Hitag : Max distance the sound can be heard. e.g. 1024 equals
+                 the largest grid square in build.
+      3. Echo Effect :
+         When used in a sector with no Lotag, if will cause all sounds
+         to have a echo effect.
+         Lotag : 1000 + the amount of echo from 0-255.
+         Hitag : Max distance the sound can be heard. e.g. 1024 equals
+                 the largest grid square in build.
+
+LOCATORS : Sprite #6
+
+   :The Locator Sprite can be used to define a track for a Subway (SE 6
+    & SE 14) or to define a path for PigCop Recon Cars but not both in
+    the same map. Plus you can only have one path defined in a map.
+
+   Lotag : Set in an increasing order starting from 0 with no gaps in
+           the count for all the LOCATOR Sprites in the map. When the
+           Subway or PigCop Recon Car reaches the last LOCATOR Sprite,
+           it will loop back to the LOCATOR Sprite with Lotag 0.
+   Hitag : If set to 1, then the Subway will stop the LOCATOR Sprite
+           location for 5 seconds, then continue to the next LOCATOR.
+           The PigCop Recon Car is not effected.
+
+CYCLER : Sprite #7
+
+   :The Cycler Sprite is used to make the Sector Floor, Walls, and
+    Ceiling pulsate in brightness.
+   Lotag : Set the offset of how bright it will start.
+   Hitag : none
+   Palette : Set to a color if needed.
+   Shade : Set to how bright the sector will get. Set the sector
+           brightness to how dark it will get.
+
+MASTERSWITCH : Sprite #8
+
+   :The Master Switch Sprite is used to activate a Sector Lotag or an
+    Sector Effector Sprite after a time delay. This can only be
+    activated by a TOUCHPLATE Sprite.
+   Lotag : Set equal to a TOUCHPLATE Sprite Lotag to be activated by.
+   Hitag : Set for time delay until activation of Sector Tag or Sector
+           Effector Sprite.
+
+RESPAWN : Sprite #9
+
+   :The Respawn Sprite is used to Teleport in Actors and Items when
+    activated by a TOUCHPLATE Sprite.
+   Lotag : Set equal to TOUCHPLATE Sprite Lotag to be activated by.
+   Hitag : Set equal to any Sprite Number that have a name with it in
+           Build or Editart.
+
+GPSPEED : Sprite #10
+
+   :The GPSpeed Sprite is used to define the rate of movement for such
+    things as Sector Tag 20 (Ceiling Door) and Sector Effector 0(Rotate
+    Sector). See !SE.TXT and !ST.txt for more details.
+   Lotag : Set to rate.
+   Hitag : None.
+
+ACCESSSWITCH : Sprite #130
+
+   :The Access Switch is used to unlock or activate something when used
+    with a Key Card. Use the Palette to define what card to use.
+   Lotag : Set equal to ACTIVATOR or ACTIVATORLOCKED Sprite Lotag to use.
+   Hitag : Set to play sound when activated.
+   Palette : 0 = Blue card
+             21 = Red card
+             22 = Yellow card
+
+SWITCH : Sprite #132 and all other SWITCHes
+
+   :The Switch is used to unlock or activate something when activated by
+    space key.
+   Lotag : Set equal to ACTIVATOR or ACTIVATORLOCKED Sprite Lotag to use.
+   Hitag : Set to play sound when activated.
+   Palette : 0 = Normal play
+             1 = Multi-play only
+
+NUKEBUTTON : Sprite #142
+
+   :The Nuke Button is used to End a level and goto the stat screen. It
+    can also be used to goto a bonus level.
+   Lotag : Set to 65535 to end a level and go to stat screen
+           Set to 1-11 to go to a bonus level in the same volume. Must have palette adjusted for this to work.
+   Hitag : none.
+   Palette : 0 = Default.
+             14 = Bonus Level.
+
+MULTISWITCH : Sprite #146
+
+   :The Multi Switch can activate 4 multiple ACTIVATOR Sprites. It uses
+    4 consecutive Lotags to activate each ACTIVATOR. When first switched,
+    it activates ACTIVATOR Sprites A and D. The next time it activates
+    ACTIVATOR Sprites B and A. etc.. C and B.. D and C.. then A and D
+    again.
+   Lotag : Set equal to ACTIVATOR Sprites A,B+1,C+2,D+3
+   Hitag : none.
+
+DOORTILE5 : Tile #150 and all other DOORTILEs
+
+   :The Door Tiles can be used to activate ACTIVATOR Sprites when the
+    player presses upon the wall.
+   Wall Lotag : Set equal to ACTIVATOR Sprite Lotag to activate.
+   Wall Hitag : none.
+
+DIPSWITCH : Sprite #162
+
+   :The Dip Switch is used as a combination switch with a ACTIVATOR or
+    ACTIVATORLOCKED Sprite. All DIPSWITCH Sprites with equal Lotags will
+    be used for the combination.
+   Lotag : Set equal to ACTIVATOR or ACTIVATORLOCKED Sprite Lotag.
+   Hitag : 0 = set to off.
+           1 = set to on.
+
+VIEWSCREEN : Spirte #502
+
+   :The View Screen is used to view through Cameras (Sprite # 621) placed
+    around the map. It will view through all Cameras with equal Lotags.
+   Lotag : none.
+   Hitag : Set equal to CAMERA1 Sprites #621.
+
+CRACK1 : Sprite #546 and all other CRACKs
+
+   :The Crack Sprite is used to activate explosions,(SE 13) and other
+    effects.
+   Lotag : none.
+   Hitag : Set equal to SE 13 Hitag to activate. See !SE.TXT for more
+           details.
+
+   Palette : Set to 1 for Multi-play mode only.
+
+MIRROR : Tile #560
+   :The Mirror tile is used to place a mirror in the map. To use it you
+   must make a one-way wall (1 key in build). Put tile #560 on that
+   wall. The sector behind the mirror must be the size of every space
+   that can be seen in the mirror or problems will acure.
+
+CAMERA1 : Sprite #621
+
+   :The Camera Sprite is used to be able to view through using the
+    VIEWSCREEN Sprite.
+   Lotag : Set equal to the VIEWSCREEN Sprite Lotag to be viewed
+           through.
+   Hitag : Set to amount of turning radius. 0 equals none.
+   Shade : Set to angle of facing down.
+   Angle : Set to direction to point.
+
+CANWITHSOMETHING : Sprite #1232,4580,4581,4582
+
+   :The Can with something is used to spawn an object when it is shot.
+   Lotag : Set to Sprite number with a name in build or editart to spawn
+           when shot.
+
+SEENINE : Sprite #1247
+OOZCAN:  Sprite #1879
+
+   :The Seenine Sprite is used to activate explosions,(SE 13) and other
+    effects. It can also be used to time delay explosions.
+   Lotag : Set equal to time delay until explosion.
+   Hitag : Set equal to SE 13 Hitag to activate. See !SE.TXT for more
+           details.
+   Size : If the Sprite is shrunk in the x direction, then the sprite will
+   not be seen in the game, but the explosion will.
+
+FEMPIC1 : Sprite #1280
+
+   :The Fem Pics are used to activate the RESPAWN Sprite to spawn in any
+    Sprite with a name in Build or Editart.
+   Lotag : none.
+   Hitag : Set equal to RESPAWN Sprite to activate.
+
+APLAYER : Sprite #1405
+
+   :The APlayer Sprite is used to define where all multi-players will
+   start in the map. You must have a minimum of 7 Sprites in the map for
+   an 8 player multi-play game and a minimum of 7 Sprites in the map for
+   an 8 player Coop game.
+   Lotag : 0 = Multi-player start position
+           1 = Coop-player start position
+
+PURPLE LAVA:  Sprite #4240
+
+     Works like green slime with three exceptions:
+      1)   Hyper Destructive
+      2)   Will cause damage to player anywhere in sector (Can't fly over).
+      3)   Can be placed on ceiling for same sector damage effect
+
+LIGHTING BOLT : Sprite # 4890
+
+     Lightning Bolt is used to spawn the flash position of lighting when used
+     with Sector Effector #28.
+     Lotag: 0
+     HiTag: Set equal to Sector Effector #28 HiTag.
+     Note: Any number of Lighting Bolts can be attached to any
+     Sector Effector #28.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                    ³9. SECTOR TAGS REFERENCE GUIDE³
+                    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+--------------------------------------------------------------------------------
+Sector Tags Reference Guide
+1996 Allen H. Blum III
+--------------------------------------------------------------------------------
+
+-SECTOR TAGS -
+
+ 1  : WATER (SE 7)
+ 2  : UNDERWATER (SE 7)
+ 9  : STAR TREK DOORS
+ 15 : ELEVATOR TRANSPORT (SE 17)
+ 16 : ELEVATOR PLATFORM DOWN
+ 17 : ELEVATOR PLATFORM UP
+ 18 : ELEVATOR DOWN
+ 19 : ELEVATOR UP
+ 20 : CEILING DOOR
+ 21 : FLOOR DOOR
+ 22 : SPLIT DOOR
+ 23 : SWING DOOR
+ 25 : SLIDE DOOR (SE 15)
+ 26 : SPLIT STAR TREK DOOR
+ 27 : BRIDGE (SE 20)
+ 28 : DROP FLOOR (SE 21)
+ 29 : TEETH DOOR (SE 22)
+ 30 : ROTATE RISE BRIDGE
+ 31 : 2 WAY TRAIN (SE=30)
+ 10000+ : 1TIME SOUND
+ 32767 : SECRET ROOM
+ 65535 : END OF LEVEL
+
+--------------------------------------------------------------------------------
+Definitions:
+--------------------------------------------------------------------------------
+
+ST 1 : Water
+
+   :Used as Water Effect when the player walks on sector. If used with a
+    SE 7 (Transport) sprite, then it will move the player to the
+    underwater sector with ST 2.
+
+   Definition : SE 7 : Transport Underwater
+      Hitag : Set equal to one other SE 7 to Transport to.
+      Sector Lotag : 0 = Teleporter.
+                     1 = On top of water.
+                     2 = Underwater
+      Angle : none
+      Shade : none
+      Palette : 0 = Water
+                8 = Green Slime
+      Comment :
+         :When using with Sector Lotag 1 and 2 as water, the two sectors must
+          be exactly the same size or you will teleport to death.
+
+ST 2 : Underwater
+
+   :Used as Underwater Effect when the player moves in sector. If used with
+    a SE 7 (Transport) sprite, then it will move the player to the
+    underwater sector with ST 1.
+
+   Definition : SE 7 : Transport Underwater
+      Hitag : Set equal to one other SE 7 to Transport to.
+      Sector Lotag : 0 = Teleporter.
+                     1 = On top of water.
+                     2 = Underwater
+      Angle : none
+      Shade : none
+      Palette : 0 = Water
+                8 = Green Slime
+      Comment :
+         :When using with Sector Lotag 1 and 2 as water, the two sectors must
+          be exactly the same size or you will teleport to death.
+
+
+
+ST 9 : Star Trek Doors
+
+   :Doors that spread apart when opened like on Star Trek. Note that the
+    wall tile on the doors will squish when opened.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for door open sound.
+      :Use SPEED Sprite Lotag for opening speed.
+
+ST 15 : Elevator Transport
+
+   :Used as an Elevator that transports from one elevator shaft to
+    another to simulate going straight up from one floor to another.
+
+   Comment:
+      :Maximum of 2 floors.
+      :Sounds are set automatically
+
+   Definition : SE 17 : Elevator Transport
+      Hitag : Equal to one other SE 17.
+      Sector Lotag : 15
+      Sector Hitag : 0 = Bottom Floor
+                     1 = Top Floor
+      Angle : none
+      Shade : Darkest shade of the two SE 17 with equal Hitag is the
+              starting floor for the elevator.
+      Palette : none
+      Comment :
+         :Top and Bottom floors must be physically built at proper height
+          difference to work properly.
+         :Both Elevators must be Exactly the same size.
+
+ST 16 : Elevator Platform Down
+
+   :Used to Lower the Sector Floor from current Height Down to the next
+    Sector of lower height. On next activation, the sector floor will rise
+    up to the next Sector.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Sound.
+         Lotag = Start sound.
+         Hitag = Stop Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+
+ST 17 : Elevator Platform Up
+
+   :Used to Raise the Sector Floor from current Height Up to the next
+    Sector of higher height. On next activation, the sector floor will
+    drop down to the next Sector.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Sound.
+         Lotag = Start sound.
+         Hitag = Stop Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+
+ST 18 : Elevator Down
+
+   :Used to Lower the Sector Floor and Ceiling from current Height Down
+    to the next Sector of lower height. On next activation, the sector
+    floor and ceiling will rise up to the next Sector.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag sound.
+         Lotag = Start sound.
+         Hitag = Stop Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+
+ST 19 : Elevator Up
+
+   :Used to Raise the Sector Floor and Ceiling from current Height Up
+    to the next Sector of higher height. On next activation, the sector
+    floor and ceiling will drop down to the next Sector.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Sound.
+         Lotag = Start sound.
+         Hitag = Stop Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+
+ST 20 : Ceiling Door
+
+   :Used to Raise and Lower the Sector Ceiling from level with the
+    sector floor up to the height of the next sector ceiling height.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Open and Close Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+      :Use SE 10 to make the door auto-close.
+
+ST 21 : Floor Door
+
+   :Used to Raise and Lower the Sector Floor from level with the
+    sector ceiling down to the height of the next sector floor height.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Open and Close Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+      :Use SE 10 to make the door auto-close.
+
+ST 22 : Split Door
+
+   :Used to Raise and Lower the Sector Floor and Ceiling from level with
+    the next sector floor and ceiling, then together until the floor and
+    ceiling match height.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Open and Close Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+      :Use SE 10 to make the door auto-close.
+
+ST 23 : Swing Door
+
+   :Used as doors that swing the sector 90 degrees when activated. Note
+    that you can activate multiple ST 23 by giving the ST 11 Sprite
+    Hitag equal values.
+
+   Comment:
+    :Use MUSICANDSFX Sprite Lo and Hitag to door open and close sound.
+
+   Definition : SE 11 : Rotate Sector Door
+      Hitag : none
+      Angle : up = clockwise
+              down = counter-clockwise
+      Shade : none
+      Palette : none
+      Comment :
+         Sector will also rise to height of Sector Effector Sprite if it
+         is off the floor.
+
+
+ST 24 : Reserved
+
+ST 25 : Slide Door
+
+   :Used as a door that slides when opened.
+
+   Definition : SE 15 : Slide Door
+      Hitag : Set equal to other doors to be opened at same time.
+      Angle : Set to direction when door is closed.
+      Shade : none
+      Palette : none
+      Comment :
+         :Speed Sprite sets distance to door to open.
+         :Check !SE.map on how to build.
+         :Use MusicSFX sprite for sound.
+
+ST 26 : Split Star Trek Door
+
+   :Used to do the effects of both ST 9 (Star Trek Door) and ST 22
+    (Split Door). Doors will spread apart when opened like on Star
+    Trek. Note that the wall tile on the doors will squish when opened.
+    And will also Raise and Lower the Sector Floor and Ceiling from level
+    with the next sector floor and ceiling, then together until the floor
+    and ceiling match height.
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for Open and Close Sound.
+      :Use SPEED Sprite Lotag for rate of movement.
+      :Use SE 10 to make the door auto-close.
+
+ST 27 : Bridge
+
+   :Used to stretch a sector when activated.
+
+   Hitag : none
+   Sector Lotag : 27
+   Angle : Set to direction to stretch sector.
+   Shade : none
+   Comment :
+      :Set relative alignment, (R key), on sector to move floor.
+      :Use Speed sprite for distance.
+
+ST 28 : Drop Floor
+
+   :Used to make a floor or ceiling drop to the height of the
+    SE sprite when activated by a Masterswitch.
+
+   Hitag : Set equal to others that activate at same time.
+   Sector Lotag : 28
+   Angle : up = Drop Ceiling
+           down = Drop Floor
+   Shade : none
+   Comment:
+      :Floor or Ceiling matches height of SE sprite at Pre-map then
+       drops to set position when activated.
+      :To do opposite, the SE sprite height must be put into sector.
+
+ST 29 : Teeth Door
+
+ST 30 : Rotate Rise Door
+
+   :Used to rotate the sector floor 90 degrees and rise to the height of
+    the SE 0 Sprite. Use SE 1 as the Pivot point for the sector.
+
+   Comment:
+      :Use MUSICANDSFX Sprite Lotag for sound.
+      :Use SPEED for rate of turning.
+      :Use SE 0 Sprite Palette for direction.
+         Palette 0 = clockwise
+         Palette 1 = counter-clockwise
+
+ST 31 : 2 Way Train
+
+   :Used as a Train car that only goes back and forth from point A to
+    point B.
+
+   Hitag : Set equal to a switch to activate.
+   Sector Lotag : 31
+   Angle : Set to direction of front of Car.
+   Shade : none
+   Comment:
+      :Use with 2 Locator sprites to define track.
+      :Activator with equal hitag+1 activates when car stops at point A.
+       Activator with equal hitag+2 activates when car stops at point B.
+ST 10000+ : 1 Time Sound
+
+   :Used to play a sound one time when the player walks on the sector
+    floor. Tag the sector Lotag with (10000 + sound number).
+
+ST 32767 : Secret Room
+
+   :Use Sector Lotag of 32767 to tag as a secret place to be counted at
+   the end of level stats.
+
+ST 65535 : End of Level
+
+   :Used to end the level when the player walks on the sector floor.
+
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                      ³10. BUILD KEYBOARD COMMANDS³
+                      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                         BUILD EDITOR INTRODUCTION:                        ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+There are 2 modes in the BUILD editor:
+   3D EDIT MODE (Same as PLAY MODE but with a mouse cursor)
+   2D EDIT MODE (The overhead map of the board with an arrow showing your
+      position and angle and a mouse cursor)
+
+It is essential that you use both editor modes:
+
+  Use the 3D EDIT MODE to change the attributes of a sector, wall, or sprite
+     such as:
+
+     Tile number - Tells which picture in the artwork file goes on the
+                      object.  Press V to change.
+     Shade       - The shade of the object.  Press -/+ to change.
+     Repeating   - The "smooshiness" of a wall.  Also for sprites.  Press
+                       keypad 2,4,6,8 to change.
+     Panning     - The starting offset into the tile graphics.  Press
+                       Shift + keypad 2,4,6,8 to change.
+     Height      - For ceilings, floors, and sprites.  Press PGUP or PGDN
+                   to change.
+     and there are a few other special attributes.
+
+  Use the 2D EDIT MODE to add, delete, or change the shape of sectors.
+
+  To switch between the two EDIT MODES, press the keypad enter key.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                          3D EDIT MODE KEYS:                               ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+         ESC = Quit
+keypad ENTER = Flip to the 2D overhead editor
+
+       Mouse = Move mouse cursor
+      Arrows = Move you in the appropriate directions
+   Caps Lock = There are 3 different Z coordinate modes in BUILD.
+                  Mode 0:  Game mode (default)
+                  Mode 1:  Height lock mode
+                  Mode 2:  Float mode
+               Press Caps Lock to switch between the 3 modes.
+               A and Z move up and down for all 3 modes.
+
+
+Note: For the following keys, it is important to move the mouse cursor to
+the right position before using them.  Also, if you hold down the first mouse
+button, then the item under the mouse cursor will be locked as the
+highlighted object while the button is held down.  This is useful for the
+PGUP/DN keys, when different objects come into view even without moving your
+coordinates or the mouse cursor.
+      There are 4 basic types of objects that can be worked with in this part
+of the editor:  WALLS, CEILINGS, FLOORS, and SPRITES.
+
+     PGUP/DN = Raise or Lower a ceiling or floor.  (If a wall is selected,
+               the ceiling of that sector will move)  Also, if you did a
+               sector highlight in 2D EDIT MODE, you can raise / lower
+               multiple sectors at a time.
+Ctrl-PGUP/DN = For sprites only, puts sprites exactly on the floor or exactly
+               on the ceiling.
+
+           V = Tile selection - use arrow keys to move around.  Press ENTER
+               to change the object to the highlighted piece of artwork, or
+               press ESC to cancel without changes made.
+       ALT-V = Height selection - works just like V, but this selects the
+               groudraw height map.
+
+2,4,6,8 (keypad) = Repeat values (smooshiness of the sizes of pixels) -
+               think of these keys as arrow keys controlling the bottom
+               right corner of the bitmap.  Normally, this is used for walls
+               and sprites.  If you select a floor or ceiling, all the walls
+               in that sector will be affected.  Perhaps this can be used
+               to make sprites grow and shrink as they get healthy or hurt.
+Shift +
+2,4,6,8 (keypad) = Panning values (offset into the tile) -  These keys are
+               useful when the you want a long wall to look continuous when
+               they normally would not look continuous.
+           / = Use this key to reset the panning values (if you're lost!)
+  5 (keypad) = If you hold down this key down in addition to the 2,4,6,8
+               keys (keypad),the values will align at multiples of 8.
+          .> =  This key attempts to match up all the tiles along a wall.  It
+               scans along the walls towards the right as long as the picture
+               number of the next wall is the same as the original picture
+               number.  Note that some walls may not work right, especially
+               floor / ceiling steps.
+
+           F = Flip an object.  For sprites and walls, this flips the object
+               x-wise.  For ceilings and floors, the objects are flipped in
+               8 possible ways.  Just keep pressing 'F' to go through
+               the 8 ways.
+       ALT-F = When you use relative alignment mode on ceiling and floor
+               textures, you can press Alt-F on the ceiling or floor to
+               choose a new wall to align to.  It actually rotates the walls
+               of a sector by 1.
+           O = Wall orientation (whether it starts from the top or bottom)
+               Normally, walls are oriented from the top.  For example, if
+               you hold down 2/8 on the keypad in 3D EDIT MODE, the wall
+               always starts from the top.  Orientation works differently
+               for white lines and red lines, so if a wall doesn't look
+               right, just press 'O' anyway to see if it get fixed.
+
+COPY & PASTE
+         TAB = COPY. Copy the attibutes of the highlighted objects into a
+               temporary place.  The attributes it remembers are:
+               tile, shade, x-repeat, y-repeat, and cstat values.
+  Left ENTER = PASTE. Paste the stored attributes over the highlighted
+               object.  Whenever you press ENTER, the y-repeat values stay
+               the same, and the x-repeat values are adjusted so the pixels
+               of the bitmaps have a square-aspect ratio.
+Ctrl+L.ENTER = Left ENTER with the ctrl key will paste the attribtues to
+                every wall in a loop (if a wall is highlighted).
+Shft+L.ENTER = Left ENTER with the shift key also pressed copies the shade
+               only.
+Ctrl+Shft+L.ENTER = Auto-shade a sector.  First make any wall of the loop
+               as light as the lightest shade you want.  Then make any other
+               wall of the loop as dark as the darkest shade you want.
+               Finally press Ctrl-Shift Enter on the wall that should be
+               lightest.  Now the loop should be smoothly shaded.  If it
+               is not smoothly shaded, you may need to insert more points
+               on the walls.
+
+SECTOR FLAGS:
+
+           P = Make the ceiling of the given sector have a Parallaxing sky
+               or just a normal ceiling.
+           G = Make the floor of the given sector have a Groudraw
+               (floor with height mapping).  I do not recommend using this
+               attribute very extensively yet. (See the H key for selecting
+               the height map)
+           E = An option for ceilings and floors.  If for some reason, you
+               want a tile to be smooshed into the normal 64*64 area, press
+               E to unExpand the tile.  Press E again, and the tile will be
+               expanded, so the pixel size is the same as the normal 64*64
+               ceiling/floor.
+           R = Relative alignment - switch between relative alignment mode
+               and normal mode.  Allows floor / ceiling textures to align
+               to the first 2 points of a sector.  Textures will rotate/pan
+               with moving sectors properly.  Notice that bit 6 of both
+               sector[].ceilingstat and sector[].floorstat are relative
+               alignment bits.
+
+WALL FLAGS:
+
+           B = Make an invisible wall, such as a window, block you from
+               going through.  Since the wall is invisible, you can also
+               highlight the ceiling right above the window or floor
+               right below the window.  You can block either the front or
+               the back of the window.  If you block the back only, you
+               will be able to go onto the window sill.
+           T = Press to make a maskable wall 50/50 transluscent.  Press T
+               again to put the masked wall back to normal mode.
+           M = Make a maskable wall.  Press in the same place you press 'B'.
+               The masking wall takes all its attributes from the front of
+               the wall, so it must have the same repeat, panning, and cstat
+               values as the walls above or below it (if you have a step).
+               The masking picture number is stored in overpicnum.  Also,
+               the masking walls is also automatically added the the other
+               side of the wall, with the picture flipped.  (see the 'F'
+               key descripte above)
+   Shift + M = Make a maskable wall just like 'M' described above, but only
+               on the front side.
+
+           1 = Make a 1-way wall.
+           2 = Some walls have two different sections.  One step on the
+               ceiling and one step on the floor.  Normally they always
+               have the same attributes.  It is possible though, to give
+               both the top and bottom different attributes by pressing 2 on
+               that wall.  2 simply makes the bottom wall's attributes
+               separately editable.  Press 2 on either the top or bottom
+               wall.
+           O = Wall orientation (whether it starts from the top or bottom)
+               Normally, walls are oriented from the top.  For example, if
+               you hold down 2/8 on the keypad in 3D EDIT MODE, the wall
+               always starts from the top.  Orientation works differently
+               for white lines and red lines, so if a wall doesn't look
+               right, just press 'O' anyway to see if it get fixed.
+           H = Toggle hitscan pass through bit.  Default is pass through.
+
+SPRITE FLAGS:
+
+           B = When the mouse cursor is on a sprite, this makes a sprite
+               block you from walking through.  Also makes the sprite
+               sensitive to hitscan.  Sprites with the 'B' attribute will
+               appear pink in 2D EDIT MODE
+           T = Press to make a sprite 50/50 transluscent.  Press T again
+               to put sprite back to normal mode.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                          2D EDIT MODE KEYS:                               ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+               ESC = Show a menu that says, "(N)ew, (L)oad, (S)ave, (Q)uit"
+                     Press ESC again to cancel the menu.
+      keypad ENTER = Flip back to the 3D edit mode
+
+             Mouse = Move mouse cursor
+ Left mouse button = If you hold down the left mouse button, you can drag
+                     existing points.  To drag multiple points you can use
+                     the right shift key to first select a rectangular
+                     region of points to highlight, then just drag any of
+                     the highlighted points and the rest move with it.
+Right mouse button = Moves the player's positions to the mouse cursor.
+                     This is useful when you accidently get stuck somewhere
+                     in the board, or when you need to edit some part of
+                     a sector that is hard to access.
+       Right Shift = Select a bunch of points for use with dragging around.
+                        Selects all points inside a box.  (Use the left mouse
+                        button to drag)
+  Ctrl+Right Shift = Select a bunch of points for use with dragging around.
+                        Selects all points on a loop.  (Use the left mouse
+                        button to drag)
+         Right Alt = Select a bunch of sectors for either duplication or
+                        dragging around.  (see left mouse button for
+                        dragging and the insert key for duplication).
+
+            Arrows = Move player position in the appropriate directions.
+                     The player will be clipped.  To jump to a different part
+                     of the board, use the right mouse button.
+             Space = Press the space bar when drawing new sectors.  There
+                     are several ways of drawing new sectors.  The following
+                     three ways of drawing sectors can all be done by only
+                     using the space bar.  The computer is smart enough to
+                     decide which method you are using.
+
+                     1.  Drawing a FULL LOOP - that is, whenever the new
+                         sector meets the old sector, draw over that line
+                         again.  In full loop mode the new sector must not
+                         already be in another sector.  The loop is done
+                         when you press the space bar at the first point
+                         again.
+                     2.  SPLITTING a sector - press space bar to draw points
+                         at which you want to split a sector.  The computer
+                         knows you are done splitting when you end at
+                         another point that's on the edge of the sector you
+                         are splitting.
+                     3.  Drawing a sector COMPLETELY INSIDE another sector.
+                         (for example, columns) To do this, just press space
+                         bar at every point in the loop.  The loop is done
+                         when you press the space bar at the first point
+                         again.
+         Backspace = When plotting points with the space bar, you can use
+                     backspace to get rid of the last point plotted.  You
+                     can press the backspace to get rid of all the points
+                     if you didn't want to start a sector at all.
+
+            Insert = Inserts a new point at the midpoint of the highlighted
+                     line.  Then you can drag the point to wherever you like.
+                     (If you insert on a red line, the point will be inserted
+                     on both sides of the sector line.)
+                     If a bunch of sectors are selected (see right ALT) then
+                     instead of inserted points, the selected sector bunch
+                     will be duplicated (stamped).  Don't forget to drag
+                     the selected sectors after stamping.
+
+            Delete = Use this to delete sprites (blue circles).  To delete
+                     points of a sector border, don't press delete.  Instead,
+                     drag the point into one of its 2 neighbor points on the
+                     sector.  This is easist done if grid locking is on
+                     (mouse cursor is pink).  If 2 neighbor points are equal,
+                     one will automatically be deleted.
+ Right Ctrl-Delete = This deletes the whole sector that the mouse cursor is
+                     in.  Note the right ctrl for protection.
+   (Note: to delete a point of a sector, just drag that point into the next
+      point and it will automatically be deleted.  You should do this with
+      grid-locking on)
+                 J = Use to join two neighboring sectors.  Press J when mouse
+                     cursor is over the first sector.  Then press J again
+                     when the mouse cursor is over the neighboring sector.
+                     The attributes of the combined sector will be taken from
+                     the first sector selected.
+             ALT-S = When you have a white loop inside a sector, you can
+                     press ALT-S on it (highlight any of its lines) to turn
+                     the whole loop red.
+                 S = Places a sprite at the location under the mouse cursor.
+                     A sprite looks like a blue circle in the overhead map.
+
+                 B = Blocks / unblocks you from going through a wall or
+                     sprites.  A blocked wall or sprite will appear pink
+                     in 2D EDIT MODE.  See the description for 'B' in
+                     the 3D EDIT MODE section for more details.
+
+                 C = Turn a line into a circle defined by short line
+                     segments.  First press 'C' on a highlighted wall.  Then
+                     move the mouse to the right place and press '+' or '-'
+                     if you want to change the number of points on the
+                     circle.  Press 'C' again to cancel the circle drawing or
+                     press the Space bar to actually change the map.
+               +/- = Increase / Decrease the number of points on the circle.
+
+                 T = Type in a LO-tag for a sector.  Move the mouse cursor to
+                     the inside of a sector that you want to tag first.
+             ALT-T = Just like 'T' but for walls and sprites.
+                 H = Type in a HI-tag for a sector.  Move the mouse cursor to
+                     the inside of a sector that you want to tag first.
+             ALT-H = Just like 'H' but for walls and sprites.
+                 E = Change a sprite's status list number.
+           < and > = Changes angle of sprite.  Move the mouse cursor to a
+                     sprite first.  You can hold down shift with the < and >
+                     to get more precise angles.  If you did a sector
+                     highlight, then the selected sector will be rotated
+                     instead.
+            CTRL-T = Turn tag boxes on/off.
+
+               TAB = Move the mouse cursor to the inside of a sector that you
+                     you want to see the attributes of.  It will show them
+                     at the bottom of the status bar.  To clear it, press
+                     TAB again at somewhere in the board that is not part
+                     of any sector.  This is a useful key for debugging.
+           ALT-TAB = Works just like TAB, but here, you can see the
+                     attributes of highlighted walls or sprites.  For red
+                     lines, the side the mouse cursor is on the line affects
+                     which line is highlighted, since red lines are actually
+                     defined as 2 walls (1 wall for each sector).
+
+       Scroll Lock = Set starting position (brown arrow) to your current
+                     position (white arrow).
+
+               A,Z = Zoom in and out.  This is useful for choosing whether
+                     you want to edit finely or not.
+                 G = Change grid resolution.  The grid resolution cycles
+                     through this sequence:
+                        (off, 1x, 2x, 4x (default), 8x, 16x)
+                 L = Turns grid locking on or off.  If the mouse cursor is
+                     pink then grid locking is on.  If it is white then
+                     grid locking is off.  There is no grid locking
+                     if the grid is turned off.  Also, grid locking will
+                     lock to nearby points.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                              EDITART KEYS:                                ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+   ---- Keys you will need to know if you want to select from a section of
+   a 320*200*256 picture file (.BMP and .PCX only) and put it into the BUILD
+   engine.
+
+   U - Use this to import a section of a 320*200*256 .BMP, .PCX, or .GIF.
+     ³  Enter - Convert the image that is inside the rectangular selection
+     ³          rectangle to the BUILD palette.
+     ³  Space - Convert the image that is inside the rectangular selection
+     ³          rectangle without remapping the palette.
+     ³  P - If in the picture selecting screen (after pressing U and loading
+     ³      the picture), you press P, then the palette of BUILD can be
+     ÀÄÄ    replaced by the palette of the displayed picture.
+   PGUP/PGDN - Select tile to edit (4096 tile maximum right now).
+   G - GOTO a tile by typing in the tile number.
+   S - Re-size tile.  The X and Y sizes can be any unsigned short integer.
+       X ranges from 0 to 1024, and Y ranges from 0 to 240.
+   Delete - short cut key to set both the X and Y sizes to 0.
+   +,- Change the animation setting.  (Default: NoAnm = 0.)
+         To change the animation type, press - when the value is 0.
+         Ex: If you want an object to have 4 tiles of animation, you can
+            animate it in 4 different sequences: (0 is the current tile)
+               NoAnm=4 sequence: 0,0,0,0,0,0,0,0,0,0,0,... (no animation)
+               Oscis=4 sequence: 0,1,2,3,2,1,0,1,2,3,2,... (oscillate)
+               AnmFD=4 sequence: 0,1,2,3,0,1,2,3,0,1,2,... (forwards)
+               AnmBK=4 sequence: 0,-1,-2,-3,0,-1,-2,-3,... (backwards)
+   A - Set the animation speed of the tile.  Press + and - to change the
+       animation speed.  There are 16 different animation speeds.  The
+       animation speed set here set the speed for BUILD and your GAME also.
+                    (Speed is proportional to (totalclock>>animspeed))
+  - This key (located just above the TAB key) allows you to center a
+       sprite.  Simply use the arrow keys to get to the desired position.
+   N - Name a tile.  Naming a tile simply changes the #define statement in
+       NAMES.H.  You should include NAMES.H when compiling so you can easily
+       refer to sprites by name rather than by number.
+   O - Optimize the size of an individual piece of artwork.  Use this for
+       tiles with invisible pixels on the sides.
+   V - View and select a tile to edit.
+     ³   Space - To swap 2 tiles simply press space bar on the first tile,
+     ³           then space bar on the second.
+     ³   1,2,3 - To swap a group of tiles, press 1 on the first tile,
+     ³             press 2 to remember the region between where you pressed
+     ³             1 and 2.  Press 3 at the place to where you want to swap
+     ÀÄÄ           all the tiles.
+ALT+U- Re-grab artwork from original pictures according to the CAPFIL.TXT
+       file.  If you press ALT-U in the main screen, everything will be
+       re-grabbed.  If you press ALT-U in 'V' mode, then you should first
+       select the range by pressing '1' and '2' on the range boundaries.
+ALT+R- Generate a Tile frequency report by scanning all maps in directory.
+       Use in 'V' mode only.
+F12 - Screen capture (saves image as a *.BMP file, starting as file
+       name CAPTUR00.BMP and incrementing by 1 each time F12 is
+       pressed.
+
+   ESC - Quit.
+
+
+
+   ---- Extra features: (if you actually want to do the artwork in EDITART
+                         or if you want to touch-up some imported art.)
+
+      C - Change all pixels on the tile having the same color under the
+         graphics cursor to to selected color.
+      Arrows / Mouse - Move graphics cursor.
+      Shift + Arrows - Select color. (on bottom right corner of screen)
+      Space - Plot a pixel with the selected color.
+      T - Turn drawing trail on / off.
+      Tab - Select the color under the graphics cursor.
+      BACKSPACE - Set the color to color 255 (transparent color).
+      F - Floodfill a region with the current color and with the current
+          color as a boundary.
+      M,P - Use M to back up a tile into a temporary buffer in memory and P
+            to restore it.  It may be wise to press M before a floodfill (F)
+            (because sometimes you miss encapsulating the region by 1 pixel,
+            and the whole picture gets killed, etc...)
+      J - Randomly plots dots of current color over any pixels having the
+          same color as the color under the tile cursor.
+      [ - Random antialias of colors in color band under graphics cursor.
+      ] - Non-random antialias of colors in color band under graphics cursor.
+      ; - 3-Dimentionalize an image.  Makes colors in different rows of the
+          color bar either appear to stick out or stick in to the wall.
+      ' - 3-Dimentionalize the other way.
+      R - Rotate the tile in a specified direction.
+
+      1 - Mark the first corner of a rectangle for a copy/paste operation.
+      2 - Mark the other corner of a rectangle for a copy/paste operation.
+      3 - Paste the selected rectangle (Note: You must press 1 and 2 in that
+          order first before pressing 3.  Pretty simple 1-2-3 for copy&paste)
+
+      4 - Flip the copied rectangular region x-wise.
+      5 - Flip the copied rectangular region y-wise.
+      6 - Swap the x and y coordinates of the copied rectangular region.
+
+      ,.<> - Change the shade of the selected region.
+      \ - Move the cursor to the center or the tile.
+      | - Get the coordinates of the cursor.
+
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                            ³11. BUILD MAP FORMAT³
+                            ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Here's how you should read a BUILD map file:
+
+{
+   fil = open(???);
+
+      //Load map version number (current version is 7L)
+   read(fil,&mapversion,4);
+
+      //Load starting position
+   read(fil,posx,4);
+   read(fil,posy,4);
+   read(fil,posz,4);          //Note: Z coordinates are all shifted up 4
+   read(fil,ang,2);           //All angles are from 0-2047, clockwise
+   read(fil,cursectnum,2);    //Sector of starting point
+
+      //Load all sectors (see sector structure described below)
+   read(fil,&numsectors,2);
+   read(fil,&sector[0],sizeof(sectortype)*numsectors);
+
+      //Load all walls (see wall structure described below)
+   read(fil,&numwalls,2);
+   read(fil,&wall[0],sizeof(walltype)*numwalls);
+
+      //Load all sprites (see sprite structure described below)
+   read(fil,&numsprites,2);
+   read(fil,&sprite[0],sizeof(spritetype)*numsprites);
+
+   close(fil);
+}
+
+Sector Information:
+
+   //sizeof(sectortype) = 40
+typedef struct
+{
+   short wallptr, wallnum;
+   long ceilingz, floorz;
+   short ceilingstat, floorstat;
+   short ceilingpicnum, ceilingheinum;
+   signed char ceilingshade;
+   char ceilingpal, ceilingxpanning, ceilingypanning;
+   short floorpicnum, floorheinum;
+   signed char floorshade;
+   char floorpal, floorxpanning, floorypanning;
+   char visibility, filler;
+   short lotag, hitag, extra;
+} sectortype;
+sectortype sector[1024];
+
+wallptr - index to first wall of sector
+wallnum - number of walls in sector
+z's - z coordinate (height) of ceiling / floor at first point of sector
+stat's
+   bit 0: 1 = parallaxing, 0 = not                                 "P"
+   bit 1: 1 = sloped, 0 = not
+   bit 2: 1 = swap x&y, 0 = not                                    "F"
+   bit 3: 1 = double smooshiness                                   "E"
+   bit 4: 1 = x-flip                                               "F"
+   bit 5: 1 = y-flip                                               "F"
+   bit 6: 1 = Align texture to first wall of sector                "R"
+   bits 7-15: reserved
+picnum's - texture index into art file
+heinum's - slope value (rise/run) (0-parallel to floor, 4096-45 degrees)
+shade's - shade offset of ceiling/floor
+pal's - palette lookup table number (0 - use standard colors)
+panning's - used to align textures or to do texture panning
+visibility - determines how fast an area changes shade relative to distance
+filler - useless byte to make structure aligned
+lotag, hitag, extra - These variables used by the game programmer only
+
+Wall Information:
+
+   //sizeof(walltype) = 32
+typedef struct
+{
+   long x, y;
+   short point2, nextwall, nextsector, cstat;
+   short picnum, overpicnum;
+   signed char shade;
+   char pal, xrepeat, yrepeat, xpanning, ypanning;
+   short lotag, hitag, extra;
+} walltype;
+walltype wall[8192];
+
+x, y: Coordinate of left side of wall, get right side from next wall's left side
+point2: Index to next wall on the right (always in the same sector)
+nextwall: Index to wall on other side of wall (-1 if there is no sector)
+nextsector: Index to sector on other side of wall (-1 if there is no sector)
+cstat:
+   bit 0: 1 = Blocking wall (use with clipmove, getzrange)         "B"
+   bit 1: 1 = bottoms of invisible walls swapped, 0 = not          "2"
+   bit 2: 1 = align picture on bottom (for doors), 0 = top         "O"
+   bit 3: 1 = x-flipped, 0 = normal                                "F"
+   bit 4: 1 = masking wall, 0 = not                                "M"
+   bit 5: 1 = 1-way wall, 0 = not                                  "1"
+   bit 6: 1 = Blocking wall (use with hitscan / cliptype 1)        "H"
+   bit 7: 1 = Transluscence, 0 = not                               "T"
+   bit 8: 1 = y-flipped, 0 = normal                                "F"
+   bit 9: 1 = Transluscence reversing, 0 = normal                  "T"
+   bits 10-15: reserved
+picnum - texture index into art file
+overpicnum - texture index into art file for masked walls / 1-way walls
+shade - shade offset of wall
+pal - palette lookup table number (0 - use standard colors)
+repeat's - used to change the size of pixels (stretch textures)
+pannings - used to align textures or to do texture panning
+lotag, hitag, extra - These variables used by the game programmer only
+
+Sprite Information:
+
+   //sizeof(spritetype) = 44
+typedef struct
+{
+   long x, y, z;
+   short cstat, picnum;
+   signed char shade;
+   char pal, clipdist, filler;
+   unsigned char xrepeat, yrepeat;
+   signed char xoffset, yoffset;
+   short sectnum, statnum;
+   short ang, owner, xvel, yvel, zvel;
+   short lotag, hitag, extra;
+} spritetype;
+spritetype sprite[4096];
+x, y, z - position of sprite - can be defined at center bottom or center
+cstat:
+   bit 0: 1 = Blocking sprite (use with clipmove, getzrange)       "B"
+   bit 1: 1 = transluscence, 0 = normal                            "T"
+   bit 2: 1 = x-flipped, 0 = normal                                "F"
+   bit 3: 1 = y-flipped, 0 = normal                                "F"
+   bits 5-4: 00 = FACE sprite (default)                            "R"
+             01 = WALL sprite (like masked walls)
+             10 = FLOOR sprite (parallel to ceilings&floors)
+   bit 6: 1 = 1-sided sprite, 0 = normal                           "1"
+   bit 7: 1 = Real centered centering, 0 = foot center             "C"
+   bit 8: 1 = Blocking sprite (use with hitscan / cliptype 1)      "H"
+   bit 9: 1 = Transluscence reversing, 0 = normal                  "T"
+   bits 10-14: reserved
+   bit 15: 1 = Invisible sprite, 0 = not invisible
+picnum - texture index into art file
+shade - shade offset of sprite
+pal - palette lookup table number (0 - use standard colors)
+clipdist - the size of the movement clipping square (face sprites only)
+filler - useless byte to make structure aligned
+repeat's - used to change the size of pixels (stretch textures)
+offset's - used to center the animation of sprites
+sectnum - current sector of sprite
+statnum - current status of sprite (inactive/monster/bullet, etc.)
+
+ang - angle the sprite is facing
+owner, xvel, yvel, zvel, lotag, hitag, extra - These variables used by the
+                                               game programmer only
+
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                         ³12. MAP AUTHORING TEMPLATE³
+                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+When you upload your .MAP file(s) to FTP sites, BBS's and the like, you
+are encouraged to include this file with the map, so that you can be
+recognized for your work!  We can't wait to see what you can come up with!
+
+Duke Nukem 3D .MAP Authoring Template v1.0
+================================================================
+Title                   :
+Filename                : xxxx.MAP
+Author                  : Your name here
+Email Address           :
+Misc. Author Info       :
+
+Description             :
+
+Additional Credits to   :
+================================================================
+
+* Play Information *
+
+Episode and Level #     :
+Single Player           : Yes/No
+DukeMatch Level         : Yes/No
+Difficulty Settings     : Yes/Not implemented
+
+* Construction *
+
+Base                    : New level from scratch/Modified ExMx/xxx.MAP
+Editor(s) used          :
+Known Bugs              :
+
+* Where to get this MAP file *
+
+FTP sites:
+
+BBS numbers:
+
+Other:
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                         ³12. TIPS FROM THE LEVELORD³
+                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Here are a few closing comments from the Levelord:
+
+   ¯ Don't let two mirrors "see" each other, this causes problems.
+   ¯ Don't put two demo cameras where they are within each other's
+     field of vision; this causes problems.
+   ¯ Keep your maps simple, especially if they are for Dukematch.
+   ¯ Your frame rate is directly related to your computer, so if
+     you have a Pentium, don't make a map that won't run on a good 486.
+   ¯ Use shadowing - Makes for more cool looking rooms/objects/whatever.
+   ¯ In the simplest case - a square room should have two opposing sides
+     darker (or lighter) than the other two.
+   ¯ If your frame rate allows, subdivide sectors to look like shadows are
+     being cast from buildings. etc.
+   ¯ Select a "tile set" that fits your map's motif.
+   ¯ Don't use too many tiles, especially in any one scene.
+   ¯ Frame Rate is God!  Keep this in mind at all times.
+   ¯ Most of all, think deviously!
+
