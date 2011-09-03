@@ -13,7 +13,7 @@ timecalc () {
     TIMESTOP=$2
     
     TIMEPASSED=$(( $2 - $1 ))
-    SECONDSPASSED=$(( $TIMEPASSED % 60 )) #символ % - целочисленное деление
+    SECONDSPASSED=$(( $TIMEPASSED % 60 )) #символ % - остаток от целочисленного деления
     MINUTESPASSED=$(( $TIMEPASSED % 3600 / 60 ))
     HOURSPASSED=$(( $TIMEPASSED % 86400 / 3600 ))
     DAYSPASSED=$(( $TIMEPASSED / 86400 ))
