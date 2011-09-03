@@ -42,7 +42,7 @@ timecalc () {
     #включение звука
     amixer sset Master unmute 
     
-TIMESTOP=`date +%s` #засекаем начало блокировки
+TIMESTOP=`date +%s` #засекаем окончание блокировки
 
 #уведомление о продолжительности блокировки
 notify-send -i info -u low "`hostname` unlocked" "`hostname` was locked for `timecalc $TIMESTART $TIMESTOP`"
