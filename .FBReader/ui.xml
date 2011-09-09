@@ -8,6 +8,7 @@
     <option name="Height" value="13"/>
     <option name="Offset" value="0"/>
     <option name="PositionText" value="true"/>
+    <option name="ShowTOCMarks" value="true"/>
     <option name="Time" value="true"/>
     <option name="TouchSensitive" value="false"/>
     <option name="Type" value="1"/>
@@ -30,7 +31,7 @@
   </group>
   <group name="OptionsDialog">
     <option name="Height" value="331"/>
-    <option name="SelectedTab" value="Keys"/>
+    <option name="SelectedTab" value="Indicator"/>
     <option name="Width" value="516"/>
   </group>
   <group name="Style">

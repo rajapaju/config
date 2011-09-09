@@ -369,6 +369,21 @@
     <option name="TagList" value="SF, Fantasy/Fantasy"/>
     <option name="Title" value="Буря мечей"/>
   </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
+    <option name="Size" value="1382321"/>
+  </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2">
+    <option name="AuthorDisplayName" value="Джордж Мартин"/>
+    <option name="AuthorSortKey" value="мартин"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Number in seq" value="4"/>
+    <option name="Sequence" value="Песнь льда и пламени"/>
+    <option name="TagList" value="SF, Fantasy/Fantasy"/>
+    <option name="Title" value="Пир стервятников"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2">
     <option name="AuthorDisplayName" value="Дмитрий Неведимов"/>
     <option name="AuthorSortKey" value="неведимов"/>
