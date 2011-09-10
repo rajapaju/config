@@ -94,6 +94,7 @@ video/webm=smplayer.desktop;
 video/x-msvideo=smplayer.desktop;
 application/postscript=evince.desktop;
 application/epub+zip=FBReader.desktop;evince.desktop;file-roller.desktop;
+text/x-python=geany.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;

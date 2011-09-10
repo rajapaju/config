@@ -129,19 +129,14 @@ def game_new():
     answer=input()
     return answer
 
-#устанавливаем параметры на первую игру
-cell_value = []
-visible_value = []
-armed_cell = []
-HGHT = 9         #высота поля
-WDTH = 9         #ширина поля
-BMBS = 10        #число бомб
-while game_new()==1:
-    #возвращаем параметры к изначальным для каждой следующей игры
+
+while True:
+    #возвращаем параметры к изначальным для каждой новой игры
     cell_value = []
     visible_value = []
     armed_cell = []
     HGHT = 9         #высота поля
     WDTH = 9         #ширина поля
-    BMBS = 10        #число бомб
+    BMBS = 80        #число бомб
     #RSRVD = 5       #порядковый номер ячейки, в которую никогда не ставить бомбу
+    if game_new()!=1: break
