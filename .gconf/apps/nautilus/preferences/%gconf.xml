@@ -84,7 +84,7 @@
 	<entry name="sidebar_width" mtime="1279352134" type="int" value="116"/>
 	<entry name="start_with_sidebar" mtime="1299420585" type="bool" value="false"/>
 	<entry name="start_with_toolbar" mtime="1304810260" type="bool" value="false"/>
-	<entry name="navigation_window_saved_maximized" mtime="1315133350" type="bool" value="false"/>
+	<entry name="navigation_window_saved_maximized" mtime="1315598744" type="bool" value="false"/>
 	<entry name="navigation_window_saved_geometry" mtime="1314546999" type="string">
 		<stringvalue>803x485+403+151</stringvalue>
 	</entry>
