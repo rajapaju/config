@@ -15,7 +15,7 @@ MAIN_WINDOW_TITLE="Minesweeper" #заголовок окна
 #Параметры игры
 HGHT=9
 WDTH=9
-BMBS=10
+BMBS=80
 
 #Визуальные параметры
 #(0,1,2,3,4,5,6,7,8,bomb,flag)
@@ -53,7 +53,6 @@ def variables_init():
 
 def field_create(field_height, field_width, bombs_number, cell_reserved):
 #функция для создания нового игрового поля
-    
     #создаем пустые массивы нужной размерности - игровое поле и его видимую часть
     #+2 чтобы с краев поля было по одному лишнему ряду, чтобы не получить out of range
     for i in range(field_height+2):
@@ -178,6 +177,7 @@ class GameWindow:
         global game_failed
         global visible_value
         global cell_value
+        
         
         #Считываем координаты кликнутой ячейки
         row,column=data
