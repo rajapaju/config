@@ -15,19 +15,21 @@
     <option name="Word_0" value="0"/>
   </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2">
-    <option name="Paragraph" value="9898"/>
+    <option name="Paragraph" value="3"/>
     <option name="Paragraph_0" value="0"/>
     <option name="Paragraph_1" value="2094"/>
     <option name="Paragraph_2" value="2504"/>
     <option name="Paragraph_3" value="1877"/>
     <option name="Paragraph_4" value="9521"/>
-    <option name="PositionInBuffer" value="5"/>
-    <option name="UndoBufferSize" value="5"/>
+    <option name="Paragraph_5" value="9898"/>
+    <option name="PositionInBuffer" value="6"/>
+    <option name="UndoBufferSize" value="6"/>
     <option name="Word_0" value="0"/>
     <option name="Word_1" value="0"/>
     <option name="Word_2" value="0"/>
     <option name="Word_3" value="0"/>
     <option name="Word_4" value="0"/>
+    <option name="Word_5" value="0"/>
   </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2">
     <option name="Paragraph" value="2202"/>
@@ -86,8 +88,8 @@
     <option name="Size" value="15"/>
   </group>
   <group name="LastOpenedBooks">
-    <option name="Book0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
-    <option name="Book1" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
+    <option name="Book0" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
+    <option name="Book1" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
     <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
     <option name="Book3" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
     <option name="Book4" value="/home/sio/kipling-soldiers-three.epub"/>
@@ -98,6 +100,6 @@
     <option name="Book9" value="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub"/>
   </group>
   <group name="State">
-    <option name="Book" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
+    <option name="Book" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
   </group>
 </config>

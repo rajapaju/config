@@ -1,0 +1,247 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+import pygtk
+pygtk.require('2.0')
+import gtk
+import random
+
+#Начальные значения
+HGHT=9
+WDTH=9
+BMBS=10
+MAIN_WINDOW_TITLE="Minesweeper"
+
+#Надписи для ячеек
+CELL_PLACEHOLDER=" "    #символ для неоткрытой клетки
+BOMB_PLACEHOLDER="⚙"    #символ для открытой бомбы
+BOMB_PRINTED="*"        #символ для закрытой бомбы
+FLAG="⚑"                #символ для флага
+
+#Цветовая палитра
+#COLORS=(0,1,2,3,4,5,6,7,8,bomb,flag)
+COLORS=("#999","#00f","#00a000","#ff0000","#00007f","#a00000","#AA129D","#E1671F","#000","#f00","#f00")
+CELL_SIZE=25 #pixels
+
+#Инициализация глобальных переменных
+cell_value = []
+visible_value = []
+armed_cell = []
+cell_flagged = []
+cells_opened=0
+cell_button=0
+game_failed=0
+
+
+def field_create(field_height, field_width, bombs_number, cell_reserved):
+#функция для создания нового игрового поля
+    
+    #создаем пустые массивы нужной размерности - игровое поле и его видимую часть
+    #+2 чтобы с краев поля было по одному лишнему ряду, чтобы не получить out of range
+    for i in range(field_height+2):
+        cell_value.append([])
+        visible_value.append([])
+        cell_flagged.append([])
+        for j in range(field_width+2):
+            cell_value[i].append(0)
+            visible_value[i].append(CELL_PLACEHOLDER)
+            cell_flagged[i].append(False)
+    
+    #пустой массив для списка бомб
+    for i in range(bombs_number):
+        armed_cell.append(0)
+    
+    #генерируем номера ячеек для закладки бомб
+    i=0
+    while i < bombs_number:
+        candidate=random.randint(1,field_height*field_width)
+        unique_test=0
+        for j in range(i):
+            if candidate == armed_cell[j] or candidate == cell_reserved: #проверка на уникальность
+                unique_test=1
+                break
+        if unique_test == 0:
+            armed_cell[i]=candidate
+            i+=1
+    
+    #ставим бомбы на поле по сгенерированным номерам
+    for i in range(bombs_number):
+        y = armed_cell[i]//field_width+1
+        if armed_cell[i]%field_width == 0:
+            x = field_width
+            y-=1
+        else:
+            x = armed_cell[i]%field_width
+        cell_value[y][x]=9
+    
+    #считаем число бомб в соседних ячейках
+    for i in range(field_height+2):
+        for j in range(field_width+2):
+            if cell_value[i][j]>=9:
+                cell_value[i-1][j-1]+=1
+                cell_value[i-1][j]+=1
+                cell_value[i-1][j+1]+=1
+                cell_value[i][j-1]+=1
+                cell_value[i][j+1]+=1
+                cell_value[i+1][j-1]+=1
+                cell_value[i+1][j]+=1
+                cell_value[i+1][j+1]+=1
+
+def show_cell(row, column):
+#функция показа пользователю ячейки
+#первая координата - по вертикали, вторая - по горизонтали
+    global game_failed
+    if cell_flagged[row][column]: return 0
+    if cell_value[row][column]==0 and cell_value[row][column]!=visible_value[row][column] and 0<row<=HGHT and 0<column<=WDTH:
+        visible_value[row][column]=cell_value[row][column]
+        show_cell(row+1,column+1)
+        show_cell(row+1,column)
+        show_cell(row+1,column-1)
+        show_cell(row,column+1)
+        show_cell(row,column-1)
+        show_cell(row-1,column+1)
+        show_cell(row-1,column)
+        show_cell(row-1,column-1)
+    elif cell_value[row][column]<9:
+        visible_value[row][column]=cell_value[row][column]
+    elif cell_value[row][column]>=9:
+        visible_value[row][column]=BOMB_PLACEHOLDER
+        game_failed = True
+
+class GameWindow:
+    click_is_double=0 #чтобы не оставлять неинициализированную переменную
+
+    #Перерисовать все надписи на ячейках
+    def redraw(self):
+        for i in range(1,HGHT+1):
+            for j in range(1,WDTH+1):
+                if 0<visible_value[i][j]<=8:
+                    cell_color=COLORS[visible_value[i][j]]
+                    cell_text=visible_value[i][j]
+                    cell_button[i][j].props.relief=gtk.RELIEF_NONE
+                elif 0==visible_value[i][j]:
+                    cell_color="#000"
+                    cell_text=CELL_PLACEHOLDER
+                    cell_button[i][j].props.relief=gtk.RELIEF_NONE
+                elif visible_value[i][j]==BOMB_PLACEHOLDER:
+                    cell_color=COLORS[9]
+                    cell_text=visible_value[i][j]
+                    cell_button[i][j].props.relief=gtk.RELIEF_NONE
+                elif cell_flagged[i][j]:
+                    cell_color=COLORS[10]
+                    cell_text=FLAG
+                else:
+                    cell_color="#000"
+                    cell_text=CELL_PLACEHOLDER
+                cell_button[i][j].get_children()[0].set_markup('<span color="%s"><b>%s</b></span>' % (cell_color,cell_text))
+
+    #Основная функция по клику на ячейке
+    def release_event(self, widget, event, data=None):
+        global click_is_double
+        global cells_opened
+        global game_failed
+        
+        #Считываем координаты кликнутой ячейки
+        row,column=data
+        
+        #Если уже попались на бомбу
+        if game_failed: 
+            return 0
+        
+        #Что делать, когда открыты все ячейки
+        if cells_opened >= WDTH*HGHT-BMBS:
+            return 0
+        
+        #Клик левой кнопкой мыши
+        if event.button==1:
+            if cells_opened==0: #первый клик
+                RSRVD=(row-1)*WDTH+column #страхуемся от попадания в бомбу первым шагом
+                field_create(HGHT,WDTH,BMBS,RSRVD) #генерируем содержимое поля
+            
+            #Открыть ячейку
+            show_cell(row,column)
+            
+            #По двойному клику открыть все соседние ячейки
+            if click_is_double:
+                for i in row-1,row,row+1:
+                    for j in column-1,column,column+1:
+                        show_cell(i,j)
+            
+            #Посчитать, сколько ячеек открыто
+            cells_opened=0
+            for i in range(1,HGHT+1):
+                for j in range(1,WDTH+1):
+                    if visible_value[i][j]!=CELL_PLACEHOLDER and visible_value[i][j]!=BOMB_PLACEHOLDER and visible_value[i][j]==cell_value[i][j]:
+                        cells_opened+=1
+            
+            #Отобразить изменения на поле
+            self.redraw()
+            
+        #Клик средней кнопкой мыши
+        elif event.button==2:
+            pass #пока ничего не делает
+            
+        #Клик правой кнопкой мыши
+        elif event.button==3:
+            cell_flagged[row][column]=not cell_flagged[row][column] #ставим-убираем флаг
+            self.redraw() #перерисовываем поле
+
+    
+    #Только проверка двойного клика. Не добавлять сюда рабочего кода    
+    def press_event(self, widget, event):
+        global click_is_double
+        click_is_double = (event.type == gtk.gdk._2BUTTON_PRESS)
+
+
+    #Выход по крестику на окне
+    def delete_event(self, widget, event, data=None):
+        gtk.main_quit()
+        return False
+
+
+    #Создаем окно
+    def __init__(self):
+        global cell_button
+        self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
+        self.window.set_title(MAIN_WINDOW_TITLE)
+        self.window.connect("delete_event", self.delete_event)
+
+        #Контейнер для элементов окна
+        vbox_toplevel = gtk.VBox(False, 0)
+        self.window.add(vbox_toplevel)
+        
+        #Контейнер для игрового поля
+        vbox_field = gtk.VBox(False, 0)
+        vbox_toplevel.pack_end(vbox_field, False, False, 0)
+                
+        #Инициализируем массивы
+        hbox_row=[0,]       #ряд с кнопками
+        cell_button=[0,]    #все кнопки
+        
+        #Рисуем игровое поле
+        for i in range(1,HGHT+1):
+            hbox_row.append(gtk.HBox(False,0)) #добавляем новый ряд
+            cell_button.append([0,])
+            for j in range(1,WDTH+1):
+                cell_button[i].append(gtk.Button(CELL_PLACEHOLDER)) #добавляем новую кнопку
+                cell_button[i][j].connect("button_press_event", self.press_event)
+                cell_button[i][j].connect("button_release_event", self.release_event, (i,j))
+                hbox_row[i].pack_start(cell_button[i][j], False, False, 0) #ставим кнопку в ряд
+                cell_button[i][j].set_size_request(CELL_SIZE,CELL_SIZE)
+                cell_button[i][j].show()
+            vbox_field.pack_start(hbox_row[i], False, False, 0) #ставим ряд на поле
+            hbox_row[i].show()
+        
+        #не забываем делать все виджеты видимыми
+        vbox_field.show()
+        vbox_toplevel.show()   
+        self.window.show()
+
+def main():
+    gtk.main()
+    return 0       
+
+if __name__ == "__main__":
+    GameWindow()
+    main()

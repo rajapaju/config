@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+
+# example togglebutton.py
+
+import pygtk
+pygtk.require('2.0')
+import gtk
+
+HGHT=9
+WDTH=9
+
+
+class GameWindow:
+    global HGHT
+    global WDTH
+    click_is_double=0
+    
+    def release_event(self, widget, event, data=None):
+        global click_is_double
+        print "%sx%s was clicked with button #%s" % (data[0], data[1], event.button)
+        print click_is_double
+        #print "Button was", event.button
+        
+    def press_event(self, widget, event):
+        global click_is_double
+        click_is_double = (event.type == gtk.gdk._2BUTTON_PRESS)
+        
+    #~ def double_click_event(self, widget, event):
+        #~ click_is_single = False
+
+
+    def delete_event(self, widget, event, data=None):
+        gtk.main_quit()
+        return False
+
+    def __init__(self):
+        self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
+        self.window.set_title("Toggle Button")
+        self.window.connect("delete_event", self.delete_event)
+        self.window.set_border_width(0)
+
+        vbox_toplevel = gtk.VBox(False, 0)
+        self.window.add(vbox_toplevel)
+        
+        vbox_field = gtk.VBox(False, 0)
+        vbox_toplevel.pack_end(vbox_field, False, False, 0)
+        
+        
+        hbox_row=[0,]
+        cell_button=[0,]
+        
+        for i in range(1,HGHT+1):
+            hbox_row.append(gtk.HBox(False,0))
+            cell_button.append([0,])
+            for j in range(1,WDTH+1):
+                cell_button[i].append(gtk.Button())
+                cell_button[i][j].connect("button_press_event", self.press_event)
+                cell_button[i][j].connect("button_release_event", self.release_event, (i,j))
+                #cell_button[i][j].connect("_2button_press_event", self.double_click_event)
+                hbox_row[i].pack_start(cell_button[i][j], False, False, 0)
+                cell_button[i][j].set_size_request(20,20)
+                cell_button[i][j].show()
+            vbox_field.pack_start(hbox_row[i], False, False, 0)
+            hbox_row[i].show()
+        
+        vbox_field.show()
+        vbox_toplevel.show()   
+        self.window.show()
+
+
+def main():
+    gtk.main()
+    return 0       
+
+if __name__ == "__main__":
+    GameWindow()
+    main()
