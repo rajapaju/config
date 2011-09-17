@@ -325,9 +325,9 @@ class GameWindow:
         #Меню
         self.menu_items = ( #имя, шорткат, функция, параметры, тип пункта
             ("/_File",         None,         None, 0, "<Branch>"),
-            ("/File/_New game",     "F2",         self.game_restart, 0, None),
+            ("/File/_New game","F2",         self.game_restart, 0, None),
             ("/File/sep1",     None,         None, 0, "<Separator>"),
-            ("/File/_Quit",     "<control>Q", gtk.main_quit, 0, None),
+            ("/File/_Quit",    "<control>Q", gtk.main_quit, 0, None),
             ("/_Edit",         None,         None, 0, "<Branch>"),
             ("/Edit/_Game options (n\/a)",None,None,0,None),
             ("/Edit/_View options (n\/a)",None,None,0,None),
