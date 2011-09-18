@@ -178,7 +178,6 @@ class GameWindow:
         global visible_value
         global cell_value
         
-        
         #Считываем координаты кликнутой ячейки
         row,column=data
         
