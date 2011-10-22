@@ -16,7 +16,8 @@
     (xoffset 0.000000)
     (yoffset 0.000000)
     (offset-unit inches))
-(theme "Small")
+(monitor-xresolution 128.000000)
+(monitor-yresolution 128.000000)
 
 
 # end of gimprc

@@ -6,8 +6,8 @@
 # you quit GIMP.  If this file isn't found, defaults are used.
 
 (session-info "dock" "dock"
-    (position 1072 0)
-    (size 206 801)
+    (position 1620 0)
+    (size 300 1083)
     (open-on-exit)
     (aux-info
         (show-image-menu "true")
@@ -29,7 +29,7 @@
             (dockable "gimp-tool-options"
                 (tab-style icon)))
         (book
-            (position 423)
+            (position 579)
             (current-page 3)
             (dockable "gimp-brush-grid"
                 (tab-style preview))
@@ -75,13 +75,13 @@
 (session-info "toplevel" "gimp-posterize-tool-dialog"
     (position 0 21))
 (session-info "toolbox" "dock"
-    (position 13 309)
-    (size 44 440)
+    (position 21 469)
+    (size 56 560)
     (open-on-exit))
 (session-info "display" "gimp-empty-image-window"
     (position 0 0)
-    (size 1072 799))
+    (size 1620 1078))
 
-(last-tip-shown 122)
+(last-tip-shown 130)
 
 # end of sessionrc

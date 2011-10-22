@@ -10,7 +10,7 @@
 [end]
 [app] (class=Iceweasel) (role=browser)
   [Workspace]	{0}
-  [Position]	(UPPERLEFT)	{151 99}
+  [Position]	(UPPERLEFT)	{211 129}
   [Deco]	{NONE}
 [end]
 [app] (name=pcmanfm) (class=Pcmanfm)
@@ -22,12 +22,11 @@
   [Deco]	{BORDER}
 [end]
 [group]  (workspace=[current])
- [app] (name=gajim*) (class=Gajim.py) (role=gc)
  [app] (role=gc)
  [app] (name=Download) (role=Manager)
   [Workspace]	{0}
-  [Dimensions]	{635 399}
-  [Position]	(UPPERLEFT)	{643 0}
+  [Dimensions]	{1007 537}
+  [Position]	(UPPERLEFT)	{912 0}
 [end]
 [app] (name=gajim.py) (class=Gajim.py) (role=pm)
   [Workspace]	{0}
@@ -44,33 +43,34 @@
   [Maximized]	{yes}
 [end]
 [app] (role=gimp-dock)
-  [Dimensions]	{206 801}
-  [Position]	(UPPERLEFT)	{1072 0}
+  [Dimensions]	{300 1083}
+  [Position]	(UPPERLEFT)	{1620 0}
   [Deco]	{NONE}
   [Layer]	{6}
 [end]
 [app] (role=gimp-image-window)
-  [Dimensions]	{1072 799}
+  [Dimensions]	{1620 1078}
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NONE}
 [end]
 [app] (role=gimp-toolbox)
-  [Dimensions]	{44 447}
-  [Position]	(UPPERLEFT)	{13 309}
+  [Dimensions]	{56 560}
+  [Position]	(UPPERLEFT)	{21 469}
   [Deco]	{NONE}
   [Layer]	{6}
 [end]
 [group]  (workspace=[current])
  [app] (role=Terminal)
  [app] (name=Terminal)
-  [Dimensions]	{641 399}
+  [Dimensions]	{910 537}
   [Position]	(UPPERLEFT)	{0 0}
   [Shaded]	{yes}
   [IconHidden]	{yes}
   [Sticky]	{yes}
 [end]
 [app] (name=gnome-system-monitor) (class=Gnome-system-monitor)
-  [Dimensions]	{584 679}
+  [Dimensions]	{666 756}
+  [Close]	{yes}
 [end]
 [app] (name=synaptic) (class=Synaptic)
   [Workspace]	{2}
@@ -83,11 +83,12 @@
 [app] (name=Pinta) (class=Pinta)
 [end]
 [app] (name=htop)
-  [Dimensions]	{872 474}
+  [Dimensions]	{1130 613}
+  [Close]	{yes}
 [end]
 [app] (name=aptitude)
-  [Dimensions]	{637 635}
-  [Position]	(UPPERLEFT)	{641 0}
+  [Dimensions]	{910 822}
+  [Position]	(UPPERLEFT)	{890 90}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -99,8 +100,8 @@
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=roster)
   [Workspace]	{0}
-  [Dimensions]	{149 557}
-  [Position]	(UPPERLEFT)	{0 241}
+  [Dimensions]	{209 701}
+  [Position]	(UPPERLEFT)	{0 377}
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=gc)
   [Workspace]	{0}
@@ -109,13 +110,13 @@
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=pm)
   [Workspace]	{0}
-  [Dimensions]	{407 379}
-  [Position]	(UPPERLEFT)	{234 20}
+  [Dimensions]	{517 516}
+  [Position]	(UPPERLEFT)	{393 21}
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=chat)
   [Workspace]	{0}
-  [Dimensions]	{407 379}
-  [Position]	(UPPERLEFT)	{0 20}
+  [Dimensions]	{517 516}
+  [Position]	(UPPERLEFT)	{0 25}
 [end]
 [app] (name=gajim.py) (class=Gajim.py) (role=messages)
   [Workspace]	{0}
@@ -171,14 +172,14 @@
 [end]
 [app] (name=sonata) (class=Sonata) (role=mainWindow)
   [Workspace]	{2}
-  [Dimensions]	{513 679}
-  [Position]	(UPPERLEFT)	{42 102}
+  [Dimensions]	{711 920}
+  [Position]	(UPPERLEFT)	{94 130}
   [Deco]	{BORDER}
 [end]
 [app] (name=skype) (class=Skype) (role=MainWindow)
   [Workspace]	{2}
-  [Dimensions]	{240 519}
-  [Position]	(UPPERLEFT)	{0 279}
+  [Dimensions]	{209 701}
+  [Position]	(UPPERLEFT)	{0 377}
   [Deco]	{BORDER}
 [end]
 [app] (name=chromium-browser) (class=Chromium-browser)
@@ -192,8 +193,8 @@
  [app] (name=transmission) (class=Transmission) (role=tr-main)
  [app] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-main)
   [Workspace]	{2}
-  [Dimensions]	{514 679}
-  [Position]	(UPPERLEFT)	{723 102}
+  [Dimensions]	{711 920}
+  [Position]	(UPPERLEFT)	{1122 130}
   [Deco]	{BORDER}
 [end]
 [transient] (name=VCLSalFrame) (class=OpenOffice.org 3.2)
@@ -207,7 +208,9 @@
 [app] (name=WINWORD.EXE) (class=Wine)
 [end]
 [transient] (name=firefox-bin) (class=Firefox-bin)
-  [Position]	(UPPERLEFT)	{246 65}
+  [Dimensions]	{910 888}
+  [Position]	(UPPERLEFT)	{583 89}
+  [Close]	{yes}
 [end]
 [app] (name=Mail) (class=Icedove) (role=3pane)
   [Workspace]	{2}
@@ -222,7 +225,7 @@
   [Maximized]	{yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{138 415}
+  [Position]	(UPPERLEFT)	{792 731}
   [Close]	{yes}
 [end]
 [app] (name=deadbeef) (class=Deadbeef)
@@ -243,10 +246,11 @@
   [Dimensions]	{641 399}
 [end]
 [transient] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-info)
-  [Dimensions]	{623 491}
-  [Position]	(UPPERLEFT)	{655 198}
+  [Dimensions]	{765 632}
+  [Position]	(UPPERLEFT)	{1089 287}
 [end]
 [app] (name=leafpad) (class=Leafpad)
+  [Deco]	{NORMAL}
   [Layer]	{8}
   [Close]	{yes}
 [end]
@@ -276,4 +280,17 @@
 [app] (name=Aedeliciouspost) (class=Iceweasel) (role=submit)
   [Position]	(UPPERLEFT)	{460 305}
   [Close]	{yes}
+[end]
+[transient] (name=inkscape) (class=Inkscape)
+  [Dimensions]	{504 180}
+  [Close]	{yes}
+[end]
+[app] (name=gajim) (class=Gajim.py) (role=history)
+  [Dimensions]	{1186 605}
+[end]
+[transient] (name=smplayer) (class=Smplayer) (role=FilePropertiesDialog)
+  [Dimensions]	{831 608}
+[end]
+[app] (name=Browser) (class=Iceweasel) (role=page-info)
+  [Dimensions]	{760 658}
 [end]

@@ -38,8 +38,8 @@ ForegroundInactive=137,116,167
 
 [General]
 XftAntialias=true
-XftHintStyle=hintmedium
-XftSubPixel=none
+XftHintStyle=hintfull
+XftSubPixel=rgb
 desktopFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
 fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
 font=Liberation Sans,9,-1,5,50,0,0,0,0,0

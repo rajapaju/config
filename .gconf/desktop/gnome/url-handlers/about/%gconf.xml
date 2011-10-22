@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="command" mtime="1281191861" type="string">
-		<stringvalue>firefox %s</stringvalue>
+	<entry name="command" mtime="1319217317" type="string">
+		<stringvalue>iceweasel %s</stringvalue>
 	</entry>
 </gconf>

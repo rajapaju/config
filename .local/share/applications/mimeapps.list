@@ -45,6 +45,7 @@ video/x-msvideo=smplayer.desktop
 video/mp4=smplayer.desktop
 application/postscript=evince.desktop
 application/x-rar=file-roller.desktop
+video/x-matroska=smplayer_enqueue.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
@@ -61,7 +62,7 @@ text/html=userapp-firefox-NM6IRV.desktop;geany.desktop;FBReader.desktop;
 application/vnd.oasis.opendocument.text=openoffice.org-writer.desktop;libreoffice-writer.desktop;
 audio/x-wav=totem.desktop;deadbeef.desktop;
 image/vnd.djvu=evince.desktop;
-image/png=gpicview.desktop;
+image/png=gpicview.desktop;userapp-fbsetbg-64HQ2V.desktop;
 image/gif=gpicview.desktop;
 inode/directory=easytag.desktop;totem.desktop;deadbeef.desktop;
 audio/x-ms-wma=deadbeef.desktop;
@@ -95,6 +96,7 @@ video/x-msvideo=smplayer.desktop;
 application/postscript=evince.desktop;
 application/epub+zip=FBReader.desktop;evince.desktop;file-roller.desktop;
 text/x-python=geany.desktop;
+video/x-matroska=userapp-mplayer-GG4W3V.desktop;userapp-mplayer2-H7DP3V.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;

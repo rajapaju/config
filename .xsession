@@ -4,12 +4,13 @@
 # USER-WIDE SETTINGS
 xrandr --output LVDS1 --set "scaling mode" Full
 fbsetbg -l
-setxkbmap -option "compose:menu"&
+setxkbmap -option "compose:menu,grp:caps_toggle"&
+(sleep 3; xmodmap ~/.xmodmaprc)&
 # END SETTINGS
 
 
 # TOUCHPAD DONE RIGHT
-synclient TapButton1=1 FastTaps=1 PalmDetect=1 TouchpadOff=1&
+synclient TapButton1=1 TapButton2=3 TapButton3=2 FastTaps=0 PalmDetect=1 TouchpadOff=1 LockedDrags=1 LockedDragTimeout=660&
 # END TOUCHPAD
 
 

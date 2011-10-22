@@ -1,10 +1,10 @@
-Xft.autohint: false
-Xft.lcdfilter: lcdlight
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
 Xft.antialias: true
 Xft.hinting: true
 Xft.hintstyle: hintfull
-Xft.rgba: rgb 
-Xft.dpi: 96.0
+Xft.rgba: rgb
+Xft.dpi: 128
 
 !URxvt*transparent: true
 URxvt*backgroundPixmap: /home/sio/.fluxbox/styles/BlueNight-tile.png-urxvt;0x0
@@ -23,7 +23,7 @@ URxvt.matcher.button: 2
 URxvt*background: #333333
 URxvt*cursorColor: #e5e5e5
 URxvt*foreground: #e5e5e5
-URxvt*font: xft:DejaVu Sans Mono-9:antialias=True
+URxvt*font: xft:Droid Sans Mono:size=9
 URxvt*geometry:  91x25
 URxvt*faceLines: 5000
 URxvt*color0:  #000000
@@ -64,7 +64,7 @@ XTerm*background: #333333
 !XTerm*cursorColor: #e5e5e5
 XTerm*foreground: #e5e5e5
 XTerm*scrollBar: false
-XTerm*faceName: xft:DejaVu Sans Mono-9:antialias=True
+XTerm*faceName: xft:Droid Sans Mono:size=8.8
 XTerm*faceLines: 5000
 XTerm*color0:  #000000
 XTerm*color1:  #aa0000

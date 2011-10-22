@@ -29,6 +29,9 @@ timecalc () {
 
     #отключение звука
     amixer sset Master mute
+
+    #пауза музыки
+    mpc pause
     
     #отключение экрана через LOCKDELAY
     (sleep $LOCKDELAY; pgrep xlock && xset dpms force off)&

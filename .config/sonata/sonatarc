@@ -16,15 +16,15 @@ title = %A - %T
 [library]
 lib_view = 1
 lib_genre = !NONE!
-lib_path = /
+lib_path = !NONE!
 lib_year = !NONE!
-lib_artist = !NONE!
+lib_artist = Billy Talent
 lib_album = !NONE!
 
 [player]
 art_location_custom_filename = front.jpg
 lyrics = False
-columnwidths = 170,166,166
+columnwidths = 252,223,166
 trayicon = False
 playback = True
 covers = False
@@ -55,14 +55,14 @@ decorated = True
 info_album_expanded = True
 infofile_path = /tmp/xmms-info
 info_art_enlarged = False
-h = 679
+h = 920
 expanded = True
 xfade = 0
 initial_run = False
-w = 513
+w = 711
 update_on_start = False
-y = 102
-x = 42
+y = 130
+x = 94
 art_location = 0
 browser = 
 

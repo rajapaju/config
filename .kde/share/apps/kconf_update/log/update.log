@@ -142,3 +142,15 @@
 2011-05-06T01:21:14 Checking update-file '/usr/share/kde4/apps/kconf_update/krdb.upd' for new updates
 2011-05-06T01:21:14 Checking update-file '/usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd' for new updates
 2011-05-06T01:21:14 Checking update-file '/usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/kio_help.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/kdeui.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/plasma_popupapplet_fix_groups.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/devicepreference.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/kioslave.upd' for new updates
+2011-10-05T20:41:45 kioslave.upd: Found new update 'kde2.2/r1'
+2011-10-05T20:41:45 kioslave.upd: Skipping update 'kde2.2/r1'
+2011-10-05T20:41:45 kioslave.upd: File 'kioslaverc' does not exist or empty, skipping
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/kcookiescfg.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/kded.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/ksslcertificatemanager.upd' for new updates
+2011-10-05T20:41:45 Checking update-file '/usr/share/kde4/apps/kconf_update/kuriikwsfilter.upd' for new updates

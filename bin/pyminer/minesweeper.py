@@ -15,7 +15,7 @@ MAIN_WINDOW_TITLE="Minesweeper" #заголовок окна
 #Параметры игры
 HGHT=9
 WDTH=9
-BMBS=80
+BMBS=10
 
 #Визуальные параметры
 #(0,1,2,3,4,5,6,7,8,bomb,flag)

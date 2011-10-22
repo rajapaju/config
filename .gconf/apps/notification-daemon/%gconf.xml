@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <gconf>
 	<entry name="sound_enabled" mtime="1280935867" type="bool" value="false"/>
-	<entry name="popup_location" mtime="1279454398" type="string">
+	<entry name="popup_location" mtime="1318079950" type="string">
 		<stringvalue>bottom_right</stringvalue>
 	</entry>
-	<entry name="theme" mtime="1279454398" type="string">
+	<entry name="theme" mtime="1318079950" type="string">
 		<stringvalue>standard</stringvalue>
 	</entry>
 </gconf>

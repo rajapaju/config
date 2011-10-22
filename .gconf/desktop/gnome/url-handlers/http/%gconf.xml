@@ -2,7 +2,7 @@
 <gconf>
 	<entry name="needs_terminal" mtime="1299243971" type="bool" value="false"/>
 	<entry name="enabled" mtime="1299243971" type="bool" value="true"/>
-	<entry name="command" mtime="1299243971" type="string">
-		<stringvalue>/opt/firefox/firefox &quot;%s&quot;</stringvalue>
+	<entry name="command" mtime="1319217317" type="string">
+		<stringvalue>iceweasel %s</stringvalue>
 	</entry>
 </gconf>

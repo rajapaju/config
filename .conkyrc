@@ -34,7 +34,7 @@ use_spacer false
 
 TEXT
 ${if_match "${mpd_status}" != "Stopped"}${color #7c8c9c}$mpd_artist${font Dejavu Sans:pixelsize=5:style=book}
-${font Dejavu Sans:size=16:style=book}                ${color #9cacbc}$mpd_title$endif
+${font Dejavu Sans:size=16:style=book}                   ${color #9cacbc}$mpd_title$endif
 #~ TEXT
 #~ ${if_match "${mpd_status}" != "Stopped"}${color #7A8999}$mpd_artist${font Dejavu Sans:pixelsize=5:style=book}
 #~ ${font Dejavu Sans:size=16:style=book}                ${color #9cacbc}$mpd_title$endif
