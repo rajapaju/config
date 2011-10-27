@@ -26,17 +26,7 @@
     [exec] (Shutter) {shutter; killall shutter}
 [end]
 [submenu] (Office/)
-    [submenu] (MS Office/)
-        [exec] (Word) {WINEPREFIX=/home/sio/.wineprefixes/mso2003 wine "C:\Program Files\Microsoft Office\OFFICE11\WINWORD.EXE"}
-        [exec] (Excel) {WINEPREFIX=/home/sio/.wineprefixes/mso2003 wine "C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE"}
-        [exec] (PowerPoint) {WINEPREFIX=/home/sio/.wineprefixes/mso2003 wine "C:\Program Files\Microsoft Office\OFFICE11\POWERPNT.EXE"}
-    [end]
-    [submenu] (MS 2007/)
-        [exec] (Word) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\WINWORD.EXE"}
-        [exec] (Excel) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\EXCEL.EXE"}
-        [exec] (PowerPoint) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\POWERPNT.EXE"}
-    [end]
-    [submenu] (OO Office/)
+    [submenu] (LO Office/)
         [exec] (Writer) {env OOO_FORCE_DESKTOP="gnome" libreoffice -writer}
         [exec] (Calc) {env OOO_FORCE_DESKTOP="gnome" libreoffice -calc}
         [exec] (Impress) {env OOO_FORCE_DESKTOP="gnome" libreoffice -impress}
@@ -45,6 +35,16 @@
         [exec] (Abiword) {abiword}
         [exec] (Gnumeric) {gnumeric}
     [end]
+    [submenu] (MS Office/)
+        [exec] (Word) {WINEPREFIX=/home/sio/.wineprefixes/mso2003 wine "C:\Program Files\Microsoft Office\OFFICE11\WINWORD.EXE"}
+        [exec] (Excel) {WINEPREFIX=/home/sio/.wineprefixes/mso2003 wine "C:\Program Files\Microsoft Office\OFFICE11\EXCEL.EXE"}
+        [exec] (PowerPoint) {WINEPREFIX=/home/sio/.wineprefixes/mso2003 wine "C:\Program Files\Microsoft Office\OFFICE11\POWERPNT.EXE"}
+    [end]
+    #~ [submenu] (MS 2007/)
+        #~ [exec] (Word) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\WINWORD.EXE"}
+        #~ [exec] (Excel) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\EXCEL.EXE"}
+        #~ [exec] (PowerPoint) {WINEPREFIX=~/.wineprefixes/mso2007 wine "C:\Program Files\Microsoft Office\Office12\POWERPNT.EXE"}
+    #~ [end]
     [separator]
     [exec] (Dia) {dia}
     [exec] (Geany) {geany}

@@ -2,8 +2,8 @@
 <gconf>
 	<entry name="view_folders" mtime="1302471389" type="bool" value="false"/>
 	<entry name="view_statusbar" mtime="1279355713" type="bool" value="true"/>
-	<entry name="view_toolbar" mtime="1319277419" type="bool" value="false"/>
-	<entry name="sidebar_width" mtime="1319278092" type="int" value="200"/>
-	<entry name="window_height" mtime="1319278092" type="int" value="474"/>
-	<entry name="window_width" mtime="1319278092" type="int" value="668"/>
+	<entry name="view_toolbar" mtime="1319644096" type="bool" value="false"/>
+	<entry name="sidebar_width" mtime="1319644431" type="int" value="200"/>
+	<entry name="window_height" mtime="1319644431" type="int" value="474"/>
+	<entry name="window_width" mtime="1319644431" type="int" value="668"/>
 </gconf>

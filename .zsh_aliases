@@ -10,7 +10,7 @@ alias bones='grep -vE "^ *#|^ *$|^ *;"'
 alias convlit="clit"
 
 # DEFAULT BEHAVIOUR
-alias dvtm="dvtm -m \<"
+alias dvtm="dvtm -m ^a"
 alias dtach="cd && dtach"
 #alias aptitude="dtach -A aptitude aptitude"
 

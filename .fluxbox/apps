@@ -83,12 +83,12 @@
 [app] (name=Pinta) (class=Pinta)
 [end]
 [app] (name=htop)
-  [Dimensions]	{1130 613}
+  [Dimensions]	{1210 670}
   [Close]	{yes}
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{890 90}
+  [Position]	(UPPERLEFT)	{24 190}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
