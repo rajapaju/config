@@ -1,25 +1,32 @@
 #!/bin/sh
 
+#TOTAL
+P_TOTAL=`aptitude search "!?automatic?installed"|wc -l`
+echo "TOTAL PACKAGES MANUALLY INSTALLED:" $P_TOTAL"\n"
+
 #stable
-echo -n "      Stable packages: "
-aptitude search '!?automatic?any-version(?installed ?archive(^stable$) !?archive(backports) !?archive(testing) !?archive(unstable) !?archive(experimental))'|wc -l
+P_STABLE=`aptitude search '!?automatic?any-version(?installed ?archive(^stable$))'|wc -l`
+echo "Stable:      " $P_STABLE
  
 #backports
-echo -n "  Backported packages: "
-aptitude search '!?automatic?any-version(?installed !?archive(^stable$) ?archive(backports) !?archive(testing) !?archive(unstable) !?archive(experimental))'|wc -l
+P_BACKPORTS=`aptitude search '!?automatic?any-version(?installed !?archive(^stable$) ?archive(backports))'|wc -l`
+echo "Backported:  " $P_BACKPORTS
 
 #testing
-echo -n "     Testing packages: "
-aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) ?archive(testing) !?archive(unstable) !?archive(experimental))'|wc -l
+P_TESTING=`aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) ?archive(testing))'|wc -l`
+echo "Testing:     " $P_TESTING
 
 #unstable
-echo -n "    Unstable packages: "
-aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) !?archive(testing) ?archive(unstable) !?archive(experimental))'|wc -l
+P_UNSTABLE=`aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) !?archive(testing) ?archive(unstable))'|wc -l`
+echo "Unstable:    " $P_UNSTABLE
 
 #experimental
-echo -n "Experimental packages: "
-aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) !?archive(testing) !?archive(unstable) ?archive(experimental))'|wc -l
+P_EXPERIMENTAL=`aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) !?archive(testing) !?archive(unstable) ?archive(experimental))'|wc -l`
+echo "Experimental:" $P_EXPERIMENTAL
  
 #other
-echo -n "       Other packages: "
-aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) !?archive(testing) !?archive(unstable) !?archive(experimental))'|wc -l
+P_OTHER=`aptitude search '!?automatic?any-version(?installed !?archive(^stable$) !?archive(backports) !?archive(testing) !?archive(unstable) !?archive(experimental))'|wc -l`
+echo "Other:       " $P_OTHER"\n"
+
+#check if total = sum of parts
+[ $(($P_STABLE+$P_BACKPORTS+$P_TESTING+$P_UNSTABLE+$P_EXPERIMENTAL+$P_OTHER)) -eq $P_TOTAL ] && echo "Checksum:   ok" || echo "Checksum:   error"
