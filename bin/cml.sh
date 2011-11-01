@@ -44,6 +44,9 @@ timecalc () {
     
     #включение звука
     amixer sset Master unmute 
+
+    #восстановление яркости подсветки
+    xbacklight -set 70
     
 TIMESTOP=`date +%s` #засекаем окончание блокировки
 

@@ -46,6 +46,8 @@ video/mp4=smplayer.desktop
 application/postscript=evince.desktop
 application/x-rar=file-roller.desktop
 video/x-matroska=smplayer_enqueue.desktop
+application/x-font-ttf=gnome-font-viewer.desktop
+application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
@@ -97,6 +99,8 @@ application/postscript=evince.desktop;
 application/epub+zip=FBReader.desktop;evince.desktop;file-roller.desktop;
 text/x-python=geany.desktop;
 video/x-matroska=userapp-mplayer-GG4W3V.desktop;userapp-mplayer2-H7DP3V.desktop;
+application/x-font-ttf=gnome-font-viewer.desktop;
+application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;

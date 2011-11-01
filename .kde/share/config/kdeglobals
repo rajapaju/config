@@ -36,19 +36,60 @@ DecorationFocus=239,239,247
 DecorationHover=238,238,247
 ForegroundInactive=137,116,167
 
+[DesktopIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=togamma
+ActiveSemiTransparent=false
+ActiveValue=0.7
+Animated=true
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=48
+
+[DialogIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=32
+
 [General]
 XftAntialias=true
-XftHintStyle=hintfull
+XftHintStyle=hintmedium
 XftSubPixel=rgb
-desktopFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
-fixed=DejaVu Sans Mono,9,-1,5,50,0,0,0,0,0
-font=Liberation Sans,9,-1,5,50,0,0,0,0,0
-menuFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
+desktopFont=Droid Sans,9,-1,5,50,0,0,0,0,0
+fixed=Droid Sans Mono,9,-1,5,50,0,0,0,0,0
+font=Droid Sans,9,-1,5,50,0,0,0,0,0
+menuFont=Droid Sans,9,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Liberation Sans,8,-1,5,50,0,0,0,0,0
-taskbarFont=Liberation Sans,9,-1,5,50,0,0,0,0,0
-toolBarFont=Liberation Sans,8,-1,5,50,0,0,0,0,0
+smallestReadableFont=Droid Sans,8,-1,5,50,0,0,0,0,0
+taskbarFont=Droid Sans,9,-1,5,50,0,0,0,0,0
+toolBarFont=Droid Sans,8,-1,5,50,0,0,0,0,0
 widgetStyle=gtk+
+
+[Icons]
+Theme=Tango
 
 [KDE]
 ShowIconsOnPushButtons=true
@@ -57,10 +98,86 @@ contrast=5
 [KDE-Global GUI Settings]
 GraphicEffectsLevel=6
 
+[MainToolbarIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=22
+
+[PanelIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=togamma
+ActiveSemiTransparent=false
+ActiveValue=0.7
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=32
+
+[SmallIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=16
+
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
+[ToolbarIcons]
+ActiveColor=169,156,255
+ActiveColor2=0,0,0
+ActiveEffect=none
+ActiveSemiTransparent=false
+ActiveValue=1
+Animated=false
+DefaultColor=144,128,248
+DefaultColor2=0,0,0
+DefaultEffect=none
+DefaultSemiTransparent=false
+DefaultValue=1
+DisabledColor=34,202,0
+DisabledColor2=0,0,0
+DisabledEffect=togray
+DisabledSemiTransparent=true
+DisabledValue=1
+Size=22
+
 [WM]
 activeBackground=103,116,133
-activeFont=Liberation Sans,9,-1,5,75,0,0,0,0,0
+activeFont=Droid Sans,9,-1,5,75,0,0,0,0,0

@@ -1,0 +1,65 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document 
+url-prefix(http://www.google.com/reader/view), 
+url-prefix(https://www.google.com/reader/view),
+url-prefix(http://www.google.ru/reader/view), 
+url-prefix(https://www.google.ru/reader/view) {
+
+/* не такая высокая панель */
+#viewer-header {
+ height:31px!important
+}
+#viewer-header-container {
+ border-bottom-color:#fff!important
+}
+
+/* гуглошапка с сервисами */
+#gb {display:none!important}
+
+/* поисковая строка */
+#search-input {
+  position:absolute;
+  top: 63px;
+  left:773px; /*743*/
+  z-index:99;
+}
+.goog-inline-block.goog-flat-menu-button.search-restrict {
+  position:absolute;
+  top: 48px;
+  left:759px;/*729*/
+  z-index:99;
+  width:107px!important;
+}
+
+/* шапка с лого */
+BODY {
+ margin-top:-62px!important;
+}
+
+/* кнопка subscribe */
+#lhn-add-subscription-section {
+ height:31px!important;
+ border-bottom-color:#fff!important;
+ margin-left:-40px!important;
+}
+
+/* поля слева в сайдбаре */
+#scrollable-sections-holder {margin-left:-30px!important;}
+
+/* правые кнопки */
+#viewer-header {margin-right:-15px!important;}
+
+/* исправляем косяк гуглопрогеров */
+.card.card-common {border-right-style: solid!important;}
+
+/* мелочи, режущие глаз */
+#entries {
+ padding-left:10px!important;
+ padding-right:10px!important;
+ }
+
+/* ширина боковой панели */
+#lhn-add-subscription-section, #nav {width:232px!important;}
+#chrome {margin-left:232px!important;}
+
+}

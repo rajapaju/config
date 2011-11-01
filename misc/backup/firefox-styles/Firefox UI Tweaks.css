@@ -1,0 +1,140 @@
+/* Убрать новую кнопку закладок */
+#bookmarks-menu-button-container {display:none!important}
+
+/* FaviconizeTab */
+tab[faviconized="true"] .tab-text {
+  display:none!important
+}
+
+/* Приятности табов, приводим в соответствие с темой Gorilla-SIO-color */
+.tabbrowser-tab {
+  padding-top:0px!important;
+  padding-bottom:0px!important;
+  margin-top:0px!important;
+  margin-bottom:0px!important;
+  min-height:2px!important;
+  height:23px !important;
+}
+#nav-bar {
+  padding-top:0px!important;
+  padding-bottom:0px!important;
+}
+#toolbar-menubar {
+  padding-top:0px!important;
+  padding-bottom:0px!important;
+}
+
+/* Меняем цвет урлов в выпадающей подсказке с кислотно-синего на серый */
+.ac-normal-text.ac-url-text {
+  color:#999999 !important;
+}
+
+/* TabMinWidth - с некоторых пор не контролируется ключами в about:config */
+.tabbrowser-tab:not([pinned]) {
+  min-width:33px!important;
+  max-width:150px!important;
+}
+.tabbrowser-tab:not([fadein]) {
+  max-width: 1px !important;
+  min-width: 1px !important;
+}
+.tabbrowser-tab[faviconized] {
+  max-width: 33px !important;
+  min-width: 33px !important;
+}
+.tabbrowser-tab[pinned] {
+  max-width: 33px !important;
+  min-width: 33px !important;
+  text-align: center!important;
+  vertical-align: middle!important;
+  margin-bottom: 0px!important;
+  padding-bottom: 0px!important;
+  padding-top:2px!important;
+}
+
+/* All tabs button */
+.tabs-alltabs-box-animate, .tabs-alltabs-button {display:none!important}
+
+/* Кнопка все-в-одном-меню */
+#appmenu-toolbar-button {display:none!important}
+
+/* Better tab-on-top expirience */
+#nav-bar {
+   border-top-style:none!important;
+}
+
+/* FIREFOX 4 NEW LINUX THEME */
+/* Избавляемся от нового вида вкладок */
+.tabbrowser-tab, .tabs-newtab-button {
+    -moz-appearance: tab!important;
+    height:23px!important;
+    margin-right:0px!important;
+    margin-left:-1px!important;
+}
+.scrollbutton-up, .scrollbutton-down {display:none!important}
+
+/* Поправляем фавиконы */
+.tab-icon-image, .tab-throbber {
+    margin-left:3px!important;
+}
+
+/* Поправляем фавиконы у минимизированных вкладок + FaviconizeTab */
+.tabbrowser-tab[faviconized] .tab-icon-image, .tabbrowser-tab[faviconized] .tab-throbber, .tab-icon-image[pinned="true"], .tab-throbber[pinned="true"] {
+    margin-left:8px!important;
+}
+.tab-icon-image[pinned="true"], .tab-throbber[pinned="true"] {
+  margin-bottom:1px!important;
+}
+
+/* Убираем подчеркивание снизу у вкладок */
+#navigator-toolbox {
+    border:none!important;
+}
+
+/* Убираем двойную обводку поля ввода адреса - только при использовании LocationBar^2
+#urlbar {
+    -moz-appearance: none!important;
+}
+ */
+
+/* FIREFOX 6.0 CHANGES */
+/* Убираем закругления и градиенты в области фавикона */
+#identity-box {
+  border-top-left-radius: 0px!important;
+  border-bottom-left-radius: 0px!important;
+  background-image: none!important;
+}
+#notification-popup-box {
+  border-top-left-radius: 0px!important;
+  border-bottom-left-radius: 0px!important;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+/* Градиент основной панели инструментов */
+#nav-bar {background-image: none!important}
+
+/* Нормальный вид кнопки добавления нового таба */
+.tabs-newtab-button {
+  width:32px!important;
+  height:0px!important;
+  min-height:0px!important;
+  padding-top:0px!important;
+  padding-bottom:0px!important;
+  padding-left:0px!important;
+  padding-right:0px!important;
+}
+.tabs-newtab-button .toolbarbutton-icon {
+  margin-left:0px!important;
+  margin-bottom:0px!important;
+  margin-top:0px!important;
+}
+
+/* Для tabs on top - границы окна */
+#tab-view-deck, #toolbar-menubar {
+  border:solid!important;
+  border-color: #6a6e72!important;
+  border-width:1px!important;
+}
+#tab-view-deck {border-top:none!important;}
+#toolbar-menubar {border-bottom:none!important;}

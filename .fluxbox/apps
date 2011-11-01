@@ -88,7 +88,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{24 190}
+  [Position]	(UPPERLEFT)	{912 183}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -208,7 +208,7 @@
 [app] (name=WINWORD.EXE) (class=Wine)
 [end]
 [transient] (name=firefox-bin) (class=Firefox-bin)
-  [Dimensions]	{910 888}
+  [Dimensions]	{906 910}
   [Position]	(UPPERLEFT)	{583 89}
   [Close]	{yes}
 [end]
@@ -278,7 +278,7 @@
   [Close]	{yes}
 [end]
 [app] (name=Aedeliciouspost) (class=Iceweasel) (role=submit)
-  [Position]	(UPPERLEFT)	{460 305}
+  [Position]	(UPPERLEFT)	{166 564}
   [Close]	{yes}
 [end]
 [transient] (name=inkscape) (class=Inkscape)

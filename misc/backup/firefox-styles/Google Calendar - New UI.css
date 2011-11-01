@@ -1,0 +1,39 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document 
+url-prefix(http://www.google.com/calendar), 
+url-prefix(https://www.google.com/calendar),
+url-prefix(http://www.google.ru/calendar), 
+url-prefix(https://www.google.ru/calendar) {
+
+/* Главная панель инструментов - более аккуратная*/
+#vr-nav {
+    margin-top: 1px!important;
+    padding-bottom: 0px!important;
+}
+
+/* Гуглопанель убрать */
+#onegoogbar {display:none!important}
+.domainlogoparent {display:none!important}
+
+/* Перемешиваем управляющие элементы */
+#vr-header {height: 0px!important;}
+#srreg {
+    top: 2px!important;
+    left: 280px!important;
+    z-index: 0!important;
+}
+#topLeftNavigation {
+    left:2px!important;
+}
+#mainlogo {
+    display:none!important;
+}
+#topRightNavigation {
+    z-index: 1!important;
+    right: 2px!important; 
+    margin-right: 0px!important; 
+}
+#gridcontainer {
+    margin-right: 20px!important; 
+}
+}

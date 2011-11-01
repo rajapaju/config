@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="height" mtime="1280587124" type="int" value="550"/>
-	<entry name="width" mtime="1280587124" type="int" value="500"/>
-	<entry name="promotion_type" mtime="1280587120" type="string">
+	<entry name="show_numbering" mtime="1319916857" type="bool" value="true"/>
+	<entry name="show_3d_smooth" mtime="1319916874" type="bool" value="false"/>
+	<entry name="show_3d" mtime="1319916906" type="bool" value="false"/>
+	<entry name="height" mtime="1319916936" type="int" value="800"/>
+	<entry name="width" mtime="1319916936" type="int" value="1193"/>
+	<entry name="promotion_type" mtime="1319916829" type="string">
 		<stringvalue>queen</stringvalue>
 	</entry>
-	<entry name="board_view" mtime="1280587120" type="string">
+	<entry name="board_view" mtime="1319916829" type="string">
 		<stringvalue>human</stringvalue>
 	</entry>
-	<entry name="move_format" mtime="1280587120" type="string">
+	<entry name="move_format" mtime="1319916829" type="string">
 		<stringvalue>human</stringvalue>
 	</entry>
-	<entry name="show_move_hints" mtime="1280587120" type="bool" value="true"/>
-	<entry name="show_history" mtime="1280587120" type="bool" value="true"/>
+	<entry name="show_move_hints" mtime="1319916829" type="bool" value="true"/>
+	<entry name="show_history" mtime="1319916829" type="bool" value="true"/>
 </gconf>

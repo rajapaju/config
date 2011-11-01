@@ -63,17 +63,17 @@
 			<stringvalue>0</stringvalue>
 		</li>
 	</entry>
-	<entry name="maximized" mtime="1318768557" type="bool" value="true"/>
+	<entry name="maximized" mtime="1319917072" type="bool" value="true"/>
 	<entry name="card_style" mtime="1281194302" type="string">
 		<stringvalue>tango.svg</stringvalue>
 	</entry>
-	<entry name="show_toolbar" mtime="1318768556" type="bool" value="false"/>
+	<entry name="show_toolbar" mtime="1319917072" type="bool" value="false"/>
 	<entry name="height" mtime="1287680508" type="int" value="779"/>
 	<entry name="width" mtime="1287680508" type="int" value="1280"/>
-	<entry name="game_file" mtime="1318768568" type="string">
+	<entry name="game_file" mtime="1319917072" type="string">
 		<stringvalue>poker.scm</stringvalue>
 	</entry>
-	<entry name="recent_games_list" mtime="1318768568" type="list" ltype="string">
+	<entry name="recent_games_list" mtime="1319917072" type="list" ltype="string">
 		<li type="string">
 			<stringvalue>poker.scm</stringvalue>
 		</li>
@@ -88,5 +88,5 @@
 		</li>
 	</entry>
 	<entry name="animations" mtime="1283535185" type="bool" value="true"/>
-	<entry name="show_statusbar" mtime="1318768557" type="bool" value="true"/>
+	<entry name="show_statusbar" mtime="1319917072" type="bool" value="true"/>
 </gconf>

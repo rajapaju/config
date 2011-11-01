@@ -1,0 +1,31 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document 
+url-prefix(http://www.google.com/reader/view), 
+url-prefix(https://www.google.com/reader/view),
+url-prefix(http://www.google.ru/reader/view), 
+url-prefix(https://www.google.ru/reader/view) {
+
+/* Убрать кнопку вызова сайдбара и поправить меню*/
+#chrome-lhn-toggle { display:none!important}
+#nav { left:0px!important; top:7px!important; bottom:0px!important;}
+
+/* Убрать шапку*/
+#gb {display:none!important}
+#gbar { display:none!important}
+.gbh { display:none!important}
+#global-info { display:none!important}
+
+/* Подвинуть вверх*/
+#logo-container { display:none!important}
+#search {margin-top:-30px !important; margin-left:34%!important}
+#main {margin-top:-65px !important}
+#loading-area {margin-left:-200px!important; z-index:-1!important}
+
+/* Ночной кавай */
+/* Каваим верхнюю шапку */
+#viewer-top-controls {height:15px !important; margin-top:-5px !important}
+/* И нижнюю тоже */
+#viewer-footer {height:11px!important}
+#entries-status, #entries-down, #entries-up {margin-top:-5px!important}
+
+}

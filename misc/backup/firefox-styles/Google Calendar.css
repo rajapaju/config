@@ -1,0 +1,15 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document 
+url-prefix(http://www.google.com/calendar), 
+url-prefix(https://www.google.com/calendar),
+url-prefix(http://www.google.ru/calendar), 
+url-prefix(https://www.google.ru/calendar) {
+
+/* Шапка календаря */
+#gb {display:none!important}
+
+/* Поднять все остальное вверх */
+#calcontent {margin-top:-60px!important}
+
+
+}

@@ -59,10 +59,11 @@
         [exec] (BattleTanks) {btanks}
         [exec] (Diablo II) {cd "/home/sio/.PlayOnLinux/wineprefix/DiabloII/drive_c/Program Files/Diablo II" && WINEPREFIX=~/.PlayOnLinux/wineprefix/DiabloII wine Game.exe}
         [exec] (Duke Nukem) {cd ~/bin/DukeNukem && export SDL_VIDEO_X11_DGAMOUSE=0 && dosbox DUKE3D.EXE}
-        [exec] (GLTron) {gltron}
+#        [exec] (GLTron) {gltron}
         [exec] (gtkPool) {gtkpool}
         [exec] (Heroes MM4) {cd "/home/sio/.wineprefixes/homm4/drive_c/Program Files/Heroes of Might and Magic IV/"; WINEPREFIX=~/.wineprefixes/homm4 wine "C:\Program Files\Heroes of Might and Magic IV\heroes4.exe"}
         [exec] (Kolf) {kolf}
+        [exec] (Nexuiz) {nexuiz}
         [exec] (OpenArena) {SDL_VIDEO_X11_DGAMOUSE=0 openarena}
         #[exec] (Quake 3) {export WINEPREFIX=~/.wineprefixes/q3 && cd $WINEPREFIX/drive_c/Program\ Files/Quake\ III\ Arena && wine quake3.exe}
         [exec] (Quake 3) {~/bin/q3/quake3-sdl-sound}
