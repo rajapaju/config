@@ -47,7 +47,9 @@ BODY {
 #scrollable-sections-holder {margin-left:-30px!important;}
 
 /* правые кнопки */
+#viewer-header-container {overflow:hidden!important;}
 #viewer-header {margin-right:-15px!important;}
+
 
 /* исправляем косяк гуглопрогеров */
 .card.card-common {border-right-style: solid!important;}
@@ -61,5 +63,11 @@ BODY {
 /* ширина боковой панели */
 #lhn-add-subscription-section, #nav {width:232px!important;}
 #chrome {margin-left:232px!important;}
+
+/* кнопка поиска, которая сбивает весь вид */
+.goog-inline-block.jfk-button.jfk-button-action {display:none!important}
+
+/* widescreen */
+.entry-body {max-width:none!important}
 
 }

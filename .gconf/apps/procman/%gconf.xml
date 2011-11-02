@@ -4,9 +4,9 @@
 	<entry name="view_as" mtime="1299947257" type="int" value="0"/>
 	<entry name="graph_update_interval" mtime="1297897630" type="int" value="3000"/>
 	<entry name="smooth_refresh" mtime="1297897611" type="bool" value="true"/>
-	<entry name="current_tab" mtime="1319837110" type="int" value="2"/>
-	<entry name="height" mtime="1319837110" type="int" value="732"/>
-	<entry name="width" mtime="1319837110" type="int" value="666"/>
+	<entry name="current_tab" mtime="1320175264" type="int" value="2"/>
+	<entry name="height" mtime="1320175264" type="int" value="732"/>
+	<entry name="width" mtime="1320175264" type="int" value="666"/>
 	<entry name="show_all_fs" mtime="1299947294" type="bool" value="false"/>
 	<entry name="disks_interval" mtime="1299947287" type="int" value="30000"/>
 	<entry name="network_in_bits" mtime="1319650954" type="bool" value="true"/>
