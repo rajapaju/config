@@ -19,7 +19,7 @@ url-prefix(https://www.google.ru/calendar) {
 #vr-header {height: 0px!important;}
 #srreg {
     top: 2px!important;
-    left: 280px!important;
+    left: 290px!important;
     z-index: 0!important;
 }
 #topLeftNavigation {
@@ -36,4 +36,9 @@ url-prefix(https://www.google.ru/calendar) {
 #gridcontainer {
     margin-right: 20px!important; 
 }
+/*с поисковой строкой в окне редактирования напоминаний*/
+.ep-ea.noprint {
+  margin-top:32px!important;
+  margin-bottom:2px!important;
+  }
 }
