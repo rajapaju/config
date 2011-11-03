@@ -75,6 +75,8 @@ BODY {
 /* ширина боковой панели */
 #lhn-add-subscription-section, #nav {width:232px!important;}
 #chrome {margin-left:232px!important;}
+.lhn-hidden #chrome {margin-left:0px!important;}
+
 
 /* кнопка поиска, которая сбивает весь вид */
 .goog-inline-block.jfk-button.jfk-button-action {display:none!important}
