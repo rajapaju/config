@@ -106,6 +106,7 @@ Mod4 Mod1 a :Move -1 0
 Mod4 Mod1 d :Move +1 0
 
 
+!111 :ExecCommand mpc stop
 94 :ExecCommand mpc toggle
 172 :ExecCommand mpc toggle
 Mod1 94 :ExecCommand mpc next
@@ -149,3 +150,5 @@ Shift Mouse5 :Exec transset-df --dec .1 -p -m .15
 
 Mod4 F3 :ToggleCmd {ExecCommand synclient TouchpadOff=0} {ExecCommand synclient TouchpadOff=1}
 223 :ToggleCmd {ExecCommand synclient TouchpadOff=0} {ExecCommand synclient            TouchpadOff=1}
+
+Mod4 x :ExecCommand xmag

@@ -88,7 +88,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{1008 156}
+  [Position]	(UPPERLEFT)	{838 203}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -110,12 +110,12 @@
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=pm)
   [Workspace]	{0}
-  [Dimensions]	{517 516}
-  [Position]	(UPPERLEFT)	{393 21}
+  [Dimensions]	{517 512}
+  [Position]	(UPPERLEFT)	{393 25}
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=chat)
   [Workspace]	{0}
-  [Dimensions]	{517 516}
+  [Dimensions]	{517 512}
   [Position]	(UPPERLEFT)	{0 25}
 [end]
 [app] (name=gajim.py) (class=Gajim.py) (role=messages)
@@ -208,8 +208,8 @@
 [app] (name=WINWORD.EXE) (class=Wine)
 [end]
 [transient] (name=firefox-bin) (class=Firefox-bin)
-  [Dimensions]	{906 910}
-  [Position]	(UPPERLEFT)	{583 89}
+  [Dimensions]	{720 726}
+  [Position]	(UPPERLEFT)	{612 94}
   [Close]	{yes}
 [end]
 [app] (name=Mail) (class=Icedove) (role=3pane)
@@ -278,7 +278,7 @@
   [Close]	{yes}
 [end]
 [app] (name=Aedeliciouspost) (class=Iceweasel) (role=submit)
-  [Position]	(UPPERLEFT)	{166 564}
+  [Position]	(UPPERLEFT)	{107 67}
   [Close]	{yes}
 [end]
 [transient] (name=inkscape) (class=Inkscape)
@@ -293,4 +293,11 @@
 [end]
 [app] (name=Browser) (class=Iceweasel) (role=page-info)
   [Dimensions]	{760 658}
+[end]
+[app] (name=gajim) (class=Gajim.py)
+  [Dimensions]	{717 429}
+[end]
+[app] (name=print) (class=Gimp-2.6)
+  [Position]	(UPPERLEFT)	{553 225}
+  [Close]	{yes}
 [end]

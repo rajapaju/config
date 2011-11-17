@@ -73,7 +73,7 @@
 (session-info "toplevel" "gimp-desaturate-tool-dialog"
     (position 653 357))
 (session-info "toplevel" "gimp-posterize-tool-dialog"
-    (position 0 21))
+    (position 0 0))
 (session-info "toolbox" "dock"
     (position 21 469)
     (size 56 560)
@@ -82,6 +82,6 @@
     (position 0 0)
     (size 1620 1078))
 
-(last-tip-shown 132)
+(last-tip-shown 141)
 
 # end of sessionrc

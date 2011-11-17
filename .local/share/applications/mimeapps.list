@@ -3,7 +3,7 @@
 image/jpeg=gpicview.desktop
 image/svg+xml=gpicview.desktop
 video/x-flv=smplayer.desktop
-audio/mpeg=deadbeef.desktop
+audio/mpeg=audacious2-gtkui.desktop
 application/x-shockwave-flash=userapp-flashplayer-TJPQRV.desktop
 video/3gpp=smplayer.desktop
 application/zip=file-roller.desktop
@@ -12,7 +12,7 @@ application/vnd.oasis.opendocument.spreadsheet=libreoffice-calc.desktop
 application/pdf=evince.desktop
 text/html=userapp-firefox-NM6IRV.desktop
 application/vnd.oasis.opendocument.text=libreoffice-writer.desktop
-audio/x-wav=deadbeef.desktop
+audio/x-wav=audacious2-gtkui.desktop
 image/vnd.djvu=evince.desktop
 image/png=gpicview.desktop
 image/gif=gpicview.desktop
@@ -48,12 +48,15 @@ application/x-rar=file-roller.desktop
 video/x-matroska=smplayer_enqueue.desktop
 application/x-font-ttf=gnome-font-viewer.desktop
 application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop
+image/x-eps=evince.desktop
+image/x-xcf=gimp.desktop
+audio/x-scpls=audacious2-gtkui.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
 image/svg+xml=gpicview.desktop;
 video/x-flv=smplayer.desktop;
-audio/mpeg=totem.desktop;smplayer_enqueue.desktop;smplayer.desktop;deadbeef.desktop;
+audio/mpeg=totem.desktop;smplayer_enqueue.desktop;smplayer.desktop;deadbeef.desktop;userapp-audacious-9G6A5V.desktop;audacious2-gtkui.desktop;
 application/x-shockwave-flash=userapp-flashplayer-TJPQRV.desktop;
 video/3gpp=smplayer.desktop;
 application/zip=file-roller.desktop;FBReader.desktop;
@@ -62,7 +65,7 @@ application/vnd.oasis.opendocument.spreadsheet=openoffice.org-calc.desktop;libre
 application/pdf=evince.desktop;FBReader.desktop;
 text/html=userapp-firefox-NM6IRV.desktop;geany.desktop;FBReader.desktop;
 application/vnd.oasis.opendocument.text=openoffice.org-writer.desktop;libreoffice-writer.desktop;
-audio/x-wav=totem.desktop;deadbeef.desktop;
+audio/x-wav=totem.desktop;deadbeef.desktop;audacious2-gtkui.desktop;
 image/vnd.djvu=evince.desktop;
 image/png=gpicview.desktop;userapp-fbsetbg-64HQ2V.desktop;
 image/gif=gpicview.desktop;
@@ -101,6 +104,9 @@ text/x-python=geany.desktop;
 video/x-matroska=userapp-mplayer-GG4W3V.desktop;userapp-mplayer2-H7DP3V.desktop;
 application/x-font-ttf=gnome-font-viewer.desktop;
 application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop;
+image/x-eps=evince.desktop;
+image/x-xcf=gimp.desktop;
+audio/x-scpls=audacious2-gtkui.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;
