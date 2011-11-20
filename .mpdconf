@@ -317,7 +317,7 @@ replaygain "album"
 # result in the volume of all playing audio to be adjusted so the output has
 # equal "loudness". This setting is disabled by default.
 #
-#volume_normalization "no"
+volume_normalization "yes"
 #
 ###############################################################################
 

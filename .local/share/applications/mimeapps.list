@@ -51,6 +51,7 @@ application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop
 image/x-eps=evince.desktop
 image/x-xcf=gimp.desktop
 audio/x-scpls=audacious2-gtkui.desktop
+application/x-java-archive=file-roller.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
@@ -107,6 +108,7 @@ application/vnd.oasis.opendocument.presentation=libreoffice-impress.desktop;
 image/x-eps=evince.desktop;
 image/x-xcf=gimp.desktop;
 audio/x-scpls=audacious2-gtkui.desktop;
+application/x-java-archive=file-roller.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;
