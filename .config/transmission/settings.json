@@ -35,7 +35,7 @@
     "open-dialog-dir": "/home/sio", 
     "open-file-limit": 32, 
     "peer-congestion-algorithm": "", 
-    "peer-limit-global": 1000, 
+    "peer-limit-global": 1024, 
     "peer-limit-per-torrent": 100, 
     "peer-port": 44444, 
     "peer-port-random-high": 65535, 
