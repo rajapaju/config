@@ -88,7 +88,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{838 203}
+  [Position]	(UPPERLEFT)	{813 201}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -300,4 +300,6 @@
 [app] (name=print) (class=Gimp-2.6)
   [Position]	(UPPERLEFT)	{553 225}
   [Close]	{yes}
+[end]
+[transient] (name=transmission-gtk) (class=Transmission-gtk)
 [end]

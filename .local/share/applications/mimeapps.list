@@ -53,6 +53,7 @@ image/x-xcf=gimp.desktop
 audio/x-scpls=audacious2-gtkui.desktop
 application/x-java-archive=file-roller.desktop
 image/vnd.microsoft.icon=eog.desktop
+application/x-font-otf=gnome-font-viewer.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
@@ -64,14 +65,14 @@ video/3gpp=smplayer.desktop;
 application/zip=file-roller.desktop;FBReader.desktop;
 text/plain=leafpad.desktop;userapp-firefox-NM6IRV.desktop;FBReader.desktop;
 application/vnd.oasis.opendocument.spreadsheet=openoffice.org-calc.desktop;libreoffice-calc.desktop;
-application/pdf=evince.desktop;FBReader.desktop;
+application/pdf=evince.desktop;FBReader.desktop;userapp-dropbox-url.sh-9TH05V.desktop;
 text/html=userapp-firefox-NM6IRV.desktop;geany.desktop;FBReader.desktop;
 application/vnd.oasis.opendocument.text=openoffice.org-writer.desktop;libreoffice-writer.desktop;
 audio/x-wav=totem.desktop;deadbeef.desktop;audacious2-gtkui.desktop;
 image/vnd.djvu=evince.desktop;
-image/png=gpicview.desktop;userapp-fbsetbg-64HQ2V.desktop;
+image/png=gpicview.desktop;userapp-fbsetbg-64HQ2V.desktop;userapp-dropbox-url.sh-93TU5V.desktop;
 image/gif=gpicview.desktop;
-inode/directory=easytag.desktop;totem.desktop;deadbeef.desktop;
+inode/directory=easytag.desktop;totem.desktop;deadbeef.desktop;smplayer.desktop;
 audio/x-ms-wma=deadbeef.desktop;
 application/x-extension-cd=leafpad.desktop;
 application/x-bittorrent=deluge.desktop;transmission.desktop;
@@ -111,6 +112,7 @@ image/x-xcf=gimp.desktop;
 audio/x-scpls=audacious2-gtkui.desktop;
 application/x-java-archive=file-roller.desktop;
 image/vnd.microsoft.icon=eog.desktop;
+application/x-font-otf=gnome-font-viewer.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;
