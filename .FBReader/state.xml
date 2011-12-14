@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Веркор - Квота, или сторонники изобилия.fb2">
+    <option name="Paragraph" value="19"/>
+    <option name="Word" value="84"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2">
     <option name="Paragraph" value="9121"/>
     <option name="Paragraph_0" value="2"/>
@@ -62,9 +66,32 @@
     <option name="Paragraph" value="8"/>
     <option name="Word" value="125"/>
   </group>
+  <group name="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html">
+    <option name="Paragraph" value="29"/>
+    <option name="Word" value="147"/>
+  </group>
+  <group name="/home/sio/documents/books/oldfiles/Ктулху/lavkraft_zov_ktulhu.html">
+    <option name="Paragraph" value="13"/>
+  </group>
+  <group name="/home/sio/documents/books/tech/Stallman - Free Software, Free Society (2nd edition).epub">
+    <option name="Paragraph" value="89"/>
+  </group>
+  <group name="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub">
+    <option name="Paragraph" value="203"/>
+    <option name="Paragraph_0" value="38"/>
+    <option name="PositionInBuffer" value="1"/>
+    <option name="UndoBufferSize" value="1"/>
+    <option name="Word" value="40"/>
+    <option name="Word_0" value="0"/>
+  </group>
   <group name="/home/sio/kipling-soldiers-three.epub">
     <option name="Paragraph" value="84"/>
     <option name="Word" value="169"/>
+  </group>
+  <group name="/home/sio/rms1.txt">
+    <option name="Char" value="5"/>
+    <option name="Paragraph" value="4"/>
+    <option name="Word" value="43"/>
   </group>
   <group name="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2">
     <option name="Paragraph" value="1"/>
@@ -75,35 +102,44 @@
   <group name="BookList">
     <option name="Book0" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/01. Genius Loci.txt"/>
     <option name="Book1" value="/home/sio/documents/books/Fiction/Genius Loci and Other Tales/09. The Disinterment of Venus.txt"/>
-    <option name="Book10" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
-    <option name="Book11" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
-    <option name="Book12" value="/home/sio/kipling-soldiers-three.epub"/>
-    <option name="Book13" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
-    <option name="Book14" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
-    <option name="Book15" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub"/>
-    <option name="Book3" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
-    <option name="Book4" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
-    <option name="Book5" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
-    <option name="Book6" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
-    <option name="Book7" value="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2"/>
-    <option name="Book8" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
-    <option name="Book9" value="/home/sio/documents/books/Fiction/UNREAD/Тираспольский - Беседы с палачом.fb2.zip:Tiraspolskiy_Besedyi_s_palachom._Kazni_pyitki_i_surovyie_nakazaniya_v_Drevnem_Rime.185687.fb2"/>
-    <option name="Size" value="16"/>
+    <option name="Book10" value="/home/sio/documents/books/Fiction/UNREAD/Тираспольский - Беседы с палачом.fb2.zip:Tiraspolskiy_Besedyi_s_palachom._Kazni_pyitki_i_surovyie_nakazaniya_v_Drevnem_Rime.185687.fb2"/>
+    <option name="Book11" value="/home/sio/documents/books/Fiction/Каплан, Виталий - Последнее звено.fb2.zip:Kaplan_Poslednee_zveno.102118.fb2"/>
+    <option name="Book12" value="/home/sio/documents/books/Fiction/Стивенсон - Черная стрела.fb2.zip:Stivenson_Chernaya_strela.80613.fb2"/>
+    <option name="Book13" value="/home/sio/documents/books/Oldfiles/Теория программирования.txt"/>
+    <option name="Book14" value="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html"/>
+    <option name="Book15" value="/home/sio/documents/books/oldfiles/Ктулху/lavkraft_zov_ktulhu.html"/>
+    <option name="Book16" value="/home/sio/documents/books/tech/Stallman - Free Software, Free Society (2nd edition).epub"/>
+    <option name="Book17" value="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub"/>
+    <option name="Book18" value="/home/sio/kipling-soldiers-three.epub"/>
+    <option name="Book19" value="/home/sio/rms1.txt"/>
+    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Веркор - Квота, или сторонники изобилия.fb2"/>
+    <option name="Book20" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
+    <option name="Book21" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
+    <option name="Book22" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
+    <option name="Book23" value="/tmp/faif2.epub"/>
+    <option name="Book24" value="/tmp/fsfs2.epub"/>
+    <option name="Book3" value="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub"/>
+    <option name="Book4" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
+    <option name="Book5" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
+    <option name="Book6" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
+    <option name="Book7" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
+    <option name="Book8" value="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2"/>
+    <option name="Book9" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
+    <option name="Size" value="25"/>
   </group>
   <group name="LastOpenedBooks">
-    <option name="Book0" value="/home/sio/documents/books/Fiction/UNREAD/Тираспольский - Беседы с палачом.fb2.zip:Tiraspolskiy_Besedyi_s_palachom._Kazni_pyitki_i_surovyie_nakazaniya_v_Drevnem_Rime.185687.fb2"/>
-    <option name="Book1" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
-    <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
-    <option name="Book3" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
-    <option name="Book4" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
-    <option name="Book5" value="/home/sio/kipling-soldiers-three.epub"/>
-    <option name="Book6" value="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2"/>
-    <option name="Book7" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
-    <option name="Book8" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
-    <option name="Book9" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
+    <option name="Book0" value="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub"/>
+    <option name="Book1" value="/home/sio/documents/books/tech/Stallman - Free Software, Free Society (2nd edition).epub"/>
+    <option name="Book2" value="/tmp/fsfs2.epub"/>
+    <option name="Book3" value="/tmp/faif2.epub"/>
+    <option name="Book4" value="/home/sio/rms1.txt"/>
+    <option name="Book5" value="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html"/>
+    <option name="Book6" value="/home/sio/documents/books/oldfiles/Ктулху/lavkraft_zov_ktulhu.html"/>
+    <option name="Book7" value="/home/sio/documents/books/Fiction/UNREAD/Веркор - Квота, или сторонники изобилия.fb2"/>
+    <option name="Book8" value="/home/sio/documents/books/Oldfiles/Теория программирования.txt"/>
+    <option name="Book9" value="/home/sio/documents/books/Fiction/UNREAD/Тираспольский - Беседы с палачом.fb2.zip:Tiraspolskiy_Besedyi_s_palachom._Kazni_pyitki_i_surovyie_nakazaniya_v_Drevnem_Rime.185687.fb2"/>
   </group>
   <group name="State">
-    <option name="Book" value="/home/sio/documents/books/Fiction/UNREAD/Тираспольский - Беседы с палачом.fb2.zip:Tiraspolskiy_Besedyi_s_palachom._Kazni_pyitki_i_surovyie_nakazaniya_v_Drevnem_Rime.185687.fb2"/>
+    <option name="Book" value="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub"/>
   </group>
 </config>

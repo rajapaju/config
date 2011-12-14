@@ -54,6 +54,7 @@ audio/x-scpls=audacious2-gtkui.desktop
 application/x-java-archive=file-roller.desktop
 image/vnd.microsoft.icon=eog.desktop
 application/x-font-otf=gnome-font-viewer.desktop
+x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
@@ -84,7 +85,7 @@ application/vnd.ms-excel=openoffice.org-calc.desktop;libreoffice-calc.desktop;
 application/x-wine-extension-ini=leafpad.desktop;geany.desktop;
 application/x-wine-extension-cfg=leafpad.desktop;geany.desktop;
 application/msword=libreoffice-writer.desktop;
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;userapp-abiword-8DFG6V.desktop;
 application/vnd.ms-powerpoint=libreoffice-impress.desktop;
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
 application/x-gzip=file-roller.desktop;
@@ -113,6 +114,7 @@ audio/x-scpls=audacious2-gtkui.desktop;
 application/x-java-archive=file-roller.desktop;
 image/vnd.microsoft.icon=eog.desktop;
 application/x-font-otf=gnome-font-viewer.desktop;
+x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;

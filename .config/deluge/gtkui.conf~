@@ -18,6 +18,9 @@
   "show_statusbar": true, 
   "ntf_popup": false, 
   "ntf_pass": "", 
+  "show_sidebar": false, 
+  "window_maximized": false, 
+  "enable_system_tray": false, 
   "tray_download_speed_list": [
     5.0, 
     10.0, 
@@ -25,9 +28,6 @@
     80.0, 
     100.0
   ], 
-  "window_maximized": false, 
-  "enable_system_tray": false, 
-  "show_sidebar": false, 
   "show_connection_manager_on_start": false, 
   "lock_tray": false, 
   "createtorrent.trackers": [], 
@@ -41,7 +41,7 @@
   "autoadd_queued": true, 
   "autoconnect_host_id": "d6cce0bede873688e279223e1c42ebab2c61ce26", 
   "classic_mode": false, 
-  "window_pane_position": 352, 
+  "window_pane_position": 382, 
   "enabled_plugins": [], 
   "show_rate_in_title": true, 
   "autoadd_enable": false, 
@@ -64,7 +64,7 @@
   "choose_directory_dialog_path": "/home/sio/videos/Movies", 
   "sidebar_show_trackers": false, 
   "autostart_localhost": true, 
-  "show_toolbar": true, 
+  "show_toolbar": false, 
   "autoadd_location": "", 
   "ntf_email_add": "", 
   "signal_port": 40000

@@ -261,20 +261,4 @@ sg9
 I0
 sg10
 I15
-sba(ideluge.ui.gtkui.listview
-ListViewColumnState
-p55
-(dp56
-g4
-Nsg5
-S'Save Path'
-p57
-sg7
-I0
-sg8
-I00
-sg9
-I0
-sg10
-I16
 sba.

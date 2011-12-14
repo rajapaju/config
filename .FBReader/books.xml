@@ -316,6 +316,15 @@
     <option name="TagList" value="SF, Fantasy/Horror &amp; Mystic"/>
     <option name="Title" value="ОНО"/>
   </group>
+  <group name="/home/sio/documents/books/Fiction/UNREAD/Веркор - Квота, или сторонники изобилия.fb2">
+    <option name="AuthorDisplayName" value="Веркор, Коронель"/>
+    <option name="AuthorSortKey" value="веркор"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="778269"/>
+    <option name="TagList" value="Prose/Classics Prose"/>
+    <option name="Title" value="Квота, или «Сторонники изобилия»"/>
+  </group>
   <group name="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub">
     <option name="AuthorDisplayName" value="Михаил Зощенко"/>
     <option name="AuthorSortKey" value="зощенко"/>
@@ -1306,6 +1315,52 @@
     <option name="TagList" value="SF, Fantasy/Action SF"/>
     <option name="Title" value="Призыв к оружию"/>
   </group>
+  <group name="/home/sio/documents/books/Oldfiles/Теория программирования.txt">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="BreakType" value="6"/>
+    <option name="Encoding" value="windows-1251"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="2831"/>
+    <option name="Title" value="Теория программирования"/>
+  </group>
+  <group name="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="BreakType" value="6"/>
+    <option name="Encoding" value="windows-1251"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="65527"/>
+    <option name="Title" value="Кампанелла Город Солнца"/>
+  </group>
+  <group name="/home/sio/documents/books/oldfiles/Ктулху/lavkraft_zov_ktulhu.html">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="BreakType" value="6"/>
+    <option name="Encoding" value="windows-1251"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="81900"/>
+    <option name="Title" value="Зов Ктулху"/>
+  </group>
+  <group name="/home/sio/documents/books/tech/Stallman - Free Software, Free Society (2nd edition).epub">
+    <option name="AuthorDisplayName" value="Richard M. Stallman"/>
+    <option name="AuthorSortKey" value="stallman"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="342289"/>
+    <option name="Title" value="Free Software, Free Society: Selected Essays of Richard M. Stallman, Second Edition"/>
+  </group>
+  <group name="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub">
+    <option name="AuthorDisplayName" value="Sam Williams and Richard M. Stallman"/>
+    <option name="AuthorSortKey" value="stallman"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="379038"/>
+    <option name="Title" value="Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution"/>
+  </group>
   <group name="/home/sio/kipling-soldiers-three.epub">
     <option name="AuthorDisplayName" value="Rudyard Kipling"/>
     <option name="AuthorSortKey" value="kipling"/>
@@ -1318,6 +1373,16 @@
   <group name="/home/sio/muhas-1330292.txt">
     <option name="BreakType" value="6"/>
     <option name="Initialized" value="true"/>
+  </group>
+  <group name="/home/sio/rms1.txt">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="BreakType" value="6"/>
+    <option name="Encoding" value="UTF-8"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="516448"/>
+    <option name="Title" value="rms1"/>
   </group>
   <group name="/home/sio/tmp/trash/it/It/Stephen King - IT.htm">
     <option name="BreakType" value="6"/>
@@ -1362,6 +1427,22 @@
     <option name="Language" value="ru"/>
     <option name="TagList" value="Prose/Classics Prose,Romance/Contemporary Romance"/>
     <option name="Title" value="Замок"/>
+  </group>
+  <group name="/tmp/faif2.epub">
+    <option name="AuthorDisplayName" value="Sam Williams and Richard M. Stallman"/>
+    <option name="AuthorSortKey" value="stallman"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="379038"/>
+    <option name="Title" value="Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution"/>
+  </group>
+  <group name="/tmp/fsfs2.epub">
+    <option name="AuthorDisplayName" value="Richard M. Stallman"/>
+    <option name="AuthorSortKey" value="stallman"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="342289"/>
+    <option name="Title" value="Free Software, Free Society: Selected Essays of Richard M. Stallman, Second Edition"/>
   </group>
   <group name="/usr/share/FBReader/help/MiniHelp.en.fb2">
     <option name="AuthorDisplayName" value="FBReader"/>

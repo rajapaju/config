@@ -1,11 +1,9 @@
 (dp1
 S'sort_id'
 p2
-I0
-sS'sort_order'
+NsS'sort_order'
 p3
-I0
-sS'columns'
+NsS'columns'
 p4
 (dp5
 S'Priority'
