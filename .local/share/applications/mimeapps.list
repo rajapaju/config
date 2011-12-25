@@ -55,6 +55,8 @@ application/x-java-archive=file-roller.desktop
 image/vnd.microsoft.icon=eog.desktop
 application/x-font-otf=gnome-font-viewer.desktop
 x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop
+application/x-extension-mobi=FBReader.desktop
+application/x-wine-extension-hlp=leafpad.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;
@@ -115,6 +117,9 @@ application/x-java-archive=file-roller.desktop;
 image/vnd.microsoft.icon=eog.desktop;
 application/x-font-otf=gnome-font-viewer.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop;
+application/x-extension-mobi=FBReader.desktop;
+application/x-wine-extension-hlp=leafpad.desktop;
 
 [Removed Associations]
 application/x-wine-extension-ini=wine-extension-ini.desktop;
+application/x-wine-extension-hlp=wine-extension-hlp.desktop;

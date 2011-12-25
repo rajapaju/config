@@ -1334,6 +1334,18 @@
     <option name="TagList" value="Prose/Contemporary Prose,SF, Fantasy/Social SF"/>
     <option name="Title" value="Чума в Бедрограде"/>
   </group>
+  <group name="/home/sio/documents/books/fiction/unread/VA - Machine of Death/MOD/machine_of_death.mobi">
+    <option name="AuthorDisplayName" value="Matthew Bennardo, David Malki ! (Editors) Ryan North"/>
+    <option name="AuthorSortKey" value="north"/>
+    <option name="BreakType" value="3"/>
+    <option name="Encoding" value="UTF-8"/>
+    <option name="IgnoredIndent" value="11"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="en"/>
+    <option name="PalmType" value="BOOKMOBI"/>
+    <option name="Size" value="4761727"/>
+    <option name="Title" value="Machine of Death"/>
+  </group>
   <group name="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html">
     <option name="AuthorDisplayName" value="Unknown Author"/>
     <option name="AuthorSortKey" value="___"/>
@@ -1370,6 +1382,16 @@
     <option name="Size" value="379038"/>
     <option name="Title" value="Free as in Freedom (2.0): Richard Stallman and the Free Software Revolution"/>
   </group>
+  <group name="/home/sio/documents/dreams/20111126_Проклятие индейцев.txt">
+    <option name="AuthorDisplayName" value="Unknown Author"/>
+    <option name="AuthorSortKey" value="___"/>
+    <option name="BreakType" value="6"/>
+    <option name="Encoding" value="UTF-8"/>
+    <option name="Initialized" value="true"/>
+    <option name="Language" value="ru"/>
+    <option name="Size" value="5313"/>
+    <option name="Title" value="20111126_Проклятие индейцев"/>
+  </group>
   <group name="/home/sio/kipling-soldiers-three.epub">
     <option name="AuthorDisplayName" value="Rudyard Kipling"/>
     <option name="AuthorSortKey" value="kipling"/>
@@ -1397,6 +1419,14 @@
     <option name="BreakType" value="6"/>
     <option name="IgnoredIndent" value="4"/>
     <option name="Initialized" value="true"/>
+  </group>
+  <group name="/home/sio/torrents/MOD/machine_of_death.epub">
+    <option name="AuthorDisplayName" value="Ryan North, Matthew Bennardo, David Malki ! (Editors)"/>
+    <option name="AuthorSortKey" value="(editors)"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="4526211"/>
+    <option name="Title" value="Machine of Death"/>
   </group>
   <group name="/home/sio/zzzz/King, Stephen - Pet Sematary.htm">
     <option name="BreakType" value="6"/>

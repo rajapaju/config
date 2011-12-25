@@ -27,6 +27,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.template
 application/vnd.openxmlformats-officedocument.wordprocessingml.template
 application/x-extension-IMA
 application/x-extension-cd
+application/x-extension-mobi
 application/x-msdownload
 application/x-wine-extension-accdu
 application/x-wine-extension-acl

@@ -7,7 +7,7 @@
     [exec] (Firefox) {firefox -P default}
     [exec] (Gajim) {~/misc/src/gajim/launch.sh}
     [exec] (Icedove) {icedove}
-    [exec] (Skype) {amixer sset Master 60%; skype; amixer sset Master 100%}
+    [exec] (Skype) {amixer sset PCM 60%; skype; amixer sset PCM 75%}
 # [exec] (gFtp) {gftp}
 # [exec] (Deluge) {deluge}
     [exec] (Torrent) {transmission-gtk}
@@ -115,8 +115,8 @@
     [exec] (GParted) {gksudo gparted}
     [exec] (Gtk Theme) {lxappearance && killall lxappearance}
     [exec] (htop) {urxvtc -name htop -T "System Monitor" -e htop}
-    [exec] (Monitor) {gnome-system-monitor}
     [exec] (Printer) {hp-toolbox; pkill -f hp-systray}
+    [exec] (Resources) {gnome-system-monitor}
     [exec] (Wicd) {wicd-gtk -n}
     [separator]
     [exec] (Aptitude) {urxvtc -T "Aptitude Package Manager" -name aptitude -e sudo aptitude 2>/dev/null}

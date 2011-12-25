@@ -88,7 +88,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{923 166}
+  [Position]	(UPPERLEFT)	{316 150}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -302,4 +302,26 @@
   [Close]	{yes}
 [end]
 [transient] (name=transmission-gtk) (class=Transmission-gtk)
+[end]
+[app] (name=gajim) (class=Gajim) (role=pm)
+  [Workspace]	{0}
+  [Dimensions]	{517 512}
+  [Position]	(UPPERLEFT)	{393 25}
+[end]
+[app] (name=gajim) (class=Gajim) (role=roster)
+  [Workspace]	{0}
+  [Dimensions]	{209 701}
+  [Position]	(UPPERLEFT)	{0 377}
+[end]
+[app] (name=gajim) (class=Gajim) (role=chat)
+  [Workspace]	{0}
+  [Dimensions]	{517 512}
+  [Position]	(UPPERLEFT)	{0 25}
+[end]
+[app] (name=gajim) (class=Gajim)
+  [Dimensions]	{635 432}
+[end]
+[app] (name=gpartedbin) (class=Gpartedbin)
+  [Dimensions]	{892 646}
+  [Close]	{yes}
 [end]
