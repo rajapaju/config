@@ -1334,6 +1334,48 @@
     <option name="TagList" value="Prose/Contemporary Prose,SF, Fantasy/Social SF"/>
     <option name="Title" value="Чума в Бедрограде"/>
   </group>
+  <group name="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub">
+    <option name="AuthorDisplayName" value="Scanned by kineticstomp, revised and enlarged by swift"/>
+    <option name="AuthorSortKey" value="swift"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="469730"/>
+    <option name="Title" value="The art of Deception-Kevin D. Mitnick"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Intrusion.epub">
+    <option name="AuthorDisplayName" value="Kevin D. Mitnick &amp;amp; William L. Simon"/>
+    <option name="AuthorSortKey" value="simon"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="322291"/>
+    <option name="Title" value="The art of Intrusion- Kevin D. Mitnick"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip:Mitnik_Iskusstvo_vtorzheniya.68834.fb2"/>
+    <option name="Size" value="324210"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip:Mitnik_Iskusstvo_vtorzheniya.68834.fb2">
+    <option name="AuthorDisplayName" value="Кевин Митник, Вильям Саймон"/>
+    <option name="AuthorSortKey" value="митник"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Computers/Other"/>
+    <option name="Title" value="Искусство вторжения"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip:Mitnik_Iskusstvo_obmana.68833.fb2"/>
+    <option name="Size" value="395515"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip:Mitnik_Iskusstvo_obmana.68833.fb2">
+    <option name="AuthorDisplayName" value="Кевин Митник, Вильям Саймон"/>
+    <option name="AuthorSortKey" value="митник"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Computers/Other"/>
+    <option name="Title" value="Искусство обмана"/>
+  </group>
   <group name="/home/sio/documents/books/fiction/unread/VA - Machine of Death/MOD/machine_of_death.mobi">
     <option name="AuthorDisplayName" value="Matthew Bennardo, David Malki ! (Editors) Ryan North"/>
     <option name="AuthorSortKey" value="north"/>
