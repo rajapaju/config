@@ -30,3 +30,4 @@ echo "Other:       " $P_OTHER"\n"
 
 #check if total = sum of parts
 [ $(($P_STABLE+$P_BACKPORTS+$P_TESTING+$P_UNSTABLE+$P_EXPERIMENTAL+$P_OTHER)) -eq $P_TOTAL ] && echo "Checksum:     ok" || echo "Checksum:     error"
+echo

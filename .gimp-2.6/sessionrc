@@ -14,7 +14,7 @@
         (follow-active-image "true"))
     (dock
         (book
-            (current-page 0)
+            (current-page 4)
             (dockable "gimp-layer-list"
                 (tab-style icon)
                 (preview-size 32))
@@ -82,6 +82,6 @@
     (position 0 0)
     (size 1620 1078))
 
-(last-tip-shown 149)
+(last-tip-shown 153)
 
 # end of sessionrc

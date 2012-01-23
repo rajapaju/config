@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="button_layout" mtime="1310578020" type="string">
+	<entry name="button_layout" mtime="1325167178" type="string">
 		<stringvalue>SCIENTIFIC</stringvalue>
 	</entry>
-	<entry name="accuracy" mtime="1310578020" type="int" value="9"/>
-	<entry name="wordlen" mtime="1310578020" type="int" value="64"/>
-	<entry name="result_format" mtime="1310578020" type="string">
+	<entry name="accuracy" mtime="1325167175" type="int" value="9"/>
+	<entry name="wordlen" mtime="1325167175" type="int" value="64"/>
+	<entry name="result_format" mtime="1325167175" type="string">
 		<stringvalue>decimal</stringvalue>
 	</entry>
-	<entry name="angle_units" mtime="1310578020" type="string">
+	<entry name="angle_units" mtime="1325167175" type="string">
 		<stringvalue>degrees</stringvalue>
 	</entry>
 </gconf>

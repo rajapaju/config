@@ -57,6 +57,7 @@ application/x-font-otf=gnome-font-viewer.desktop
 x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop
 application/x-extension-mobi=FBReader.desktop
 application/x-wine-extension-hlp=leafpad.desktop
+application/x-cue=leafpad.desktop
 
 [Added Associations]
 image/jpeg=gpicview.desktop;userapp-jhead-ECOA0V.desktop;

@@ -112,20 +112,20 @@ Mod4 Mod1 d :Move +1 0
 Mod1 94 :ExecCommand mpc next
 171 :ExecCommand mpc next
 173 :ExecCommand mpc prev
-Mod4 c :ExecCommand mpc stop
+Mod4 c :ExecCommand mpc stop; mpc -p 6601 stop
 Mod4 Mouse4 :ExecCommand amixer sset PCM 2+
 123 :ExecCommand amixer sset PCM 2+
 
 Mod4 Mouse5 :ExecCommand amixer sset PCM 2-
 122 :ExecCommand amixer sset PCM 2-
-Mod1 Mouse4 :ExecCommand mpc volume +2
+Mod1 Mouse4 :ExecCommand mpc volume +2; mpc -p 6601 volume +2
 Mod4 123 :ExecCommand xbacklight -inc 10
 Mod4 122 :ExecCommand xbacklight -dec 10
-Mod1 123 :ExecCommand mpc volume +2
-Mod1 Mouse5 :ExecCommand mpc volume -2
-Mod1 122 :ExecCommand mpc volume -2
-Mod1 Mouse2 :ExecCommand mpc volume 90
-Mod4 Mouse2 :ExecCommand amixer sset Master 100% && amixer sset PCM 75%
+Mod1 123 :ExecCommand mpc volume +2; mpc -p 6601 volume +2
+Mod1 Mouse5 :ExecCommand mpc volume -2; mpc -p 6601 volume -2
+Mod1 122 :ExecCommand mpc volume -2; mpc -p 6601 volume -2
+Mod1 Mouse2 :ExecCommand mpc volume 90; mpc -p 6601 volume 90
+Mod4 Mouse2 :ExecCommand amixer sset Master 100% && amixer sset PCM 80%
 
 Mod4 d :ShowDesktop
 Mod4 s :Stick

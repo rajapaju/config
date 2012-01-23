@@ -12,3 +12,4 @@
 
 #new laptop
 echo mem > /sys/power/state
+hdparm -B 254 /dev/sda; hdparm -B 254 /dev/sdb

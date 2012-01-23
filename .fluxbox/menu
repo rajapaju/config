@@ -6,8 +6,9 @@
 [submenu] (Internet/)
     [exec] (Firefox) {firefox -P default}
     [exec] (Gajim) {~/misc/src/gajim/launch.sh}
+    [exec] (XChat) {xchat}
     [exec] (Icedove) {icedove}
-    [exec] (Skype) {amixer sset PCM 60%; skype; amixer sset PCM 75%}
+    [exec] (Skype) {amixer sset PCM 60%; skype; amixer sset PCM 80%}
 # [exec] (gFtp) {gftp}
 # [exec] (Deluge) {deluge}
     [exec] (Torrent) {transmission-gtk}

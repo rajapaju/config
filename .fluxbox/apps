@@ -24,6 +24,7 @@
 [group]  (workspace=[current])
  [app] (role=gc)
  [app] (name=Download) (role=Manager)
+ [app] (name=xchat) (class=Xchat)
   [Workspace]	{0}
   [Dimensions]	{1007 537}
   [Position]	(UPPERLEFT)	{912 0}
@@ -88,7 +89,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{316 150}
+  [Position]	(UPPERLEFT)	{923 178}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -208,9 +209,6 @@
 [app] (name=WINWORD.EXE) (class=Wine)
 [end]
 [transient] (name=firefox-bin) (class=Firefox-bin)
-  [Dimensions]	{720 726}
-  [Position]	(UPPERLEFT)	{879 116}
-  [Close]	{yes}
 [end]
 [app] (name=Mail) (class=Icedove) (role=3pane)
   [Workspace]	{2}

@@ -18,7 +18,7 @@ lib_view = 1
 lib_genre = !NONE!
 lib_path = !NONE!
 lib_year = !NONE!
-lib_artist = Linkin Park
+lib_artist = Dark Tranquillity
 lib_album = !NONE!
 
 [player]
@@ -86,11 +86,16 @@ streams_tab_pos = None
 num_streams = 0
 
 [profiles]
-names[0] = Default Profile
-num_profiles = 1
+names[1] = Lossy Profile
+names[0] = Lossless Profile
+num_profiles = 2
+musicdirs[1] = /media/data/music
+passwords[1] = 
 passwords[0] = 
 hosts[0] = 127.0.0.1
 ports[0] = 6600
+ports[1] = 6601
+hosts[1] = 127.0.0.1
 musicdirs[0] = /home/sio/music
 
 [plugins]

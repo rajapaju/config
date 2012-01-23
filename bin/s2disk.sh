@@ -13,3 +13,4 @@
 
 #new laptop
 echo disk > /sys/power/state
+sudo hdparm -B 254 /dev/sda; sudo hdparm -B 254 /dev/sdb
