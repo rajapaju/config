@@ -1,3 +1,5 @@
+%n.%a - %t
+%n.%a - %t.flac
 /home/sio/music/%a/%y - %b/%n - %t
 /home/sio/music/DONE/%a/%y - %b/%n - %t
 /home/sio/music/DONE/%a/%b - %y/%n - %t
@@ -11,5 +13,3 @@
 %a - %b (%y) - %g/%n - %t
 %a_-_%b_(%y)_-_%g/%n_-_%t
 %n - %t
-%n_-_%t
-%n. %t

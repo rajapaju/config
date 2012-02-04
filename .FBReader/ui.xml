@@ -11,7 +11,7 @@
     <option name="ShowTOCMarks" value="true"/>
     <option name="Time" value="true"/>
     <option name="TouchSensitive" value="false"/>
-    <option name="Type" value="1"/>
+    <option name="Type" value="2"/>
   </group>
   <group name="InfoDialog">
     <option name="Height" value="346"/>

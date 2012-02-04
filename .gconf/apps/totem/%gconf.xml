@@ -8,12 +8,12 @@
 	<entry name="subtitle_encoding" mtime="1321209339" type="string">
 		<stringvalue>UTF-8</stringvalue>
 	</entry>
-	<entry name="hue" mtime="1322925723" type="int" value="32767"/>
-	<entry name="brightness" mtime="1322925723" type="int" value="31868"/>
-	<entry name="saturation" mtime="1322925723" type="int" value="32767"/>
-	<entry name="contrast" mtime="1322925723" type="int" value="31868"/>
+	<entry name="hue" mtime="1327514004" type="int" value="32767"/>
+	<entry name="brightness" mtime="1327514004" type="int" value="31868"/>
+	<entry name="saturation" mtime="1327514004" type="int" value="32767"/>
+	<entry name="contrast" mtime="1327514004" type="int" value="31868"/>
 	<entry name="visual_quality" mtime="1321209339" type="int" value="0"/>
-	<entry name="visual" mtime="1322925723" type="string">
+	<entry name="visual" mtime="1327514004" type="string">
 		<stringvalue>GOOM: what a GOOM!</stringvalue>
 	</entry>
 	<entry name="show_vfx" mtime="1321209339" type="bool" value="false"/>
