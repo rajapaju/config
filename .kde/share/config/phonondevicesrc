@@ -1,6 +1,66 @@
+[AudioDevice_HDA Intel PCH, ALC269VB Digital\nIEC958 (S/PDIF) Digital Audio Output_playback]
+cardName=HDA Intel PCH, ALC269VB Digital (IEC958 (S/PDIF) Digital Audio Output)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-8
+initialPreference=30
+isAdvanced=true
+
+[AudioDevice_HDA Intel PCH, HDMI 0\nHDMI Audio Output_playback]
+cardName=HDA Intel PCH, HDMI 0 (HDMI Audio Output)
+deleted=false
+deviceNumber=-1
+hotpluggable=false
+iconName=audio-card
+index=-7
+initialPreference=30
+isAdvanced=false
+
+[AudioDevice_pci:8086:1c20:1043:1a33:0:capture]
+cardName=HDA Intel PCH (ALC269VB Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-9
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_pci:8086:1c20:1043:1a33:0:playback]
+cardName=HDA Intel PCH (ALC269VB Analog)
+deleted=false
+deviceNumber=0
+hotpluggable=false
+iconName=audio-card
+index=-4
+initialPreference=36
+isAdvanced=false
+
+[AudioDevice_pci:8086:1c20:1043:1a33:1:playback]
+cardName=HDA Intel PCH (ALC269VB Digital)
+deleted=false
+deviceNumber=1
+hotpluggable=false
+iconName=audio-card
+index=-5
+initialPreference=35
+isAdvanced=true
+
+[AudioDevice_pci:8086:1c20:1043:1a33:3:playback]
+cardName=HDA Intel PCH (HDMI 0)
+deleted=false
+deviceNumber=3
+hotpluggable=false
+iconName=audio-card
+index=-6
+initialPreference=33
+isAdvanced=true
+
 [AudioDevice_pci:8086:27d8:1509:4540:0:capture]
 cardName=HDA Intel (ALC260 Analog)
-deleted=false
+deleted=true
 deviceNumber=0
 hotpluggable=false
 iconName=audio-card
@@ -10,7 +70,7 @@ isAdvanced=false
 
 [AudioDevice_pci:8086:27d8:1509:4540:0:playback]
 cardName=HDA Intel (ALC260 Analog)
-deleted=false
+deleted=true
 deviceNumber=0
 hotpluggable=false
 iconName=audio-card
@@ -20,7 +80,7 @@ isAdvanced=false
 
 [AudioDevice_pci:8086:27d8:1509:4540:2:capture]
 cardName=HDA Intel (ALC260 Analog) #2
-deleted=false
+deleted=true
 deviceNumber=2
 hotpluggable=false
 iconName=audio-card
@@ -29,4 +89,4 @@ initialPreference=34
 isAdvanced=true
 
 [Globals]
-nextIndex=4
+nextIndex=10

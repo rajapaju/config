@@ -11,7 +11,7 @@
     [exec] (Skype) {amixer sset PCM 60%; skype; amixer sset PCM 80%}
 # [exec] (gFtp) {gftp}
 # [exec] (Deluge) {deluge}
-    [exec] (Torrent) {transmission-gtk}
+    [exec] (Torrent) {transmission-qt}
 [end]
 [submenu] (Multimedia/)
 # [exec] (GMPC) {gmpc}

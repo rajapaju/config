@@ -1,7 +1,33 @@
+[Classic Tree View]
+viewLayout=257,1165
+
 [Colors]
 CurrentPalette=Forty Colors
 
+[ConfigDialog]
+Height 1080=256
+Width 1920=444
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[KPropertiesDialog]
+Height 1080=423
+Width 1920=438
+
+[Main]
+ActiveView=classic_mode
+
 [MainWindow]
+Height 1080=758
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAtAAAAIyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABZQAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Width 1920=1428
+
+[Open-with settings]
+CompletionMode=5
+History=iceweasel %u
+
+[Phonon::AudioOutput]
+System Settings_Volume=1

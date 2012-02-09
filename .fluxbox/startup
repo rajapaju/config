@@ -8,7 +8,7 @@
 
 ## AUTOSTART SOME APPLICATIONS
 (sleep 3; exec ~/misc/src/sonata/sonata.py&)&
-(sleep 3; exec transmission-gtk&)&
+(sleep 3; exec transmission-qt&)&
 (exec ~/misc/src/gajim/launch.sh)&
 (sleep 6; exec urxvtc -name Terminal&)&
 synapse -s&

@@ -89,7 +89,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{772 256}
+  [Position]	(UPPERLEFT)	{526 130}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -193,6 +193,7 @@
 [group]  (workspace=[current])
  [app] (name=transmission) (class=Transmission) (role=tr-main)
  [app] (name=transmission-gtk) (class=Transmission-gtk) (role=tr-main)
+ [app] (name=transmission-qt) (class=Transmission-qt)
   [Workspace]	{2}
   [Dimensions]	{711 920}
   [Position]	(UPPERLEFT)	{1122 130}
