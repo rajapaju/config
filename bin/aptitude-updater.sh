@@ -35,7 +35,7 @@ help_msg() {
 
 # validate command-line parameters
 case "$*" in
-    install|hold|remove|purge|markauto|reinstall|unhold|unmarkauto)
+    install|hold|remove|purge|markauto|reinstall|unhold|unmarkauto|full-upgrade|safe-upgrade)
     ;;
     -h|--help)
         help_msg
@@ -104,7 +104,7 @@ for i in `seq 1 $MAX_ITERATOR`
 do
     [ "${ANSWER[$i]}" = "y" ] && PACKAGES_TOGO="$PACKAGES_TOGO ${PACKAGE[$i]}"
 done
-if [ -z $PACKAGES_TOGO ]
+if [ -z "$PACKAGES_TOGO" ]
 then
     echo -e "\nNo action will be performed"
 else

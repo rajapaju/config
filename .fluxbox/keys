@@ -126,6 +126,7 @@ Mod1 Mouse5 :ExecCommand mpc volume -2; mpc -p 6601 volume -2
 Mod1 122 :ExecCommand mpc volume -2; mpc -p 6601 volume -2
 Mod1 Mouse2 :ExecCommand mpc volume 80; mpc -p 6601 volume 80
 Mod4 Mouse2 :ExecCommand amixer sset Master 100% && amixer sset PCM 80%
+Mod4 121 :ExecCommand amixer sset Master 100% && amixer sset PCM 80%
 
 Mod4 d :ShowDesktop
 Mod4 s :Stick

@@ -40,7 +40,7 @@
             (dockable "gimp-color-editor"
                 (tab-style preview)
                 (aux-info
-                    (current-page "ColorselWheel"))))))
+                    (current-page "GimpColorSelectorPalette"))))))
 (session-info "toplevel" "gimp-file-open-dialog"
     (position 100 41)
     (size 720 702))
@@ -82,6 +82,6 @@
     (position 0 0)
     (size 1620 1078))
 
-(last-tip-shown 155)
+(last-tip-shown 158)
 
 # end of sessionrc

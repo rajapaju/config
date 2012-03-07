@@ -6,7 +6,7 @@
 [submenu] (Internet/)
     [exec] (Firefox) {firefox -P default}
     [exec] (Gajim) {~/misc/src/gajim/launch.sh}
-    [exec] (XChat) {xchat}
+#    [exec] (XChat) {xchat}
     [exec] (Icedove) {icedove}
     [exec] (Skype) {amixer sset PCM 60%; skype; amixer sset PCM 80%}
 # [exec] (gFtp) {gftp}

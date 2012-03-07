@@ -18,7 +18,7 @@ lib_view = 1
 lib_genre = !NONE!
 lib_path = !NONE!
 lib_year = !NONE!
-lib_artist = Jonathan Wilson
+lib_artist = Destroy The Runner
 lib_album = !NONE!
 
 [player]
@@ -31,7 +31,7 @@ covers = False
 sticky = False
 xfade_enabled = False
 info_song_more = False
-search_num = 5
+search_num = 1
 progressbar = True
 ontop = False
 lyrics_location = 0

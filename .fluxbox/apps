@@ -89,7 +89,7 @@
 [end]
 [app] (name=aptitude)
   [Dimensions]	{910 822}
-  [Position]	(UPPERLEFT)	{526 130}
+  [Position]	(UPPERLEFT)	{912 256}
   [Close]	{yes}
 [end]
 [app] (name=nautilus) (class=Nautilus)
@@ -224,7 +224,7 @@
   [Maximized]	{yes}
 [end]
 [app] (name=galculator) (class=Galculator)
-  [Position]	(UPPERLEFT)	{792 731}
+  [Position]	(UPPERLEFT)	{259 678}
   [Close]	{yes}
 [end]
 [app] (name=deadbeef) (class=Deadbeef)
