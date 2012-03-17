@@ -1343,6 +1343,27 @@
     <option name="TagList" value="Prose/Contemporary Prose,SF, Fantasy/Social SF"/>
     <option name="Title" value="Чума в Бедрограде"/>
   </group>
+  <group name="/home/sio/documents/books/fiction/unread/Ellis - American Psycho.epub">
+    <option name="AuthorDisplayName" value="Ellis, Bret Easton"/>
+    <option name="AuthorSortKey" value="easton"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="UND"/>
+    <option name="Size" value="398386"/>
+    <option name="Title" value="American Psycho"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Ellis - Американский психопат.fb2.zip">
+    <option name="EntriesNumber" value="1"/>
+    <option name="Entry0" value="/home/sio/documents/books/fiction/unread/Ellis - Американский психопат.fb2.zip:Ellis_Amerikanskiy_psihopat.178704.fb2"/>
+    <option name="Size" value="407545"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Ellis - Американский психопат.fb2.zip:Ellis_Amerikanskiy_psihopat.178704.fb2">
+    <option name="AuthorDisplayName" value="Брет Истон Эллис"/>
+    <option name="AuthorSortKey" value="эллис"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="ru"/>
+    <option name="TagList" value="Prose/Counterculture"/>
+    <option name="Title" value="Американский психопат"/>
+  </group>
   <group name="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub">
     <option name="AuthorDisplayName" value="Scanned by kineticstomp, revised and enlarged by swift"/>
     <option name="AuthorSortKey" value="swift"/>

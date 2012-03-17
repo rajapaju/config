@@ -1,3 +1,4 @@
+
 [Added Associations]
 application/epub+zip=FBReader.desktop;evince.desktop;file-roller.desktop;
 application/msword=libreoffice-writer.desktop;
@@ -59,6 +60,7 @@ video/x-flv=smplayer.desktop;
 video/x-matroska=userapp-mplayer-GG4W3V.desktop;userapp-mplayer2-H7DP3V.desktop;
 video/x-msvideo=smplayer.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop;
+audio/x-mpegurl=audacious2-gtkui.desktop;
 
 [Default Applications]
 application/msword=libreoffice-writer.desktop
@@ -119,6 +121,7 @@ video/x-flv=smplayer.desktop
 video/x-matroska=smplayer_enqueue.desktop
 video/x-msvideo=smplayer.desktop
 x-scheme-handler/magnet=userapp-transmission-gtk-I6045V.desktop
+audio/x-mpegurl=audacious2-gtkui.desktop
 
 [Removed Associations]
 application/x-wine-extension-hlp=wine-extension-hlp.desktop;

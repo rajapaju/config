@@ -318,7 +318,7 @@
   [Position]	(UPPERLEFT)	{0 25}
 [end]
 [app] (name=gajim) (class=Gajim)
-  [Dimensions]	{635 432}
+  [Dimensions]	{630 513}
 [end]
 [app] (name=gpartedbin) (class=Gpartedbin)
   [Dimensions]	{892 646}
