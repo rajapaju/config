@@ -2,6 +2,7 @@
 # Блокировка экрана с показом заставки
 # Отключаются до ввода пароля: клавиатура, мышь, звук
 
+MODE=drift
 LOCKDELAY=3
 TIMESTART=`date +%s` #засекаем начало блокировки
 
@@ -37,7 +38,7 @@ timecalc () {
     (sleep $LOCKDELAY; pgrep xlock && xset dpms force off)&
     
     #заставка
-    xlock -mode atunnels -erasemode no_fade -timeelapsed -usefirst -lockdelay $LOCKDELAY\
+    xlock -mode $MODE -erasemode no_fade -timeelapsed -usefirst -lockdelay $LOCKDELAY\
      -timeout 4 -font "-*-terminus-medium-r-normal-*-32-*-*-*-*-*-*-*"\
      -planfont "-*-terminus-medium-r-normal-*-32-*-*-*-*-*-*-*"\
      -background gray -icongeometry 256x256 
