@@ -19,6 +19,7 @@
     [exec] (SMplayer) {smplayer}
     [exec] (Easytag) {easytag}
     [exec] (Audacity) {audacity}
+    [exec] (EAC) {WINEPREFIX=~/.wineprefixes/eac wine "C:\Program Files\Exact Audio Copy\EAC.exe"}
 [end]
 [submenu] (Graphics/)
     [exec] (Gimp) {gimp}

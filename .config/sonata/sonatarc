@@ -16,9 +16,9 @@ title = %A - %T
 [library]
 lib_view = 1
 lib_genre = !NONE!
-lib_path = !NONE!
+lib_path = /
 lib_year = !NONE!
-lib_artist = MELL
+lib_artist = !NONE!
 lib_album = !NONE!
 
 [player]
@@ -31,7 +31,7 @@ covers = False
 sticky = False
 xfade_enabled = False
 info_song_more = False
-search_num = 1
+search_num = 2
 progressbar = True
 ontop = False
 lyrics_location = 0

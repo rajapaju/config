@@ -10,7 +10,7 @@
   "queue_new_to_top": false, 
   "ignore_limits_on_local_network": true, 
   "rate_limit_ip_overhead": true, 
-  "daemon_port": 58846, 
+  "daemon_port": 44449, 
   "torrentfiles_location": "/home/sio/torrents/.torrents", 
   "max_active_limit": 8, 
   "utpex": true, 

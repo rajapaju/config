@@ -281,7 +281,7 @@
   [Close]	{yes}
 [end]
 [transient] (name=inkscape) (class=Inkscape)
-  [Dimensions]	{504 180}
+  [Dimensions]	{513 184}
   [Close]	{yes}
 [end]
 [app] (name=gajim) (class=Gajim.py) (role=history)

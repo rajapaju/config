@@ -1364,6 +1364,22 @@
     <option name="TagList" value="Prose/Counterculture"/>
     <option name="Title" value="Американский психопат"/>
   </group>
+  <group name="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Chamber_of_Secrets-Rowling.epub">
+    <option name="AuthorDisplayName" value="J.K. Rowling"/>
+    <option name="AuthorSortKey" value="rowling"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="1188665"/>
+    <option name="Title" value="Harry Potter and the Chamber of Secrets"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Sorcerers_Stone-Rowling.epub">
+    <option name="AuthorDisplayName" value="J.K. Rowling"/>
+    <option name="AuthorSortKey" value="rowling"/>
+    <option name="Encoding" value="auto"/>
+    <option name="Language" value="en"/>
+    <option name="Size" value="930672"/>
+    <option name="Title" value="Harry Potter and the Sorcerer&apos;s Stone"/>
+  </group>
   <group name="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub">
     <option name="AuthorDisplayName" value="Scanned by kineticstomp, revised and enlarged by swift"/>
     <option name="AuthorSortKey" value="swift"/>

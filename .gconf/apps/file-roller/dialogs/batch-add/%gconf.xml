@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="volume_size" mtime="1301333619" type="int" value="15728640"/>
+	<entry name="volume_size" mtime="1333263560" type="int" value="0"/>
 	<entry name="default_extension" mtime="1331145753" type="string">
 		<stringvalue>.tar.7z</stringvalue>
 	</entry>

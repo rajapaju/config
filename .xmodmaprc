@@ -1,0 +1,4 @@
+keysym Print = Insert    
+!потому что на клавиатуре нет нормального Ins
+keysym Pause = Print     
+!потому что PrtScr все же нужен

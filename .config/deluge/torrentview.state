@@ -110,7 +110,7 @@ Nsg5
 S'Progress'
 p27
 sg7
-I132
+I186
 sg8
 I01
 sg9
@@ -126,7 +126,7 @@ Nsg5
 S'Seeders'
 p30
 sg7
-I56
+I79
 sg8
 I01
 sg9
@@ -142,7 +142,7 @@ Nsg5
 S'Peers'
 p33
 sg7
-I61
+I86
 sg8
 I01
 sg9
@@ -158,7 +158,7 @@ Nsg5
 S'Down Speed'
 p36
 sg7
-I99
+I116
 sg8
 I01
 sg9
@@ -174,7 +174,7 @@ Nsg5
 S'Up Speed'
 p39
 sg7
-I83
+I130
 sg8
 I01
 sg9

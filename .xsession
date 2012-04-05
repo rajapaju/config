@@ -5,6 +5,7 @@
 xrandr --output LVDS1 --set "scaling mode" Full
 xbacklight -set 70
 fbsetbg -l
+numlockx on
 setxkbmap -option "compose:menu,grp:caps_toggle"&
 (sleep 3; xmodmap ~/.xmodmaprc)&
 # END SETTINGS

@@ -24,6 +24,9 @@
 
 #set -e -u
 
+# Parameters
+DEFAULT_ANSWER=n #param
+
 usage() {
     echo -e "Usage: aptitude versions '\$pattern'|$0 {install|hold|remove|...}\nRefer to \`$0 --help' for more information"
     exit
@@ -34,7 +37,7 @@ help_msg() {
 }
 
 # validate command-line parameters
-case "$*" in
+case "$1" in
     install|hold|remove|purge|markauto|reinstall|unhold|unmarkauto|full-upgrade|safe-upgrade)
     ;;
     -h|--help)
@@ -43,6 +46,18 @@ case "$*" in
     *)
         usage
     ;;
+esac
+case "$2" in
+    yes)
+        DEFAULT_ANSWER=y
+        ;;
+    no)
+        DEFAULT_ANSWER=n
+        ;;
+    *)
+        echo "Possible second parameters are \"yes\" or \"no\" only."
+        usage
+        ;;
 esac
 
 # read the input data from pipe
@@ -76,14 +91,13 @@ done
 
 #show user chunks one by one and ask for his decisions
 ACTION="$1" 
-DEFAULT_ANSWER=y #param
 
 for i in `seq 1 $MAX_ITERATOR`
 do
     echo -e "\n${CHUNK[$i]}"
     while [ -z ${ANSWER[$i]} ]
     do
-        QUESTION="Would you like to $ACTION ${PACKAGE[$i]}? (y/n) [$DEFAULT_ANSWER]:"
+        QUESTION="Would you like to $ACTION ${PACKAGE[$i]}? [$DEFAULT_ANSWER]:"
         echo -n $QUESTION
         read USER_INPUT
         [ -z $USER_INPUT ] && ANSWER[$i]=$DEFAULT_ANSWER && break

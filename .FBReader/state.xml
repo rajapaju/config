@@ -82,6 +82,14 @@
     <option name="Word_0" value="188"/>
     <option name="Word_1" value="0"/>
   </group>
+  <group name="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Chamber_of_Secrets-Rowling.epub">
+    <option name="Char" value="4"/>
+    <option name="Paragraph" value="117"/>
+    <option name="Word" value="25"/>
+  </group>
+  <group name="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Sorcerers_Stone-Rowling.epub">
+    <option name="Paragraph" value="82"/>
+  </group>
   <group name="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub">
     <option name="Paragraph" value="337"/>
     <option name="Word" value="277"/>
@@ -170,49 +178,51 @@
     <option name="Book15" value="/home/sio/documents/books/fiction/unread/Alphyna - Чума в Бедрограде.fb2"/>
     <option name="Book16" value="/home/sio/documents/books/fiction/unread/Ellis - American Psycho.epub"/>
     <option name="Book17" value="/home/sio/documents/books/fiction/unread/Ellis - Американский психопат.fb2.zip:Ellis_Amerikanskiy_psihopat.178704.fb2"/>
-    <option name="Book18" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub"/>
-    <option name="Book19" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Intrusion.epub"/>
+    <option name="Book18" value="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Chamber_of_Secrets-Rowling.epub"/>
+    <option name="Book19" value="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Sorcerers_Stone-Rowling.epub"/>
     <option name="Book2" value="/home/sio/documents/books/Fiction/UNREAD/Веркор - Квота, или сторонники изобилия.fb2"/>
-    <option name="Book20" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip:Mitnik_Iskusstvo_vtorzheniya.68834.fb2"/>
-    <option name="Book21" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip:Mitnik_Iskusstvo_obmana.68833.fb2"/>
-    <option name="Book22" value="/home/sio/documents/books/fiction/unread/VA - Machine of Death/MOD/machine_of_death.mobi"/>
-    <option name="Book23" value="/home/sio/documents/books/fiction/unread/Ларссон - 2. Девушка, которая играла с огнем.fb2.zip:Larsson_Millennium_ru_2_Devushka_kotoraya_igrala_s_ognem.192140.fb2"/>
-    <option name="Book24" value="/home/sio/documents/books/fiction/unread/Ларссон - 3. Девушка, которая взрывала воздушные замки.fb2.zip:Larsson_Millennium_ru_3_Devushka_kotoraya_vzryivala_vozdushnyie_zamki.194476.fb2"/>
-    <option name="Book25" value="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html"/>
-    <option name="Book26" value="/home/sio/documents/books/oldfiles/Ктулху/lavkraft_zov_ktulhu.html"/>
-    <option name="Book27" value="/home/sio/documents/books/tech/Stallman - Free Software, Free Society (2nd edition).epub"/>
-    <option name="Book28" value="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub"/>
-    <option name="Book29" value="/home/sio/documents/dreams/20111126_Проклятие индейцев.txt"/>
+    <option name="Book20" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub"/>
+    <option name="Book21" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Intrusion.epub"/>
+    <option name="Book22" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip:Mitnik_Iskusstvo_vtorzheniya.68834.fb2"/>
+    <option name="Book23" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip:Mitnik_Iskusstvo_obmana.68833.fb2"/>
+    <option name="Book24" value="/home/sio/documents/books/fiction/unread/VA - Machine of Death/MOD/machine_of_death.mobi"/>
+    <option name="Book25" value="/home/sio/documents/books/fiction/unread/Ларссон - 2. Девушка, которая играла с огнем.fb2.zip:Larsson_Millennium_ru_2_Devushka_kotoraya_igrala_s_ognem.192140.fb2"/>
+    <option name="Book26" value="/home/sio/documents/books/fiction/unread/Ларссон - 3. Девушка, которая взрывала воздушные замки.fb2.zip:Larsson_Millennium_ru_3_Devushka_kotoraya_vzryivala_vozdushnyie_zamki.194476.fb2"/>
+    <option name="Book27" value="/home/sio/documents/books/oldfiles/Кошмары Города Солнца.html"/>
+    <option name="Book28" value="/home/sio/documents/books/oldfiles/Ктулху/lavkraft_zov_ktulhu.html"/>
+    <option name="Book29" value="/home/sio/documents/books/tech/Stallman - Free Software, Free Society (2nd edition).epub"/>
     <option name="Book3" value="/home/sio/documents/books/Fiction/UNREAD/Зощенко - Голубая книга.epub"/>
-    <option name="Book30" value="/home/sio/kipling-soldiers-three.epub"/>
-    <option name="Book31" value="/home/sio/rms1.txt"/>
-    <option name="Book32" value="/home/sio/torrents/MOD/machine_of_death.epub"/>
-    <option name="Book33" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
-    <option name="Book34" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
-    <option name="Book35" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
-    <option name="Book36" value="/tmp/faif2.epub"/>
-    <option name="Book37" value="/tmp/fsfs2.epub"/>
+    <option name="Book30" value="/home/sio/documents/books/tech/Stallman - Free as in Freedom (2.0).epub"/>
+    <option name="Book31" value="/home/sio/documents/dreams/20111126_Проклятие индейцев.txt"/>
+    <option name="Book32" value="/home/sio/kipling-soldiers-three.epub"/>
+    <option name="Book33" value="/home/sio/rms1.txt"/>
+    <option name="Book34" value="/home/sio/torrents/MOD/machine_of_death.epub"/>
+    <option name="Book35" value="/media/READER/Documents/UNREAD/Зощенко - Голубая книга.fb2"/>
+    <option name="Book36" value="/media/READER/Documents/UNREAD/Ивлин Во - Возвращение в Брайсхед.fb2.zip:Vo_Vozvraschenie_v_Braydshed.59653.fb2"/>
+    <option name="Book37" value="/media/READER/Documents/UNREAD/Кафка - Замок (изначальная версия).fb2.zip:Kafka_Romanyi_2_Zamok.24778.fb2"/>
+    <option name="Book38" value="/tmp/faif2.epub"/>
+    <option name="Book39" value="/tmp/fsfs2.epub"/>
     <option name="Book4" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 1 - Игра престолов.fb2.zip:Martin_Pesn_lda_i_plameni_1_Igra_prestolov.237689.fb2"/>
     <option name="Book5" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 2 - Битва королей.fb2.zip:Martin_Pesn_lda_i_plameni_2_Bitva_koroley.237688.fb2"/>
     <option name="Book6" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 3 - Буря мечей.fb2.zip:Martin_Pesn_lda_i_plameni_3_Burya_mechey.237690.fb2"/>
     <option name="Book7" value="/home/sio/documents/books/Fiction/UNREAD/Мартин - Песнь льда и пламени 4 - Пир стервятников.fb2.zip:Martin_Pesn_lda_i_plameni_4_Pir_stervyatnikov.220796.fb2"/>
     <option name="Book8" value="/home/sio/documents/books/Fiction/UNREAD/Неведимов - Религия денег или лекарство от рыночной экономики.fb2"/>
     <option name="Book9" value="/home/sio/documents/books/Fiction/UNREAD/Пирс - На коне бледном.fb2.zip:Entoni_Voploscheniya_bessmertiya_1_Na_kone_blednom.15193.fb2"/>
-    <option name="Size" value="38"/>
+    <option name="Size" value="40"/>
   </group>
   <group name="LastOpenedBooks">
-    <option name="Book0" value="/home/sio/documents/books/fiction/unread/Ellis - American Psycho.epub"/>
-    <option name="Book1" value="/home/sio/documents/books/fiction/unread/Ellis - Американский психопат.fb2.zip:Ellis_Amerikanskiy_psihopat.178704.fb2"/>
-    <option name="Book2" value="/home/sio/documents/books/fiction/unread/Ларссон - 3. Девушка, которая взрывала воздушные замки.fb2.zip:Larsson_Millennium_ru_3_Devushka_kotoraya_vzryivala_vozdushnyie_zamki.194476.fb2"/>
-    <option name="Book3" value="/home/sio/documents/books/fiction/unread/Ларссон - 2. Девушка, которая играла с огнем.fb2.zip:Larsson_Millennium_ru_2_Devushka_kotoraya_igrala_s_ognem.192140.fb2"/>
-    <option name="Book4" value="/home/sio/documents/books/fiction/unread/Alphyna - Чума в Бедрограде.fb2"/>
-    <option name="Book5" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Intrusion.epub"/>
-    <option name="Book6" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip:Mitnik_Iskusstvo_obmana.68833.fb2"/>
-    <option name="Book7" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip:Mitnik_Iskusstvo_vtorzheniya.68834.fb2"/>
-    <option name="Book8" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Deception.epub"/>
-    <option name="Book9" value="/home/sio/documents/books/fiction/unread/VA - Machine of Death/MOD/machine_of_death.mobi"/>
+    <option name="Book0" value="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Sorcerers_Stone-Rowling.epub"/>
+    <option name="Book1" value="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Chamber_of_Secrets-Rowling.epub"/>
+    <option name="Book2" value="/home/sio/documents/books/fiction/unread/Ellis - American Psycho.epub"/>
+    <option name="Book3" value="/home/sio/documents/books/fiction/unread/Ellis - Американский психопат.fb2.zip:Ellis_Amerikanskiy_psihopat.178704.fb2"/>
+    <option name="Book4" value="/home/sio/documents/books/fiction/unread/Ларссон - 3. Девушка, которая взрывала воздушные замки.fb2.zip:Larsson_Millennium_ru_3_Devushka_kotoraya_vzryivala_vozdushnyie_zamki.194476.fb2"/>
+    <option name="Book5" value="/home/sio/documents/books/fiction/unread/Ларссон - 2. Девушка, которая играла с огнем.fb2.zip:Larsson_Millennium_ru_2_Devushka_kotoraya_igrala_s_ognem.192140.fb2"/>
+    <option name="Book6" value="/home/sio/documents/books/fiction/unread/Alphyna - Чума в Бедрограде.fb2"/>
+    <option name="Book7" value="/home/sio/documents/books/fiction/unread/Mitnick - The Art of Intrusion.epub"/>
+    <option name="Book8" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство обмана.fb2.zip:Mitnik_Iskusstvo_obmana.68833.fb2"/>
+    <option name="Book9" value="/home/sio/documents/books/fiction/unread/Mitnick - Искусство вторжения.zip:Mitnik_Iskusstvo_vtorzheniya.68834.fb2"/>
   </group>
   <group name="State">
-    <option name="Book" value="/home/sio/documents/books/fiction/unread/Ellis - American Psycho.epub"/>
+    <option name="Book" value="/home/sio/documents/books/fiction/unread/Harry Potter/Harry_Potter_and_the_Sorcerers_Stone-Rowling.epub"/>
   </group>
 </config>
